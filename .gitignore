@@ -13,3 +13,6 @@ $RECYCLE.BIN/
 
 # Vim
 .tags
+
+# Resized images
+/resources

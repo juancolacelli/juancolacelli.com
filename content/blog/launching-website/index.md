@@ -7,6 +7,6 @@ tags: [news]
 
 Today I launched my new blog (this website).
 
-I will be posting about [game development](/tags/gamedev), [indie games](/tags/indie) and software.
+I will be posting about [game development](/tags/gamedev), [indie games](/tags/indie) and [development](/tags/development).
 
-If you like it, please spread the word!
+If you like it, please **spread the word!**
