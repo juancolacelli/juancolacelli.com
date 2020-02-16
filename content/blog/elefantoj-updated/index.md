@@ -2,7 +2,7 @@
 title: "GNU Elefantoj has been updated"
 date: 2020-02-16T05:04:01-03:00
 description: "Now it supports thumbnails!"
-tags: [ news, dev, elefantoj, hugo ]
+tags: [ dev, elefantoj, hugo ]
 ---
 
 I recently updated [GNU Elefantoj](https://gitlab.com/juancolacelli/elefantoj) Hugo theme, now it **supports thumbnails** and it has a better style and tags listing.

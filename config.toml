@@ -4,15 +4,7 @@ title = "Juan Colacelli's personal site"
 theme = "elefantoj"
 
 [params]
-  sitename = "Juan Colacelli's personal site"
   copyright = "Copyright © 2020 Juan Colacelli"
-
-  backgroundColor = "white"
-  primaryColor = "black"
-  accentColor = "teal"
-
-  fontFamily = "sans-serif"
-
   highlightJsTheme = "gruvbox-dark"
 
 [Permalinks]
@@ -21,7 +13,7 @@ theme = "elefantoj"
 
 [menu]
   [[menu.nav]]
-    name = "Home"
+    name = "JC's site"
     title = "Home page"
     url = "/"
     weight = 1
