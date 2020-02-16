@@ -1,0 +1,37 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "JC's personal site"
+theme = "elefantoj"
+
+[params]
+  sitename = "JC's personal site"
+  copyright = "Copyright © 2020 Juan Colacelli"
+
+  backgroundColor = "white"
+  primaryColor = "black"
+  accentColor = "teal"
+
+  fontFamily = "sans-serif"
+
+  highlightJsTheme = "gruvbox-dark"
+
+[Permalinks]
+  blog = "/blog/:slug"
+  page = "/:slug"
+
+[menu]
+  [[menu.nav]]
+    name = "Home"
+    title = "Home page"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Blog"
+    title = "All my blog posts"
+    url = "/blog"
+    weight = 2
+  [[menu.nav]]
+    name = "About"
+    title = "My former personal add"
+    url = "/about"
+    weight = 3
