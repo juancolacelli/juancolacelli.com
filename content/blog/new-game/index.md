@@ -15,6 +15,6 @@ The game source code is completely made with GDScript in [Godot](https://godoten
 
 Take a look to the first game screenshot:
 
-![screenshot](thumbnail.png)
+![Screenshot](thumbnail.png)
 
 Soon I will be posting more news about it. **Stay in contact!**

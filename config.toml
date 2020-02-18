@@ -13,7 +13,7 @@ theme = "elefantoj"
 
 [menu]
   [[menu.nav]]
-    name = "JC's site"
+    name = "Juan's site"
     title = "Home page"
     url = "/"
     weight = 1
