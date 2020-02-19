@@ -10,7 +10,7 @@ I'm Juan Colacelli, creator of [Logicalbot](https://logicalbot.com) and founder 
 
 After working over 15 years at companies and graduating as Software Analyst, I started my current [indie game developer](/tags/indiegames) career.
 
-I'm passionate about [development](/tags/dev), art, music and [indie games](/tags/indiegames).
+I'm passionate about [development](/tags/dev), [pixelart](/tags/pixelart), music and [indie games](/tags/indiegames).
 
 I'm also a fan of martial arts, and currently I reached blue belt grade in Brazilian Jiu-Jitsu at Quique Denegri academy.
 
