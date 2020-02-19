@@ -1,4 +1,4 @@
-baseURL = "https://colacelli.com/"
+baseURL = "https://juancolacelli.com/"
 languageCode = "en-us"
 title = "Juan Colacelli's personal site"
 theme = "elefantoj"
@@ -14,16 +14,16 @@ theme = "elefantoj"
 [menu]
   [[menu.nav]]
     name = "Juan's site"
-    title = "Home page"
+    title = "cd /"
     url = "/"
     weight = 1
   [[menu.nav]]
     name = "Blog"
-    title = "All my blog posts"
+    title = "Just me writing and writing..."
     url = "/blog"
     weight = 2
   [[menu.nav]]
     name = "About"
-    title = "My former personal add"
+    title = "My personal ad"
     url = "/about"
     weight = 3

@@ -1,1 +1,1 @@
-![Juan Colacelli](about/juancolacelli.png)
+![Hi!](about/hi.png)
