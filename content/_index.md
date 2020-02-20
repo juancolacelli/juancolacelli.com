@@ -1,1 +1,1 @@
-![Hi!](about/hi.png)
+![Hi!](hi.png)

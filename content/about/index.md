@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-![Hi!](hi.png)
+![Cool!](cool.png)
 
 ### Who am I?
 
