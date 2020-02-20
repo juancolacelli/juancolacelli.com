@@ -2,7 +2,7 @@
 title: "Game style improved"
 date: 2020-02-18T18:06:29-03:00
 description: "I improved the style and resolution of my new game"
-tags: [gamedev, indiegames, pixelart, platformer, jumpgame]
+tags: [gamedev, pixelart, platformer, jumpgame]
 ---
 
 Today I improved the style and resolution of my new game. I changed sprite resolution from 16px to 8px and also improved the tileset.

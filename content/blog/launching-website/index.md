@@ -2,7 +2,7 @@
 title: "My own blog"
 date: 2020-02-16T03:51:47-03:00
 description: "Today I launched my new blog"
-tags: [news]
+tags: [news, blog]
 ---
 
 Today I launched my new blog (this website).

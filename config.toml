@@ -4,12 +4,16 @@ title = "Juan Colacelli's personal site"
 theme = "elefantoj"
 
 [params]
-  copyright = "Copyright © 2020 Juan Colacelli"
+  copyright = "Copyright (c) Juan Colacelli 2012-2020"
   highlightJsTheme = "gruvbox-dark"
+
+[Taxonomies]
+  tag = "tags"
 
 [Permalinks]
   blog = "/blog/:slug"
   page = "/:slug"
+  tags = "/tags/:slug"
 
 [menu]
   [[menu.nav]]
@@ -23,7 +27,12 @@ theme = "elefantoj"
     url = "/blog"
     weight = 2
   [[menu.nav]]
+    name = "#gamedev"
+    title = "My articles about game development"
+    url = "/tags/gamedev"
+    weight = 3
+  [[menu.nav]]
     name = "About"
     title = "My personal ad"
     url = "/about"
-    weight = 3
+    weight = 4
