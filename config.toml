@@ -4,7 +4,7 @@ title = "Juan Colacelli's personal site"
 theme = "elefantoj"
 
 [params]
-  copyright = "Copyright (c) Juan Colacelli 2012-2020"
+  copyright = "Copyright &copy; Juan Colacelli 2012-2020 &mdash; This work is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>"
   highlightJsTheme = "gruvbox-dark"
 
 [Taxonomies]
