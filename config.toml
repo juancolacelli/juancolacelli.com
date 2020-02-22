@@ -2,9 +2,11 @@ baseURL = "https://juancolacelli.com/"
 languageCode = "en-us"
 title = "Juan Colacelli's personal site"
 theme = "elefantoj"
+enableGitInfo = "true"
 
 [params]
-  copyright = "Copyright &copy; Juan Colacelli 2012-2020 &mdash; This work is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>"
+  gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.com"
+  copyright = "Copyright &copy; 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020 Juan Colacelli<br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
   highlightJsTheme = "gruvbox-dark"
 
 [Taxonomies]
@@ -17,22 +19,21 @@ theme = "elefantoj"
 
 [menu]
   [[menu.nav]]
-    name = "Juan's site"
-    title = "cd /"
-    url = "/"
-    weight = 1
-  [[menu.nav]]
     name = "Blog"
     title = "Just me writing and writing..."
     url = "/blog"
-    weight = 2
+    weight = 1
   [[menu.nav]]
     name = "#gamedev"
     title = "My articles about game development"
     url = "/tags/gamedev"
-    weight = 3
+    weight = 2
   [[menu.nav]]
     name = "About"
     title = "My personal ad"
     url = "/about"
+    weight = 3
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
     weight = 4
