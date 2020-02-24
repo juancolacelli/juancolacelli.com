@@ -7,7 +7,6 @@ enableGitInfo = "true"
 [params]
   gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.com"
   copyright = "Copyright &copy; 2012-2020 Juan Colacelli<br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
-  highlightJsTheme = "gruvbox-dark"
 
 [Taxonomies]
   tag = "tags"
