@@ -13,6 +13,6 @@ Today I improved the style and resolution of my new game. I changed sprite resol
 - Speed, jump height and gravity adjusted to new resolution.
 - Spikes now have a minimal delay before the collision is enabled, so player can escape before being hurt.
 
-![Screenshot](screenshot.png)
+![Game screenshot](screenshot.png)
 
 I'm creating the game character, do you have any suggestions? [Please contact me!](/about)

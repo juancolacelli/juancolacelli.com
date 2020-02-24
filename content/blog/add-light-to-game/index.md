@@ -7,7 +7,7 @@ tags: [gamedev, pixelart, platformer, jumpgame]
 
 Well... I'm not God, but I added light to my new game.
 
-![Screenshot](thumbnail.png)
+![Game screenshot](thumbnail.png)
 
 *Changes made*
 - Light shader has been added, it will just use [PICO-8](https://lospec.com/palette-list/pico-8) color palette colors.

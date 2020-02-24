@@ -9,7 +9,7 @@ Today I added lava and dotted-line blocks to my new game.
 
 Lava will go up constantly pushing the player to be faster, and dotted-line blocks are just blocks that appear and disappear constantly.
 
-![Screenshot](screenshot.png)
+![Game recording](recording.gif)
 
 *Minor changes*
 - Blocks tileset improved.
