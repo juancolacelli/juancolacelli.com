@@ -8,27 +8,37 @@ tags: [news]
 This is my first post, and it always will be. I just wanted to say hello, have a nice day!
 
 ```ruby
-puts "Hello world!"
+
+  puts "Hello world!"
+
 ```
 
 ```php
-echo("Hello world!");
+
+  <?= "Hello world!"; ?>
+
 ```
 
 ```javascript
-alert("Hello world!");
+
+  alert("Hello world!");
+
 ```
 
 ```java
-fun main(args : Array<String>) {
-    println("Hello world!")
-}
+
+  fun main(args : Array<String>) {
+      println("Hello world!")
+  }
+
 ```
 
 ```java
-class HelloWorld {
-        public static void main(String args[]) {
-           System.out.println("Hello World!");
-        }
-}
+
+  class HelloWorld {
+      public static void main(String args[]) {
+         System.out.println("Hello World!");
+      }
+  }
+
 ```
