@@ -2,7 +2,7 @@
 title: "Hello world!"
 date: 2019-02-19T13:31:20-03:00
 description: "This is my first post."
-tags: [news]
+tags: [news, blog]
 ---
 
 This is my first post, and it always will be. I just wanted to say hello, have a nice day!
