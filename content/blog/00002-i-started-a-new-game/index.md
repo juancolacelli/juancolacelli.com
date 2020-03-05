@@ -3,6 +3,7 @@ title: "I started a new game"
 date: 2020-02-15T04:33:52-03:00
 description: "I'm working on my new game."
 tags: [gamedev, pixelart, platformer, jumpgame, godot, aseprite, pico-8]
+authors: [juancolacelli]
 ---
 
 I'm woking on my new game, it doesn't have a name yet (I just call it *"Jump Game"*), but it has a lot of love already &hearts;.
