@@ -2,4 +2,4 @@
 title: "Blog"
 ---
 
-![Blogging](blogging.png)
+![Blogging](/blog/blogging.png)

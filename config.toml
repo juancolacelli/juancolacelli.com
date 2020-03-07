@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Juan Colacelli's personal site"
 theme = "elefantoj"
 enableGitInfo = "true"
+paginate = 5
 
 [params]
   gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.com"
