@@ -1,1 +1,3 @@
-![Hi!](hi.png)
+---
+title: "JC's personal site"
+---

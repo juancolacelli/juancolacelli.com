@@ -1,11 +1,8 @@
 ---
 title: "About"
 date: 2020-02-16T04:24:09-03:00
+type: "page"
 ---
-
-![Cool!](cool.png)
-
-### Who am I?
 
 I'm Juan Colacelli, creator of [Logicalbot](https://logicalbot.com) and founder of [Tencrux](https://tencrux.com).
 

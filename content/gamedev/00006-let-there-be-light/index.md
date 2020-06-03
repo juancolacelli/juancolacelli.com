@@ -3,7 +3,7 @@ title: "Let there be light"
 date: 2020-02-21T00:34:50-03:00
 description: "Light has been added to my new game"
 tags: [gamedev, pixelart, platformer, jumpgame]
-authors: [juancolacelli]
+authors: [jc]
 ---
 
 Well... I'm not God, but I added light to my new game.

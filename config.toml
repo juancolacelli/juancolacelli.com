@@ -1,44 +1,53 @@
 baseURL = "https://juancolacelli.com/"
 languageCode = "en-us"
-title = "Juan Colacelli's personal site"
+title = "JC/Blog"
 theme = "elefantoj"
 enableGitInfo = "true"
 paginate = 5
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [params]
+  showAuthors = false
   gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.com"
-  copyright = "Copyright &copy; 2012-2020 Juan Colacelli<br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
+  copyright = "Copyright &copy; 2012-2020 <a href='/about'>Juan Colacelli</a><br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
   thumbnailSize = "80x80"
   thumbnailOGSize = "200x200"
 
 [Taxonomies]
   tag = "tags"
   author = "authors"
+  gamedev = "gamedevs"
+  general = "generals"
 
 [Permalinks]
-  blog = "/blog/:slug"
-  page = "/:slug"
   tags = "/tags/:slug"
   authors = "/authors/:slug"
+  gamedev = "/gamedev/:slug"
+  general = "/general/:slug"
 
 [menu]
   [[menu.nav]]
-    name = "Blog"
-    title = "Just me writing and writing..."
-    url = "/blog"
+    name = "Game Development"
+    title = "My posts about game development"
+    url = "/gamedev"
     weight = 1
-  [[menu.nav]]
-    name = "#gamedev"
-    title = "My articles about game development"
-    url = "/tags/gamedev"
-    weight = 2
+
   [[menu.nav]]
     name = "About"
     title = "My personal ad"
     url = "/about"
-    weight = 3
+    weight = 2
+
   [[menu.nav]]
-    name = "<em>RSS feed</em>"
-    title = "RSS web feed"
-    url = "/index.xml"
+    name = "itch.io"
+    title = "My games"
+    url = "https://juancolacelli.itch.io"
+    weight = 3
+
+  [[menu.nav]]
+    name = "Gitlab"
+    title = "My projects"
+    url = "https://gitlab.com/juancolacelli"
     weight = 4
