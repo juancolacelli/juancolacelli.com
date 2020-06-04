@@ -12,7 +12,7 @@ type: "page"
 </style>
 
 <div class="about-image">
-  <img src="cool.png">
+  <img src="jc.png">
 </div>
 
 I'm Juan Colacelli, creator of [Logicalbot](https://logicalbot.com) and founder of [Tencrux](https://tencrux.com).
