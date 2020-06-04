@@ -29,13 +29,13 @@ paginate = 5
 
 [menu]
   [[menu.nav]]
-    name = "Game Development"
+    name = "Gamedev"
     title = "My posts about game development"
     url = "/gamedev"
     weight = 1
 
   [[menu.nav]]
-    name = "About me"
+    name = "About"
     title = "My personal ad"
     url = "/about"
     weight = 2
@@ -47,7 +47,7 @@ paginate = 5
     weight = 3
 
   [[menu.nav]]
-    name = "Gitlab"
+    name = "GitLab"
     title = "My projects"
     url = "https://gitlab.com/juancolacelli"
     weight = 4

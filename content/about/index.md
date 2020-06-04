@@ -4,16 +4,7 @@ date: 2020-02-16T04:24:09-03:00
 type: "page"
 ---
 
-<style>
-  .about-image {
-    float: left;
-    margin-right: 2rem;
-  }
-</style>
-
-<div class="about-image">
-  <img src="jc.png">
-</div>
+![JC](jc.png)
 
 I'm Juan Colacelli, creator of [Logicalbot](https://logicalbot.com) and founder of [Tencrux](https://tencrux.com).
 

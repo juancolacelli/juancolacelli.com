@@ -1,3 +1,3 @@
 ---
-title: "Game Development"
+title: "Gamedev"
 ---

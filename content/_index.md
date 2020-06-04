@@ -1,3 +1,3 @@
 ---
-title: "JC's personal site"
+title: "JC/Blog"
 ---
