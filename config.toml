@@ -10,7 +10,7 @@ paginate = 5
 
 [params]
   showAuthors = false
-  gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.com"
+  gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.gitlab.io"
   copyright = "Copyright &copy; 2012-2020 <a href='/about'>Juan Colacelli</a><br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
   thumbnailSize = "80x80"
   thumbnailOGSize = "200x200"
