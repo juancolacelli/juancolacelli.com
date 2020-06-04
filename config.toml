@@ -35,7 +35,7 @@ paginate = 5
     weight = 1
 
   [[menu.nav]]
-    name = "About"
+    name = "About me"
     title = "My personal ad"
     url = "/about"
     weight = 2
