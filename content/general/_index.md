@@ -1,3 +1,3 @@
 ---
-title: "General News"
+title: "General"
 ---
