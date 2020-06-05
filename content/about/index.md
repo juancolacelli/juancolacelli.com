@@ -1,7 +1,8 @@
 ---
-title: "About me"
+title: "About"
 date: 2020-02-16T04:24:09-03:00
 type: "page"
+description: "My personal Ad"
 ---
 
 ![JC](jc.png)
