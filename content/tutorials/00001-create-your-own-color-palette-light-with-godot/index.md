@@ -153,4 +153,4 @@ If you change the "Color Palette" param for another image, you can use other pal
 
 ### Source code
 
-View full project source code on: [https://gitlab.com/juancolacelli/juancolacelli.com_tutorials](https://gitlab.com/juancolacelli/juancolacelli.com_tutorials/-/tree/master/00001-create-your-own-color-palette-light-with-godot)
+View full project source code on: [GitLab](https://gitlab.com/juancolacelli/juancolacelli.com_tutorials/-/tree/master/00001-create-your-own-color-palette-light-with-godot)
