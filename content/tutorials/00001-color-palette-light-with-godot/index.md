@@ -6,6 +6,8 @@ tags: [tutorials, gamedev, godot, light, shader, pico-8, lospec]
 authors: [jc]
 ---
 
+![Original image](assets/pico-8-palette-example-kingdom-of-nerea-in-pico-8-by-davit-masia.png)
+
 ### Color palette light, what?
 
 When you use a regular Light2D, Godot just increments the pixels' RGB values, whitening everything that is enlightened.
