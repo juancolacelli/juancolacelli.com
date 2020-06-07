@@ -8,6 +8,18 @@ authors: [jc]
 
 ![Original image](assets/pico-8-palette-example-kingdom-of-nerea-in-pico-8-by-davit-masia.png)
 
+## Table of contents
+- [Color palette light, what?](#color-palette-light-what)
+- [Create the project](#create-the-project)
+- [Download the assets](#download-the-assets)
+- [Create the scene](#create-the-scene)
+- [Assign the shader](#assign-the-shader)
+- [Enjoy your new light!](#enjoy-your-new-light)
+- [Shader explained](#shader-explained)
+- [Explore new options](#explore-new-options)
+- [Source code](#source-code)
+
+
 ## Color palette light, what?
 
 When you use a regular Light2D, Godot just increments the pixels' RGB values, whitening everything that is enlightened.
@@ -146,7 +158,7 @@ If you want to use the dark mode, enable in the shader's params.
 
 ![Dark mode](dark_mode.png)
 
-## How does the shader work?
+## Shader explained
 
 "Color Palette" param has one image wich contains the original color palette color, and its light and shadow equivalences.
 
