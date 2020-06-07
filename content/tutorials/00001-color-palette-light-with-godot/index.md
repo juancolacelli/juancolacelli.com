@@ -8,7 +8,7 @@ authors: [jc]
 
 ![Original image](assets/pico-8-palette-example-kingdom-of-nerea-in-pico-8-by-davit-masia.png)
 
-### Color palette light, what?
+## Color palette light, what?
 
 When you use a regular Light2D, Godot just increments the pixels' RGB values, whitening everything that is enlightened.
 
@@ -19,14 +19,14 @@ If you create your own light shader, you control every light and shadow color, a
 ![Color palette light](thumbnail.png)
 
 
-### Create the project
+## Create the project
 
 First you need to create a new project in Godot, using GLES3.
 
 ![Create new project](create_new_project.png)
 
 
-### Download the assets
+## Download the assets
 
 For this tutorial we will be using the [PICO-8 color palette](https://lospec.com/palette-list/pico-8), so please download the [assets file](assets.zip) and decompress it into the project's folder.
 
@@ -45,7 +45,7 @@ Reimport all 3 image assets as 2D Pixel.
 ![Reimport as 2D Pixel](reimport_2d_pixel.png)
 
 
-### Create the scene
+## Create the scene
 
 Create a new 2D Scene and add the [Lospec's PICO-8 example image](assets/palette-list/pico-8-palette-example-kingdom-of-nerea-in-pico-8-by-davit-masia.png) to the tree and add a new Light2D.
 
@@ -56,7 +56,7 @@ Then assign [light.png](assets/light.png) as Light2D texture, and put its mode a
 ![Light2D properties](light2d_properties.png)
 
 
-### Assign the shader
+## Assign the shader
 
 Select the "pico-8-palette-example-kingdom-of-nerea-in-pico-8-by-davit-masia" Node and assign a new ShaderMaterial and new Shader to it.
 
@@ -134,8 +134,9 @@ Now your Shader will have a new param called "Color Palette", assign [pico-8_lig
 
 ![Shader param](shader_param.png)
 
+The shader will search the original color index, and replace it with its equivalent light or shadow color.
 
-### Enjoy your new light!
+## Enjoy your new light!
 
 ![Light mode](light_mode.png)
 
@@ -145,14 +146,20 @@ If you want to use the dark mode, enable in the shader's params.
 
 ![Dark mode](dark_mode.png)
 
+## How does the shader work?
 
-### Explore new options
+"Color Palette" param has one image wich contains the original color palette color, and its light and shadow equivalences.
+
+![PICO-8 equivalences](pico-8_light_big.png)
+
+
+## Explore new options
 
 If you change the "Color Palette" param for another image, you can use other palettes, or i.e an [B/W style light image](assets/pico-8_palette_bw.png).
 
 ![B/W mode](bw_mode.png)
 
 
-### Source code
+## Source code
 
 View full project source code on: [GitLab](https://gitlab.com/juancolacelli/juancolacelli.com_tutorials/-/tree/master/00001-color-palette-light-with-godot)
