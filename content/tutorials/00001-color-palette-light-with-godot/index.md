@@ -1,8 +1,8 @@
 ---
-title: "Create your own color palette light with Godot"
+title: "Color palette light with Godot"
 date: 2020-06-07T03:29:50-03:00
-description: "Create a light in Godot using color palette's colors"
-tags: [tutorials, gamedev, godot, shader, pico-8, lospec]
+description: "Create a light in Godot using only color palette's colors"
+tags: [tutorials, gamedev, godot, light, shader, pico-8, lospec]
 authors: [jc]
 ---
 
@@ -26,7 +26,7 @@ First you need to create a new project in Godot, using GLES3.
 
 ### Download the assets
 
-For this tutorial we will be using the [PICO-8 color palette](https://lospec.com/palette-list/pico-8), so please download the [assets file](assets.zip) and uncompress it into the project's folder.
+For this tutorial we will be using the [PICO-8 color palette](https://lospec.com/palette-list/pico-8), so please download the [assets file](assets.zip) and decompress it into the project's folder.
 
 [assets.zip](assets.zip) contains a folder called "assets" with the following images:
 
@@ -49,7 +49,7 @@ Create a new 2D Scene and add the [Lospec's PICO-8 example image](assets/palette
 
 ![Project tree](project_tree.png)
 
-Then assign [light.png](assets/light.png) as Light2D texture, and put it's mode as Mix.
+Then assign [light.png](assets/light.png) as Light2D texture, and put its mode as Mix.
 
 ![Light2D properties](light2d_properties.png)
 
@@ -153,4 +153,4 @@ If you change the "Color Palette" param for another image, you can use other pal
 
 ### Source code
 
-View full project source code on: [GitLab](https://gitlab.com/juancolacelli/juancolacelli.com_tutorials/-/tree/master/00001-create-your-own-color-palette-light-with-godot)
+View full project source code on: [GitLab](https://gitlab.com/juancolacelli/juancolacelli.com_tutorials/-/tree/master/00001-color-palette-light-with-godot)
