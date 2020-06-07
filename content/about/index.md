@@ -15,6 +15,11 @@ I'm passionate about [development](/tags/dev), [game development](/tags/gamedev)
 
 I'm also a fan of martial arts, and currently I reached blue belt grade in Brazilian Jiu-Jitsu at Quique Denegri academy.
 
-### Contact
+### Social networks
 
-If you want to email me, feel free to do it at: (my name) at (my last name) dot com.
+- [Twitter](https://twitter.com/juancolacelli)
+- [Mastodon](https://mastodon.gamedev.place/@juancolacelli)
+- [itch.io](https://juancolacelli.itch.io)
+- [GitLab](https://gitlab.com/juancolacelli)
+- [GitHub](https://github.com/juancolacelli)
+- [Linkedin](https://linkedin.com/in/juancolacelli)

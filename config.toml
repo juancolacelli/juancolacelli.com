@@ -46,15 +46,3 @@ paginate = 5
     title = "My personal ad"
     url = "/about"
     weight = 3
-
-  [[menu.nav]]
-    name = "itch.io"
-    title = "My games"
-    url = "https://juancolacelli.itch.io"
-    weight = 4
-
-  [[menu.nav]]
-    name = "GitLab"
-    title = "My projects"
-    url = "https://gitlab.com/juancolacelli"
-    weight = 5
