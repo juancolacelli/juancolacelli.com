@@ -26,6 +26,7 @@ paginate = 5
   authors = "/authors/:slug"
   gamedev = "/gamedev/:slug"
   general = "/general/:slug"
+  tutorials = "/tutorials/:slug"
 
 [menu]
   [[menu.nav]]
@@ -35,19 +36,25 @@ paginate = 5
     weight = 1
 
   [[menu.nav]]
+    name = "Tutorials"
+    title = "Me, teaching some stuf..."
+    url = "/tutorials"
+    weight = 2
+
+  [[menu.nav]]
     name = "About"
     title = "My personal ad"
     url = "/about"
-    weight = 2
+    weight = 3
 
   [[menu.nav]]
     name = "itch.io"
     title = "My games"
     url = "https://juancolacelli.itch.io"
-    weight = 3
+    weight = 4
 
   [[menu.nav]]
     name = "GitLab"
     title = "My projects"
     url = "https://gitlab.com/juancolacelli"
-    weight = 4
+    weight = 5
