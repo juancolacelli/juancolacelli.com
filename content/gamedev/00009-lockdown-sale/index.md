@@ -2,11 +2,11 @@
 title: "Lockdown sale!"
 date: 2020-06-06T19:05:21-03:00
 description: "DROID7 is on sale!"
-tags: [news, gamedev, droid7, itch.io, sale]
+tags: [news, droid7, itch.io, sale]
 authors: [jc]
 ---
 
-DROID7 is on sale on [itch.io](https://juancolacelli.itch.io/droid7) until July 01, 2020.
+[DROID7](/tags/droid7) is on sale on [itch.io](https://juancolacelli.itch.io/droid7) until July 01, 2020.
 
 Claim it now, and keep it forever!
 
