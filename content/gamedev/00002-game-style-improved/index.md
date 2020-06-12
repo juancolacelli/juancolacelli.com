@@ -2,7 +2,7 @@
 title: "Game style improved"
 date: 2020-02-18T18:06:29-03:00
 description: "I improved the style and resolution of my new game"
-tags: [gamedev, pixelart, platformer, jumpgame, droid7]
+tags: [gamedev, pixelart, platformer, droid7]
 authors: [jc]
 ---
 

@@ -2,7 +2,7 @@
 title: "I started a new game"
 date: 2020-02-15T04:33:52-03:00
 description: "I'm working on my new game."
-tags: [gamedev, pixelart, platformer, jumpgame, droid7, godot, aseprite, pico-8]
+tags: [gamedev, pixelart, platformer, droid7, godot, aseprite, pico-8]
 authors: [jc]
 ---
 
