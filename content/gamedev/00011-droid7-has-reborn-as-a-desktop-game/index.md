@@ -1,7 +1,7 @@
 ---
 title: "DROID7 Has reborn as a desktop game"
 date: 2020-06-12T05:37:24-03:00
-description: ""
+description: "Desktop version released"
 tags: [gamedev, droid7, pixelart, platformer, itch.io]
 authors: [jc]
 ---
