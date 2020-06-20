@@ -22,7 +22,7 @@ Settings screen has been added with fullscreen support and volume sliders. Input
 
 ![Levels](lights.png)
 
-**0.0.3** release has the following game changes
+**0.0.3** release has the following game changes:
 
 - Levels
   - Difficulty scaling
