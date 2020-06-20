@@ -6,9 +6,11 @@ tags: [gamedev, droid7, pixelart, platformer, itch.io]
 authors: [jc]
 ---
 
-[DROID7](/tags/droid7) v0.0.3 launched! Introducing the levels! First game will start paced off, and then it will scale and get harder through levels.
+[DROID7](/tags/droid7) v0.0.3 launched!
 
-Settings screen has been added with fullscreen support and volume sliders, input settings screen has been added too with joystick support.
+Introducing the levels, in the beginning the game will start paced off, and then it will be scaling and getting harder through levels.
+
+Settings screen has been added with fullscreen support and volume sliders. Input settings screen has been added too with joystick support.
 
 ![Start](start.png)
 
