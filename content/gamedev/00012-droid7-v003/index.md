@@ -29,7 +29,7 @@ Settings screen has been added with fullscreen support and volume sliders. Input
   - Level indicator
 
 - Lights
-  - Floor light obfucation added
+  - Floor light obfuscation added
 
 - Start screen
   - Menus now have lights
