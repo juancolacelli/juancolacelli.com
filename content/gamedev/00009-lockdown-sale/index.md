@@ -6,7 +6,7 @@ tags: [news, droid7, itch.io, sale]
 authors: [jc]
 ---
 
-[DROID7](/tags/droid7) is on sale on [itch.io](https://juancolacelli.itch.io/droid7) until July 01, 2020.
+[DROID7](/tags/droid7) is on sale on [itch.io](https://juancolacelli.itch.io/droid7) until June 21, 2020.
 
 Claim it now, and keep it forever!
 
