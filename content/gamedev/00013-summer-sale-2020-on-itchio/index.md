@@ -1,12 +1,12 @@
 ---
-title: "Summersale 2020 on itch.io"
+title: "Summer Sale 2020 on itch.io"
 date: 2020-06-23T16:55:00-03:00
 description: "DROID7 is on sale!"
 tags: [news, droid7, itch.io, sale, summersale]
 authors: [jc]
 ---
 
-It's [summersale](/tags/summersalle) on [itch.io](/tags/itch.io) 🌞
+It's [Summer Sale 2020](/tags/summersalle) on [itch.io](/tags/itch.io) 🌞
 
 Get [DROID7](/tags/droid7) 50% off for a limited time!
 
