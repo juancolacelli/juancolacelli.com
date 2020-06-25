@@ -1,13 +1,13 @@
 ---
-title: "Lockdown sale!"
-date: 2020-06-06T19:05:21-03:00
+title: "Summersale 2020 on itch.io"
+date: 2020-06-23T16:55:00-03:00
 description: "DROID7 is on sale!"
-tags: [news, droid7, itch.io, sale]
+tags: [news, droid7, itch.io, sale, summersale]
 authors: [jc]
 ---
 
-[DROID7](/tags/droid7) is on sale on [itch.io](/tags/itch.io) until June 21, 2020.
+It's [summersale](/tags/summersalle) on [itch.io](/tags/itch.io) 🌞
 
-Claim it now, and keep it forever!
+Get [DROID7](/tags/droid7) 50% off for a limited time!
 
 <iframe src="https://itch.io/embed/570980?linkback=true&amp;bg_color=16171a&amp;fg_color=fafdff&amp;link_color=ff8426&amp;border_color=16171a" width="208" height="167" frameborder="0"><a href="https://juancolacelli.itch.io/droid7">DROID7 by JC</a></iframe>
