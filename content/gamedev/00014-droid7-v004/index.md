@@ -9,17 +9,17 @@ I received a lot of comments about laser being a little frustrating, so I decide
 
 Introducing new items:
 
-![](https://img.itch.zone/aW1nLzM5NzQ5MTQucG5n/original/j9w%2Fnf.png) 2 lives
+![2 lives](items2.png) 2 lives
 
-![](https://img.itch.zone/aW1nLzM5NzQ5MjcucG5n/original/f3cYA6.png) Jetpack
+![Jetpack](items3.png) Jetpack
 
-![](https://img.itch.zone/aW1nLzM5NzQ5MzAucG5n/original/izzLzV.png) Yellow battery
+![Yellow battery](items4.png) Yellow battery
 
-![](https://img.itch.zone/aW1nLzM5NzQ5MzcucG5n/original/cH7AbU.png) Red battery
+![Red battery](items5.png) Red battery
 
-![](https://img.itch.zone/aW1nLzM5NzQ5NDEucG5n/original/TUqbZ%2F.png) Mushroom
+![Mushroom](items6.png) Mushroom
 
-![](https://img.itch.zone/aW1nLzM5NzQ5NDcucG5n/original/Xm9BrX.png) Hourglass
+![Hourglass](items7.png) Hourglass
 
 [DROID7](/tags/droid7) 0.0.4 release has the following game changes:
 
