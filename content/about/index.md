@@ -7,7 +7,7 @@ description: "My personal Ad"
 
 ![JC](jc.png)
 
-I'm Juan Colacelli, creator of [Logicalbot](https://logicalbot.com) and founder of [Tencrux](https://tencrux.com).
+I'm Juan Colacelli, creator of [DROID7](https://juancolacelli.itch.io/droid7).
 
 After working over 15 years at companies and graduating as Software Analyst, I started my current indie [game developer](/tags/gamedev) career.
 
@@ -18,8 +18,6 @@ I'm also a fan of martial arts, and currently I reached blue belt grade in Brazi
 ### Social networks
 
 - [Twitter](https://twitter.com/juancolacelli)
-- [Mastodon](https://mastodon.gamedev.place/@juancolacelli)
 - [itch.io](https://juancolacelli.itch.io)
-- [GitLab](https://gitlab.com/juancolacelli)
-- [GitHub](https://github.com/juancolacelli)
-- [Linkedin](https://linkedin.com/in/juancolacelli)
+- [Patreon](https://patreon.com/juancolacelli)
+- [Discord](https://discord.gg/t7vd2NT)
