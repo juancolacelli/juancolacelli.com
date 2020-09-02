@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Poopbits"
 theme = "poopbits"
 enableGitInfo = "true"
-paginate = 5
+paginate = 8
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -16,6 +16,14 @@ paginate = 5
   thumbnailOGSize = "200x200"
   googleAnalytics = "UA-168777548-1"
   logo = "/images/poopbits.png"
+  socialNetworks = [
+    ["itch.io", "https://poopbits.itch.io"],
+    ["Discord", "https://discord.gg/t7vd2NT"],
+    ["Twitter", "https://twitter.com/poopbits"],
+    ["Facebook", "https://facebook.com/poopbits"],
+    ["Mastodon", "https://mastodon.social/@poopbits"],
+    ["Patreon", "https://patreon.com/juancolacelli"],
+  ]
 
 [Taxonomies]
   tag = "tags"
@@ -54,3 +62,4 @@ paginate = 5
     title = "About"
     url = "/about"
     weight = 4
+

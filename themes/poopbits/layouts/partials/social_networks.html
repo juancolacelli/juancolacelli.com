@@ -1,0 +1,8 @@
+<h3 class="title">Follow us</h3>
+<ul class="secondary-section">
+  {{- range .Site.Params.socialNetworks -}}
+    <li>
+      <a rel="me" href="{{- index . 1 -}}">{{- index . 0 -}}</a>
+    </li>
+  {{- end -}}
+</ul>

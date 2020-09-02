@@ -2,7 +2,7 @@
 {{- if $related_posts -}}
   <div class="related-posts">
     <h3 class="title">Related posts</h3>
-    {{- range first 5 $related_posts -}}
+    {{- range first 3 $related_posts -}}
       {{- if ne .Permalink $.Permalink -}}
         {{- partial "post_summary.html" . -}}
       {{- end  -}}

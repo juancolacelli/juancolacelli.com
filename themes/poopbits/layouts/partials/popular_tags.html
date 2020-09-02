@@ -1,6 +1,6 @@
   <h3 class="title">Popular tags</h3>
   <ul class="secondary-section">
-    {{- range $key, $tag := first 10 .Site.Taxonomies.tags.ByCount -}}
+    {{- range $key, $tag := first 5 .Site.Taxonomies.tags.ByCount -}}
       <li>
         <a href="{{- .Page.Permalink -}}">#{{- .Page.Title -}}</a> ({{- .Count -}})
       </li>

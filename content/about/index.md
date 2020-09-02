@@ -14,11 +14,3 @@ After working over 15 years at companies and graduating as Software Analyst, I s
 I'm passionate about [development](/tags/dev), [game development](/tags/gamedev), [pixelart](/tags/pixelart) and music.
 
 I'm also a fan of martial arts, and currently I reached blue belt grade in Brazilian Jiu-Jitsu at Quique Denegri academy.
-
-### Social networks
-
-- [itch.io](https://poopbits.itch.io)
-- [Twitter](https://twitter.com/poopbits)
-- <a rel="me" href="https://mastodon.social/@poopbits">Mastodon</a>
-- [Discord](https://discord.gg/t7vd2NT)
-- [Patreon](https://patreon.com/juancolacelli)
