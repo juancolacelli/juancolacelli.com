@@ -17,7 +17,8 @@ I'm also a fan of martial arts, and currently I reached blue belt grade in Brazi
 
 ### Social networks
 
-- [Twitter](https://twitter.com/poopbits)
-- [Discord](https://discord.gg/t7vd2NT)
 - [itch.io](https://poopbits.itch.io)
+- [Twitter](https://twitter.com/poopbits)
+- <a rel="me" href="https://mastodon.social/@poopbits">Mastodon</a>
+- [Discord](https://discord.gg/t7vd2NT)
 - [Patreon](https://patreon.com/juancolacelli)
