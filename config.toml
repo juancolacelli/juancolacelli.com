@@ -32,19 +32,25 @@ paginate = 5
 
 [menu]
   [[menu.nav]]
+    name = "DROID7"
+    title = "Escape or die, it's your choice"
+    url = "/games/droid7"
+    weight = 1
+
+  [[menu.nav]]
     name = "Gamedev"
     title = "Game development"
     url = "/gamedev"
-    weight = 1
+    weight = 2
 
   [[menu.nav]]
     name = "Tutorials"
     title = "Tutorials"
     url = "/tutorials"
-    weight = 2
+    weight = 3
 
   [[menu.nav]]
     name = "About"
-    title = "About me"
+    title = "About"
     url = "/about"
-    weight = 3
+    weight = 4

@@ -6,7 +6,7 @@ tags: [gamedev, droid7, pixelart, platformer, itch.io]
 authors: [jc]
 ---
 
-[DROID7](/tags/droid7) v0.0.3 launched!
+[DROID7](/games/droid7) v0.0.3 launched!
 
 Introducing the levels, in the beginning the game will start paced off, and then it will be scaling and getting harder through levels.
 

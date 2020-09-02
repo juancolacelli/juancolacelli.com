@@ -7,7 +7,7 @@ description: "My personal Ad"
 
 ![JC](jc.png)
 
-I'm Juan Colacelli, creator of [DROID7](https://poopbits.itch.io/droid7).
+I'm Juan Colacelli, creator of [DROID7](/games/droid7).
 
 After working over 15 years at companies and graduating as Software Analyst, I started my current indie [game developer](/tags/gamedev) career.
 
@@ -18,6 +18,6 @@ I'm also a fan of martial arts, and currently I reached blue belt grade in Brazi
 ### Social networks
 
 - [Twitter](https://twitter.com/poopbits)
+- [Discord](https://discord.gg/t7vd2NT)
 - [itch.io](https://poopbits.itch.io)
 - [Patreon](https://patreon.com/juancolacelli)
-- [Discord](https://discord.gg/t7vd2NT)

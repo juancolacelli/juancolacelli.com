@@ -9,10 +9,9 @@
     <br>
     {{- if .Site.Params.showAuthors -}}
       <span class="summary-authors">{{- partial "authors" . }}</span>
-      &middot;
-    {{- end -}}
+      &#47;
+    {{- end }}
     <time class="summary-date">{{- .Date.Format (.Site.Params.dateformat | default "January 02, 2006") -}}</time>
-
     &#47;
     {{ range $key, $section := where .Site.Sections.ByTitle ".File.Dir" (printf "%s/" .Section) -}}
       <a href="{{- .RelPermalink -}}">
