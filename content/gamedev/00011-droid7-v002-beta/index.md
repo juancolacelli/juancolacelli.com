@@ -6,7 +6,7 @@ tags: [gamedev, droid7, pixelart, platformer, itch.io]
 authors: [jc]
 ---
 
-[DROID7](/games/droid7) was originally created for _mobile devices_, but now it’s re-designed for _desktop computers_.
+[DROID7](/droid7) was originally created for _mobile devices_, but now it’s re-designed for _desktop computers_.
 
 ![Start screen](screenshot_1.png)
 

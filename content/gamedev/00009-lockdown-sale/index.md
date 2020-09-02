@@ -6,7 +6,7 @@ tags: [news, droid7, itch.io, sale, lockdown]
 authors: [jc]
 ---
 
-[DROID7](/games/droid7) is on sale on [itch.io](https://poopbits.itch.io) until June 21, 2020.
+[DROID7](/droid7) is on sale on [itch.io](https://poopbits.itch.io) until June 21, 2020.
 
 Claim it now, and keep it forever!
 

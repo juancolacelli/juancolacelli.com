@@ -21,7 +21,7 @@ Introducing new items:
 
 ![Hourglass](items7.png) Hourglass
 
-[DROID7](/games/droid7) 0.0.4 release has the following game changes:
+[DROID7](/droid7) 0.0.4 release has the following game changes:
 
 - Laser
   - Take one player’s life instead of one shoot it

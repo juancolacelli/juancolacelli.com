@@ -7,7 +7,7 @@ description: "My personal Ad"
 
 ![JC](jc.png)
 
-I'm Juan Colacelli, creator of [DROID7](/games/droid7).
+I'm Juan Colacelli, creator of [DROID7](/droid7).
 
 After working over 15 years at companies and graduating as Software Analyst, I started my current indie [game developer](/tags/gamedev) career.
 

@@ -83,7 +83,7 @@ shader_type canvas_item;
 
 // Godot color palette light shader
 // Author: Juan Colacelli
-// Website: https://juancolacelli.com
+// Website: https://poopbits.com
 // License: GNU GPLv3
 
 uniform sampler2D color_palette;
@@ -174,4 +174,4 @@ If you change the "Color Palette" param for another image, you can use other pal
 
 ## Source code
 
-View full project source code on: [GitLab](https://gitlab.com/juancolacelli/juancolacelli.com_tutorials/-/tree/master/00001-color-palette-light-with-godot)
+View full project source code on: [GitLab](https://gitlab.com/poopbits/tutorials/-/tree/master/00001-color-palette-light-with-godot)
