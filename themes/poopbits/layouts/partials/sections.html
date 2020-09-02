@@ -1,7 +1,7 @@
 <h3 class="title">Sections</h3>
 <ul class="secondary-section">
   {{- range $key, $section := .Site.Sections.ByTitle -}}
-    {{- $count := len (where .Site.RegularPages "Section" (replace .File.Dir "/" "")) -}}
+    {{- $count := len (where (where .Site.RegularPages "Type" "!=" "page") "Section" (replace .File.Dir "/" "")) -}}
     {{- if gt $count 0 -}}
       <li>
         <a href="{{- .Page.Permalink -}}">{{- .Page.Title -}}</a> ({{- $count -}})
