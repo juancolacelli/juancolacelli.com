@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{- if not .IsHome -}}{{- block "title" . -}}{{- .Title -}}{{- end -}}{{- end -}}{{- if not .IsHome -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}</title>
+
+    <meta name="description" content="{{- block "description" . -}}{{- end -}}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="{{- block "title" . -}}{{- end -}}{{- if not .IsHome -}}&nbsp;&mdash;&nbsp;{{- .Site.Title -}}{{- end -}}"/>
+    <meta property="og:description" content="{{- block "description" . -}}{{- end -}}"/>
+    <meta property="og:image" content="{{- block "thumbnail" . -}}{{ "/images/thumbnail.png" | absURL }}{{- end -}}"/>
+    <meta property="twitter:card" content="summary"/>
+    <meta property="twitter:title" content="{{- block "title" . -}}{{- end -}}{{- if not .IsHome -}}&nbsp;&mdash;&nbsp;{{- .Site.Title -}}{{- end -}}"/>
+    <meta property="twitter:description" content="{{- block "description" . -}}{{- end -}}"/>
+    <meta property="twitter:image" content="{{- block "thumbnail" . -}}{{- end -}}"/>
+
+    {{ if .Site.Params.googleAnalytics }}
+      <script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.Params.googleAnalytics -}}"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', '{{- .Site.Params.googleAnalytics -}}');
+      </script>
+    {{ end }}
+
+    {{ $sass := resources.Get "/sass/style.sass" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" type="text/css" href="{{- $sass.RelPermalink -}}"/>
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navbar">
+        <div class="navbar-title">
+          <a href="/">
+            {{- if not .Site.Params.logo -}}
+              {{- .Site.Title -}}
+            {{- else -}}
+              <img src="{{ .Site.Params.logo }}" title="{{- .Site.Title -}}">
+            {{- end -}}
+          </a>
+        </div>
+        <div class="navbar-links">
+          {{- range .Site.Menus.nav -}}
+            <a href="{{- .URL -}}" title="{{- .Title -}}">{{- .Name | safeHTML -}}</a>
+          {{- end -}}
+        </div>
+      </nav>
+    </div>
+
+    <div class="content">
+      <div class="grid-container">
+        <div>
+          <div class="main">
+            {{- if not .IsHome -}}
+              <h1 class="main-title">{{- block "title" . -}}{{- end -}}</h1>
+            {{- end -}}
+
+            {{- block "main" . -}}{{- end -}}
+          </div>
+        </div>
+
+        <div>
+          <div class="secondary">
+            {{- block "secondary" . -}}
+              {{- if not .IsHome -}}
+                {{- partial "recent_posts" . -}}
+              {{- end -}}
+              {{- partial "sections" . -}}
+              {{- partial "popular_tags" . -}}
+            {{- end -}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      {{- if isset .Site.Params "gitrepository" -}}
+        {{- $gitRepository := .Site.Params.gitRepository -}}
+        <div class="document-updated-at">
+          <q><a href="{{- .RelPermalink | urlize -}}">{{- .RelPermalink | urlize -}}</a></q> was last updated <time>{{- .Lastmod.Format (.Site.Params.dateformat | default "January 02, 2006") -}}</time>
+          {{- with .GitInfo -}}
+            &nbsp;(<a href="{{- $gitRepository -}}/commit/{{- .AbbreviatedHash -}}"><abbr title="{{- .Subject -}}">{{- .AbbreviatedHash -}}</abbr></a>)
+          {{- end -}}
+        </div>
+      {{- end -}}
+      <div class="copyright">{{- $.Site.Params.Copyright | safeHTML -}}</div>
+    </div>
+  </body>
+</html>

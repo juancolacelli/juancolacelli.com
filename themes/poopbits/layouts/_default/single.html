@@ -1,0 +1,52 @@
+{{- define "title" -}}
+  {{- .Title -}}
+{{- end -}}
+
+{{- define "description" -}}
+  {{- .Description -}}
+{{- end -}}
+
+{{- define "thumbnail" -}}
+  {{- $thumbnail := .Resources.GetMatch "thumbnail.png" -}}
+  {{- if $thumbnail -}}
+    {{- $resized_thumbnail := $thumbnail.Resize (.Site.Params.thumbnailogsize | default "200x200") -}}
+    {{- $resized_thumbnail.RelPermalink | absURL -}}
+  {{- end -}}
+{{- end -}}
+
+{{- define "main"}}
+  <div class="info">
+    {{- if .Site.Params.showAuthors -}}
+      {{- partial "authors" . }}
+      &#47;
+    {{- end }}
+
+    <time>{{- .Date.Format (.Site.Params.dateformat | default "January 02, 2006") -}}</time>
+
+    &#47;
+    {{ range $key, $section := where .Site.Sections.ByTitle ".File.Dir" (printf "%s/" .Section) -}}
+      <a href="{{- .RelPermalink -}}">
+        {{- .Title -}}
+      </a>
+    {{- end }}
+
+    &#47;
+    {{ partial "tags" . -}}
+  </div>
+
+  <div class="main-content">
+    {{- .Content -}}
+  </div>
+
+  {{- $related_posts := where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink -}}
+  {{- if $related_posts -}}
+    <div class="related-posts">
+      <h3 class="title">Related posts</h3>
+      {{- range first 5 $related_posts -}}
+        {{- if ne .Permalink $.Permalink -}}
+          {{- partial "post_summary.html" . -}}
+        {{- end  -}}
+      {{- end  -}}
+    </div>
+	{{- end -}}
+{{- end -}}

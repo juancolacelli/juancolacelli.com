@@ -1,0 +1,14 @@
+{{- define "title" -}}
+  Recent posts
+{{- end -}}
+
+{{- define "main" -}}
+  {{- .Content -}}
+
+  {{- $paginator := .Paginate (where .Site.RegularPages "Type" "!=" "page") -}}
+  {{- range $paginator.Pages -}}
+    {{ partial "post_summary" . }}
+  {{- end -}}
+
+  {{ partial "pagination" . }}
+{{- end -}}

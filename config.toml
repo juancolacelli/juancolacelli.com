@@ -1,7 +1,7 @@
-baseURL = "https://juancolacelli.com/"
+baseURL = "https://poopbits.com/"
 languageCode = "en-us"
-title = "JC/Blog"
-theme = "elefantoj"
+title = "Poopbits"
+theme = "poopbits"
 enableGitInfo = "true"
 paginate = 5
 
@@ -10,11 +10,12 @@ paginate = 5
 
 [params]
   showAuthors = false
-  gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.com"
+  gitRepository = "https://gitlab.com/poopbits/poopbits.com"
   copyright = "Copyright &copy; 2012-2020 <a href='/about'>Juan Colacelli</a><br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
   thumbnailSize = "80x80"
   thumbnailOGSize = "200x200"
   googleAnalytics = "UA-168777548-1"
+  logo = "/images/poopbits.png"
 
 [Taxonomies]
   tag = "tags"
@@ -32,18 +33,18 @@ paginate = 5
 [menu]
   [[menu.nav]]
     name = "Gamedev"
-    title = "My posts about game development"
+    title = "Game development"
     url = "/gamedev"
     weight = 1
 
   [[menu.nav]]
     name = "Tutorials"
-    title = "Me, teaching some stuf..."
+    title = "Tutorials"
     url = "/tutorials"
     weight = 2
 
   [[menu.nav]]
     name = "About"
-    title = "My personal ad"
+    title = "About me"
     url = "/about"
     weight = 3

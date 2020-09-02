@@ -1,0 +1,30 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "GNU Elefantoj"
+theme = "elefantoj"
+enableGitInfo = "true"
+
+[params]
+  gitRepository = "https://gitlab.com/juancolacelli/elefantoj"
+  copyright = "Copyright &copy; 2020 Juan Colacelli"
+
+[Permalinks]
+  post = "/post/:slug"
+  page = "/:slug"
+
+[Taxonomies]
+  tag = "tags"
+
+[menu]
+  [[menu.nav]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.nav]]
+    name = "Blog"
+    url = "/post"
+    weight = 2
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 3

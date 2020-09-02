@@ -1,0 +1,5 @@
+{{- $thumbnail := .Resources.GetMatch "thumbnail.png" -}}
+{{- if $thumbnail -}}
+  {{- $resized_thumbnail := $thumbnail.Resize (.Site.Params.thumbnailsize | default "80x80") -}}
+  <img src="{{- $resized_thumbnail.RelPermalink -}}" alt="{{- .Title -}}">
+{{- end -}}

@@ -1,0 +1,17 @@
+{{- define "title"}}
+  {{- if isset .Data "Term" -}}@{{- .Data.Term -}}{{- end -}}
+	{{- if gt .Paginator.PageNumber 1 -}}
+	  &nbsp;(page {{ .Paginator.PageNumber -}})
+	{{- end -}}
+{{- end -}}
+
+{{- define "main"}}
+  {{- .Content -}}
+
+  <div class="posts">
+	  {{- range .Paginator.Pages.ByPublishDate.Reverse -}}
+      {{- partial "post_summary.html" . -}}
+	  {{- end -}}
+  </div>
+  {{ partial "pagination" . }}
+{{- end -}}

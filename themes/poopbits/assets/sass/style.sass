@@ -1,0 +1,297 @@
+$background: #161719
+$primary-color: #fafdff
+$secondary-color: #ff8426
+$accent-color: #ffd100
+$navbar-background: #000
+$navbar-border: $background
+$footer-background: $navbar-background
+$footer-border: $navbar-border
+$separator-color: $primary-color
+
+
+@font-face
+  font:
+    display: swap
+    family: 'Oxygen'
+    style: normal
+    weight: 400
+  src: url('/fonts/oxygen.ttf') format('truetype')
+
+@font-face
+  font:
+    display: swap
+    family: 'Oxygen Mono'
+    style: normal
+    weight: 400
+  src: url('/fonts/oxygen_mono.ttf') format('truetype')
+
+
+body
+  background: $footer-background
+  color: $primary-color
+  font:
+    family: 'Oxygen'
+    size: 1rem
+    weight: 400
+  margin: 0
+
+
+a
+  color: $secondary-color
+  text-decoration: none
+
+  &:hover
+    color: $accent-color
+
+
+h1, h2, h3, h4, h5, h6
+  font:
+    family: 'Oxygen'
+    weight: 400
+
+
+ul
+  list-style: disclosure-closed
+
+
+.highlight
+  pre
+    padding: 1rem
+    white-space: pre-wrap
+  code
+    font:
+      family: 'Oxygen Mono'
+      size: .75rem
+
+
+.header
+  background: $navbar-background
+  border-bottom: 1px solid $navbar-border
+  color: $primary-color
+  padding: 1rem 0
+  position: fixed
+  top: 0
+  width: 100%
+
+  .navbar
+
+    .navbar-title
+      font:
+        family: 'Oxygen'
+        size: 2rem
+
+      a
+        color: $primary-color
+
+        &:hover
+          color: $secondary-color
+
+        size: 2rem
+    .navbar-links
+      font:
+        family: 'Oxygen'
+
+      a
+        color: $primary-color
+
+        &:hover
+          color: $secondary-color
+
+        &:not(:last-of-type)
+          margin-right: 2rem
+
+.content
+  background: $background
+  padding: 1rem
+
+
+  .main-section
+    margin: 0
+      bottom: 1rem
+
+
+  .main-title
+    font:
+      family: 'Oxygen'
+      size: 2rem
+    margin: 0
+      bottom: 1.5rem
+
+
+  .main-content
+    margin: 4rem 0
+
+    img
+      max-width: 100%
+
+
+.main
+  font:
+    size: 1rem
+
+  .info
+    margin-bottom: 3rem
+
+    .tag
+      &:not(:last-of-type)
+        &::after
+          content: ', '
+
+  .pagination
+    font:
+      family: 'Oxygen Mono'
+      size: 1.2rem
+    text-align: center
+
+    a, span
+      margin-right: 1rem
+
+.secondary
+  overflow-wrap: break-down
+
+  .title
+    font:
+      family: 'Oxygen'
+    margin: 0
+      bottom: 1rem
+
+  ul
+    padding: 0
+
+    li
+      list-style: none
+
+      &:not(:last-of-type)
+        margin-bottom: 0.5rem
+
+    &:not(:last-of-type)
+      margin-bottom: 2rem
+
+.index-section
+  margin-bottom: 2rem
+
+  .index-section-title
+    margin-top: 0
+
+    a
+      color: $primary-color
+
+      &:hover
+        color: $accent-color
+
+
+.post-summary
+  display: grid
+  grid-template-columns: auto calc(100% - 7rem)
+  grid-gap: 0 1rem
+
+
+.post-summary, .post-summary-tiny
+  margin-bottom: 1rem
+
+  .summary-thumbnail
+    margin-right: 1rem
+
+  .summary-body
+    .summary-title
+      font:
+        family: 'Oxygen'
+
+
+.footer
+  background: $footer-background
+  border-top: 1px solid $footer-border
+  color: $primary-color
+  padding: 2rem
+  text-align: center
+
+
+  .document-updated-at
+    display: none
+    font-style: italic
+    margin-bottom: 1rem
+
+
+.clear
+  &::after
+    clear: both
+    content: ''
+    display: table
+
+
+.grid-container
+  display: grid
+  grid-template-columns: auto
+  margin: 0 auto
+  max-width: 1200px
+
+@media (max-width: 1200px)
+  .header
+    .navbar
+      align-items: center
+      display: grid
+      grid-template-columns: auto
+
+      .navbar-title
+        margin-bottom: 1rem
+        text-align: center
+
+      .navbar-links
+        text-align: center
+
+  .content
+    padding-top: 7rem
+
+
+// Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px)
+
+// Medium devices (tablets, 768px and up)
+// @media (min-width: 768px)
+
+// Large devices (desktops, 992px and up)
+// @media (min-width: 992px)
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px)
+  .header
+    .navbar
+      align-items: center
+      display: grid
+      grid-template-columns: auto auto
+      padding: 0 3rem
+
+
+      .navbar-title
+        margin-bottom: 0rem
+        text-align: left
+
+      .navbar-links
+        text-align: right
+
+  .content
+    padding:
+      bottom: 3rem
+      top: 7rem
+
+  .main
+    border-right: 1px solid $separator-color
+    margin-right: 2rem
+    padding-right: 2rem
+
+  .grid-container
+    grid-template-columns: 75% 25%
+
+    .grid-full-column
+      grid-column: 1 / span 2
+
+
+  .post-summary
+    display: grid
+    grid-template-columns: auto 100%
+    grid-gap: 0 1rem
+
+
+  .footer
+    .document-updated-at
+      display: block

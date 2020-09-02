@@ -1,0 +1,12 @@
+name = "Elefantoj"
+license = "GPL3"
+licenselink = "https://gitlab.com/juancolacelli/elefantoj/blob/master/LICENSE.md"
+description = "Minimal theme based on Elephants theme."
+homepage = "https://gitlab.com/juancolacelli/elefantoj"
+tags = ["blog"]
+features = ["blog"]
+min_version = "0.30.2"
+
+[author]
+  name = "Juan Colacelli"
+  homepage = "https://gitlab.com/juancolacelli/elefantoj"

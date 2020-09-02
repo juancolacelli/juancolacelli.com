@@ -1,0 +1,8 @@
+{{ $taxonomy := "authors" }}
+{{ with .Param $taxonomy }}
+  {{ range $index, $author := . }}
+    {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy $author) -}}
+      <a href="{{ .Permalink }}">@{{ $author | urlize }}</a>
+    {{- end -}}
+  {{- end -}}
+{{ end }}

@@ -1,0 +1,23 @@
+<div class="post-summary">
+  <div class="summary-thumbnail">
+    <a href="{{- .RelPermalink -}}">{{- partial "thumbnail" . -}}</a>
+  </div>
+  <div class="summary-body">
+    <a class="summary-title" href="{{- .RelPermalink -}}">{{- .Title -}}</a></b>
+    <br>
+    <span class="summary-description">{{- .Description -}}</span>
+    <br>
+    {{- if .Site.Params.showAuthors -}}
+      <span class="summary-authors">{{- partial "authors" . }}</span>
+      &middot;
+    {{- end -}}
+    <time class="summary-date">{{- .Date.Format (.Site.Params.dateformat | default "January 02, 2006") -}}</time>
+
+    &#47;
+    {{ range $key, $section := where .Site.Sections.ByTitle ".File.Dir" (printf "%s/" .Section) -}}
+      <a href="{{- .RelPermalink -}}">
+        {{- .Title -}}
+      </a>
+    {{- end }}
+  </div>
+</div>

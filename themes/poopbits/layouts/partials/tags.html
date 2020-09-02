@@ -1,0 +1,5 @@
+{{ range sort .Params.tags "value" "asc" }}
+  {{- with $.Site.GetPage (printf "/%s/%s" "tags" .) -}}
+    <span class="tag"><a href="{{- .Permalink -}}">#{{- .Title | urlize -}}</a></span>
+  {{ end }}
+{{ end }}
