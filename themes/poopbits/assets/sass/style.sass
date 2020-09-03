@@ -7,6 +7,7 @@ $navbar-border: $background
 $footer-background: $navbar-background
 $footer-border: $navbar-border
 $separator-color: $primary-color
+$mobile-menu-backdrop-background: rgba(0, 0, 0, .5)
 
 
 @font-face
@@ -39,6 +40,7 @@ body
 a
   color: $secondary-color
   text-decoration: none
+  outline: none
 
   &:hover
     color: $accent-color
@@ -90,6 +92,9 @@ ul
     .navbar-links
       font:
         family: 'Oxygen'
+
+      li
+        list-style: none
 
       a
         color: $primary-color
@@ -225,6 +230,7 @@ ul
   margin: 0 auto
   max-width: 1200px
 
+
 @media (max-width: 1200px)
   .header
     .navbar
@@ -233,17 +239,65 @@ ul
       grid-template-columns: auto
 
       .navbar-title
-        margin-bottom: 1rem
         text-align: center
 
       .navbar-links
-        text-align: center
+        padding-top: 3rem
+        text-align: left
 
   .content
     padding:
       left: 2rem
       right: 2rem
       top: 8.5rem
+
+
+  .open-mobile-menu-container
+    position: absolute
+    left: 2rem
+    top: 1rem
+
+  #open-mobile-menu
+    opacity: 1
+    color: $primary-color
+    text-align: right
+    font-size: 1.5rem
+
+  #open-mobile-menu:target
+    opacity: 0
+
+
+  .navbar-links:target + .menu-backdrop
+    background: $mobile-menu-backdrop-background
+    position: fixed
+    width: 100%
+    height: 100%
+    top: 0
+    left: 0
+    z-index: 1000
+
+
+  .navbar-links
+    transition: left .5s
+    position: fixed
+    z-index: 1001
+    background: $background
+    min-width: 250px
+    margin: 0
+    padding: 2rem
+    top: 0
+    height: 100%
+    font-size: 1.5rem
+    box-shadow: 5px 0px 10px black
+
+    li
+      padding-bottom: 1rem
+
+  .navbar-links:not(:target)
+    left: -350px
+
+  .navbar-links:target
+    left: 0
 
 
 // Small devices (landscape phones, 576px and up)
@@ -258,6 +312,10 @@ ul
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px)
   .header
+    .open-mobile-menu-container
+      display: none
+
+
     .navbar
       align-items: center
       display: grid
@@ -271,6 +329,9 @@ ul
 
       .navbar-links
         text-align: right
+        li
+          display: inline-block
+          padding-left: 2rem
 
   .content
     padding:

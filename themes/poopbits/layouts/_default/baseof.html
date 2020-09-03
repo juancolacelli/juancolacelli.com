@@ -31,7 +31,10 @@
   </head>
   <body>
     <div class="header">
-      <nav class="navbar">
+      <div class="open-mobile-menu-container">
+        <a id="open-mobile-menu" href="#mobile-menu">&#9776;</a>
+      </div>
+      <nav class="navbar" id="main-menu">
         <div class="navbar-title">
           <a href="/">
             {{- if not .Site.Params.logo -}}
@@ -41,11 +44,12 @@
             {{- end -}}
           </a>
         </div>
-        <div class="navbar-links">
+        <ul class="navbar-links" id="mobile-menu">
           {{- range .Site.Menus.nav -}}
-            <a href="{{- .URL -}}" title="{{- .Title -}}">{{- .Name | safeHTML -}}</a>
+            <li><a href="{{- .URL -}}" title="{{- .Title -}}">{{- .Name | safeHTML -}}</a></li>
           {{- end -}}
-        </div>
+        </ul>
+        <a class="menu-backdrop" href="#close-mobile-menu"></a>
       </nav>
     </div>
 
