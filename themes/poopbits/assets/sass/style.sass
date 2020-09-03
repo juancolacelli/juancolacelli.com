@@ -242,7 +242,6 @@ ul
         text-align: center
 
       .navbar-links
-        padding-top: 3rem
         text-align: left
 
   .content
@@ -267,8 +266,9 @@ ul
     opacity: 0
 
 
-  .navbar-links:target + .menu-backdrop
+  .menu-backdrop
     background: $mobile-menu-backdrop-background
+    display: none
     position: fixed
     width: 100%
     height: 100%
@@ -276,13 +276,16 @@ ul
     left: 0
     z-index: 1000
 
+  .navbar-links:target + .menu-backdrop
+    display: block
+
 
   .navbar-links
     transition: left .5s
     position: fixed
     z-index: 1001
     background: $background
-    min-width: 250px
+    width: 200px
     margin: 0
     padding: 2rem
     top: 0
