@@ -10,6 +10,7 @@ $footer-background: $navbar-background
 $separator-color: $navbar-background
 $navbar-mobile-background: $navbar-background
 $mobile-menu-backdrop-background: rgba(0, 0, 0, .8)
+$image-border-color: $separator-color
 $page-width: 1200px
 $title-font: Oxygen
 $body-font: Oxygen
@@ -142,6 +143,10 @@ ul
   font:
     size: 1rem
   text-rendering: optimizeLegibility;
+
+  img
+    border: 2px solid $image-border-color
+      radius: 5px
 
   .info
     margin-bottom: 3rem
