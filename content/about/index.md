@@ -2,15 +2,15 @@
 title: "About"
 date: 2020-02-16T04:24:09-03:00
 type: "page"
-description: "My personal Ad"
+description: "About"
 ---
 
-![JC](jc.png)
+![Juan Colacelli](jc.png)
 
-I'm Juan Colacelli, creator of [DROID7](/droid7).
+I am Juan Colacelli, You may know me as the developer of [DROID7](/droid7). I am a solo indie gamedev focused on retro pixelart games.
 
-After working over 15 years at companies and graduating as Software Analyst, I started my current indie [game developer](/tags/gamedev) career.
+After working over 15 years at companies and graduating as Software Analyst, I started my current indie game developer career.
 
-I'm passionate about [development](/tags/dev), [game development](/tags/gamedev), [pixelart](/tags/pixelart) and music.
+I am passionate about development, game development, pixelart and music.
 
-I'm also a fan of martial arts, and currently I reached blue belt grade in Brazilian Jiu-Jitsu at Quique Denegri academy.
+I am also a fan of martial arts, and currently I reached blue belt grade in Brazilian Jiu-Jitsu at Quique Denegri academy.

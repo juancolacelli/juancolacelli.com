@@ -4,6 +4,7 @@ date: 2020-09-02T06:35:15-03:00
 type: "page"
 description: "Escape or die, it's your choice"
 tags: [droid7]
+aliases: ["/droid7"]
 ---
 **DROID7** is an **infinite pixel platformer**, jump your way up on endlessly generated tower while a laser beam chases you from below.
 

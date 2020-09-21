@@ -1,6 +1,6 @@
 <h3 class="title">Recent posts</h3>
 <ul class="secondary-section">
-  {{- range first 3 (where .Site.RegularPages "Type" "!=" "page").ByPublishDate.Reverse -}}
+  {{- range first 5 (where .Site.RegularPages "Type" "!=" "page").ByPublishDate.Reverse -}}
     <li>
       <a class="summary-title" href="{{- .RelPermalink -}}">{{- .Title -}}</a>
     </li>

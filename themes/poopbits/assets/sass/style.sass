@@ -1,14 +1,19 @@
-$background: #161719
+$background: #16171a
 $primary-color: #fafdff
-$secondary-color: #ff8426
-$accent-color: #ffd100
+$title-color: $primary-color
+$secondary-color: #ff2674
+$accent-color: #ff80a4
+$navbar-color: $primary-color
+$navbar-secondary-color: $accent-color
 $navbar-background: #000
-$navbar-border: $background
 $footer-background: $navbar-background
-$footer-border: $navbar-border
-$separator-color: $primary-color
-$mobile-menu-backdrop-background: rgba(0, 0, 0, .5)
-
+$separator-color: $navbar-background
+$navbar-mobile-background: $navbar-background
+$mobile-menu-backdrop-background: rgba(0, 0, 0, .8)
+$page-width: 1200px
+$title-font: Oxygen
+$body-font: Oxygen
+$code-font: Oxygen mono
 
 @font-face
   font:
@@ -21,7 +26,7 @@ $mobile-menu-backdrop-background: rgba(0, 0, 0, .5)
 @font-face
   font:
     display: swap
-    family: 'Oxygen Mono'
+    family: 'Oxygen mono'
     style: normal
     weight: 400
   src: url('/fonts/oxygen_mono.ttf') format('truetype')
@@ -31,7 +36,7 @@ body
   background: $footer-background
   color: $primary-color
   font:
-    family: 'Oxygen'
+    family: $body-font
     size: 1rem
     weight: 400
   margin: 0
@@ -40,6 +45,7 @@ body
 a
   color: $secondary-color
   text-decoration: none
+  transition: color .2s ease-in-out
   outline: none
 
   &:hover
@@ -47,8 +53,9 @@ a
 
 
 h1, h2, h3, h4, h5, h6
+  color: $title-color
   font:
-    family: 'Oxygen'
+    family: $title-font
     weight: 400
 
 
@@ -62,45 +69,47 @@ ul
     white-space: pre-wrap
   code
     font:
-      family: 'Oxygen Mono'
+      family: $code-font
       size: .75rem
 
 
 .header
   background: $navbar-background
-  border-bottom: 1px solid $navbar-border
   color: $primary-color
   padding: 1rem 0
-  position: fixed
-  top: 0
-  width: 100%
 
   .navbar
+    max-width: $page-width
+    margin: auto
 
     .navbar-title
       font:
-        family: 'Oxygen'
+        family: $title-font
         size: 2rem
 
       a
-        color: $primary-color
+        color: $navbar-color
 
         &:hover
-          color: $secondary-color
+          color: $navbar-secondary-color
 
         size: 2rem
+
     .navbar-links
       font:
-        family: 'Oxygen'
+        family: $title-font
+        size: 1.2rem
+
+      margin: 0
 
       li
         list-style: none
 
       a
-        color: $primary-color
+        color: $navbar-color
 
         &:hover
-          color: $secondary-color
+          color: $navbar-secondary-color
 
         &:not(:last-of-type)
           margin-right: 2rem
@@ -117,8 +126,7 @@ ul
 
   .main-title
     font:
-      family: 'Oxygen'
-      size: 2rem
+      size: 3rem
     margin: 0
       bottom: 1.5rem
 
@@ -133,6 +141,7 @@ ul
 .main
   font:
     size: 1rem
+  text-rendering: optimizeLegibility;
 
   .info
     margin-bottom: 3rem
@@ -144,7 +153,7 @@ ul
 
   .pagination
     font:
-      family: 'Oxygen Mono'
+      family: $code-font
       size: 1.2rem
     text-align: center
 
@@ -155,8 +164,6 @@ ul
   overflow-wrap: break-down
 
   .title
-    font:
-      family: 'Oxygen'
     margin: 0
       bottom: 1rem
 
@@ -187,7 +194,7 @@ ul
 
 .post-summary
   display: grid
-  grid-template-columns: auto calc(100% - 7rem)
+  grid-template-columns: auto calc(100% - 3rem)
   grid-gap: 0 1rem
 
 
@@ -200,14 +207,16 @@ ul
   .summary-body
     .summary-title
       font:
-        family: 'Oxygen'
+        family: $title-font
+        size: 1.2rem
 
 
 .footer
   background: $footer-background
-  border-top: 1px solid $footer-border
   color: $primary-color
+  margin: auto
   padding: 2rem
+  max-width: $page-width
   text-align: center
 
 
@@ -228,7 +237,7 @@ ul
   display: grid
   grid-template-columns: auto
   margin: 0 auto
-  max-width: 1200px
+  max-width: $page-width
 
 
 .menu-backdrop
@@ -237,6 +246,10 @@ ul
 
 @media (max-width: 1200px)
   .header
+    position: fixed
+    top: 0
+    width: 100%
+
     .navbar
       align-items: center
       display: grid
@@ -252,7 +265,7 @@ ul
     padding:
       left: 2rem
       right: 2rem
-      top: 8.5rem
+      top: 6rem
 
 
   .open-mobile-menu-container
@@ -262,9 +275,12 @@ ul
 
   #open-mobile-menu
     opacity: 1
-    color: $primary-color
+    color: $navbar-color
     text-align: right
     font-size: 1.5rem
+
+    &:hover
+      color: $accent-color
 
   #open-mobile-menu:target
     opacity: 0
@@ -287,13 +303,12 @@ ul
     transition: left .5s
     position: fixed
     z-index: 1001
-    background: $background
+    background: $navbar-mobile-background
     width: 200px
     margin: 0
     padding: 2rem
     top: 0
     height: 100%
-    font-size: 1.5rem
     box-shadow: 5px 0px 10px black
 
     li
@@ -326,7 +341,6 @@ ul
       align-items: center
       display: grid
       grid-template-columns: auto auto
-      padding: 0 3rem
 
 
       .navbar-title
@@ -335,14 +349,18 @@ ul
 
       .navbar-links
         text-align: right
+
         li
+          &:first-of-type
+            display: none
+
           display: inline-block
           padding-left: 2rem
 
   .content
     padding:
       bottom: 3rem
-      top: 7rem
+      top: 3rem
 
   .main
     border-right: 1px solid $separator-color
@@ -358,10 +376,12 @@ ul
 
   .post-summary
     display: grid
-    grid-template-columns: auto 100%
+    grid-template-columns: auto 90%
     grid-gap: 0 1rem
 
 
   .footer
+    color: $navbar-color
+
     .document-updated-at
       display: block

@@ -40,11 +40,16 @@
             {{- if not .Site.Params.logo -}}
               {{- .Site.Title -}}
             {{- else -}}
-              <img src="{{ .Site.Params.logo }}" title="{{- .Site.Title -}}">
+              <img class="navbar-logo" src="{{ .Site.Params.logo }}" title="{{- .Site.Title -}}">
             {{- end -}}
           </a>
         </div>
         <ul class="navbar-links" id="mobile-menu">
+          <li>
+            <a href="/">
+              <img class="navbar-logo" src="{{ .Site.Params.logo }}" title="{{- .Site.Title -}}">
+            </a>
+          </li>
           {{- range .Site.Menus.nav -}}
             <li><a href="{{- .URL -}}" title="{{- .Title -}}">{{- .Name | safeHTML -}}</a></li>
           {{- end -}}
@@ -71,8 +76,12 @@
               {{- if not .IsHome -}}
                 {{- partial "recent_posts" . -}}
               {{- end -}}
-              {{- partial "sections" . -}}
-              {{- partial "popular_tags" . -}}
+
+              {{- if or (.IsHome) (not (eq .Type "page")) -}}
+                {{- partial "sections" . -}}
+                {{- partial "popular_tags" . -}}
+              {{- end -}}
+
               {{- partial "social_networks" . -}}
             {{- end -}}
           </div>

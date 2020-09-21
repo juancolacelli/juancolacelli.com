@@ -11,7 +11,7 @@ paginate = 8
 [params]
   showAuthors = false
   gitRepository = "https://gitlab.com/poopbits/poopbits.com"
-  copyright = "Copyright &copy; 2012-2020 <a href='/about'>Juan Colacelli</a><br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
+  copyright = "Copyright &copy; 2012-2020 Poopbits<br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
   thumbnailSize = "80x80"
   thumbnailOGSize = "200x200"
   googleAnalytics = "UA-168777548-1"
@@ -21,6 +21,7 @@ paginate = 8
     ["Discord", "https://discord.gg/t7vd2NT"],
     ["Twitter", "https://twitter.com/poopbits"],
     ["Facebook", "https://facebook.com/poopbits"],
+    ["Instagram", "https://instagram.com/poopbits"],
     ["Mastodon", "https://mastodon.social/@poopbits"],
     ["Patreon", "https://patreon.com/juancolacelli"],
   ]
@@ -40,15 +41,15 @@ paginate = 8
 
 [menu]
   [[menu.nav]]
-    name = "DROID7"
-    title = "Escape or die, it's your choice"
-    url = "/droid7"
+    name = "Blog"
+    title = "Blog"
+    url = "/"
     weight = 1
 
   [[menu.nav]]
-    name = "Gamedev"
-    title = "Game development"
-    url = "/gamedev"
+    name = "Games"
+    title = "Games"
+    url = "/games"
     weight = 2
 
   [[menu.nav]]
