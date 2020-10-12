@@ -5,4 +5,4 @@ description: "Games"
 type: "page"
 ---
 
-[![DROID7](droid7/thumbnail.png)](/games/droid7)
+[![DROID7](droid7/thumbnail.gif)](/games/droid7)

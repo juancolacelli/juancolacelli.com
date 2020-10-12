@@ -6,4 +6,4 @@ type: "page"
 url: "/es/videojuegos"
 ---
 
-[![DROID7](droid7/thumbnail.png)](droid7)
+[![DROID7](droid7/thumbnail.gif)](droid7)

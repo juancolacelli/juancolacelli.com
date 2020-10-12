@@ -107,7 +107,11 @@ paginate = 8
   thumbnailSize = "80x80"
   thumbnailOGSize = "200x200"
   googleAnalytics = "UA-168777548-1"
+  favicon = "/images/favicon.gif"
   logo = "/images/poopbits.gif"
+  logoHover = "/images/poopbits_animated.gif"
+  logoWidth = "141px"
+  logoHeight = "39px"
   socialNetworks = [
     ["itch.io", "fab fa-itch-io", "https://poopbits.itch.io"],
     ["Discord", "fab fa-discord", "https://discord.gg/t7vd2NT"],

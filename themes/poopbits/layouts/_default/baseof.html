@@ -29,6 +29,32 @@
     {{ $sass := resources.Get "/sass/style.sass" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" type="text/css" href="{{- $sass.RelPermalink -}}"/>
     <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.0/css/all.css">
+
+    {{- if .Site.Params.favicon -}}
+      <link rel="shortcut icon" href="{{- .Site.Params.favicon -}}"/>
+    {{- end -}}
+
+    {{- if .Site.Params.logo -}}
+      <style>
+          .navbar-logo {
+            background: url({{- .Site.Params.logo -}});
+            width: {{- .Site.Params.logoWidth -}};
+            height: {{- .Site.Params.logoHeight -}};
+          }
+      </style>
+    {{- end -}}
+
+    {{- if .Site.Params.logoHover -}}
+      <style>
+        .navbar-logo-hover-preload {
+          display: none;
+        }
+
+        .navbar-logo:hover {
+          background: url({{- .Site.Params.logoHover -}});
+        }
+      </style>
+    {{- end -}}
   </head>
   <body>
     <div class="header">
@@ -41,14 +67,17 @@
             {{- if not .Site.Params.logo -}}
               {{- .Site.Title -}}
             {{- else -}}
-              <img class="navbar-logo" src="{{ .Site.Params.logo }}" title="{{- .Site.Title -}}">
+              <div class="navbar-logo"></div>
+              {{- if .Site.Params.logoHover -}}
+                <img class="navbar-logo-hover-preload" src="{{- .Site.Params.logoHover -}}">
+              {{- end -}}
             {{- end -}}
           </a>
         </div>
         <ul class="navbar-links" id="mobile-menu">
           <li>
             <a href="/">
-              <img class="navbar-logo" src="{{ .Site.Params.logo }}" title="{{- .Site.Title -}}">
+              <div class="navbar-logo"></div>
             </a>
           </li>
           {{- range .Site.Menus.nav -}}
@@ -66,9 +95,9 @@
       </nav>
     </div>
 
-    {{- block "banner" . -}}{{- end -}}
-
     <div class="content">
+      {{- block "banner" . -}}{{- end -}}
+
       <div class="grid-container">
         <div>
           <div class="main">

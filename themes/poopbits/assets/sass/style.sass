@@ -1,11 +1,11 @@
-$background: #fff
-$primary-color: #000
-$secondary-color: #b21030
-$accent-color: #db4161
+$background: url(/images/navbar.png) #16171a
+$content-background: #16171a
+$primary-color: #fafdff
+$secondary-color: #ff2674
+$accent-color: #ff80a4
 $navbar-color: #fff
 $navbar-secondary-color: $accent-color
 $navbar-background: #000
-$sidebar-background: $background
 $sidebar-color: $primary-color
 $footer-color: $navbar-color
 $footer-secondary-color: $secondary-color
@@ -13,6 +13,8 @@ $footer-accent-color: $accent-color
 $footer-background: $navbar-background
 $navbar-mobile-background: $navbar-background
 $mobile-menu-backdrop-background: rgba(0, 0, 0, .8)
+$content-shadow: #000
+$image-border-color: #000
 $page-width: 1200px
 $title-font: Oxygen
 $body-font: Oxygen
@@ -36,7 +38,7 @@ $code-font: Oxygen mono
 
 
 body
-  background: $footer-background
+  background: $background
   color: $primary-color
   font:
     family: $body-font
@@ -55,6 +57,14 @@ a
     color: $accent-color
 
 
+  img
+    border: 1px solid $image-border-color
+    transition: border-color .2s ease-in-out
+
+    &:hover
+      border-color: $accent-color
+
+
 h1, h2, h3, h4, h5, h6
   font:
     family: $title-font
@@ -67,7 +77,7 @@ ul
 
 .highlight
   pre
-    border:
+    border: 1px solid $image-border-color
       radius: 5px
     padding: 1rem
     white-space: pre-wrap
@@ -119,16 +129,12 @@ ul
           margin-right: 2rem
 
 .banner
-  background: $background
   width: 100%
+  text-align: center
 
   img
+    border-radius: 5px 5px 0 0
     width: 100%
-
-.content
-  background: $background
-  padding: 1rem
-
 
   .main-section
     margin: 0
@@ -147,7 +153,6 @@ ul
 
 
 .main
-  background: $background
   font:
     size: 1rem
   text-rendering: optimizeLegibility;
@@ -161,7 +166,7 @@ ul
       margin-top: 0
 
   iframe
-    border:
+    border: 1px solid $image-border-color
       radius: 5px
 
   img
@@ -182,7 +187,6 @@ ul
       margin-right: 1rem
 
 .secondary
-  background: $sidebar-background
   color: $sidebar-color
   overflow-wrap: break-down
 
@@ -217,7 +221,7 @@ ul
 
 .post-summary
   display: grid
-  grid-template-columns: auto calc(80% - 4rem)
+  grid-template-columns: 80px auto
   grid-gap: 0 1rem
 
 
@@ -273,6 +277,13 @@ ul
 .grid-container
   display: grid
   grid-template-columns: auto
+  padding: 3rem
+
+
+.content
+  background: $content-background
+  border-radius: 5px
+  box-shadow: 0 0 2rem $content-shadow
   margin: 0 auto
   max-width: $page-width
 
@@ -283,6 +294,7 @@ ul
 
 @media (max-width: $page-width)
   .header
+    background: $navbar-background
     position: fixed
     top: 0
     width: 100%
@@ -295,20 +307,23 @@ ul
       .navbar-title
         text-align: center
 
+        .navbar-logo
+          margin: 0 auto
+
       .navbar-links
         text-align: left
 
   .content
-    padding:
-      left: 2rem
-      right: 2rem
-      top: 6rem
+    margin-top: 4rem
+
+  .grid-container
+    padding: 2rem
 
 
   .footer
 
     ul.social-networks
-      font-size: 1rem
+      font-size: 2rem
 
       li
         margin: 0.5rem
@@ -383,6 +398,7 @@ ul
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: $page-width)
   .header
+    background: transparent
     .open-mobile-menu-container
       display: none
 
@@ -406,11 +422,6 @@ ul
 
           display: inline-block
           padding-left: 2rem
-
-  .content
-    padding:
-      bottom: 3rem
-      top: 3rem
 
   .main
     margin-right: 2rem
