@@ -1,8 +1,8 @@
-<h3 class="title">Follow us</h3>
+<h3 class="title">{{ i18n "followUs" }}</h3>
 <ul class="secondary-section">
   {{- range .Site.Params.socialNetworks -}}
     <li>
-      <a rel="me" href="{{- index . 1 -}}"></i> {{ index . 0 -}}</a>
+      <a rel="me" href="{{- index . 2 -}}"><i class="{{ index . 1 -}}"></i> {{ index . 0 -}}</a>
     </li>
   {{- end -}}
 </ul>

@@ -1,16 +1,18 @@
-$background: #16171a
-$primary-color: #fafdff
-$title-color: $primary-color
-$secondary-color: #ff2674
-$accent-color: #ff80a4
-$navbar-color: $primary-color
+$background: #fff
+$primary-color: #000
+$secondary-color: #b21030
+$accent-color: #db4161
+$navbar-color: #fff
 $navbar-secondary-color: $accent-color
 $navbar-background: #000
+$sidebar-background: $background
+$sidebar-color: $primary-color
+$footer-color: $navbar-color
+$footer-secondary-color: $secondary-color
+$footer-accent-color: $accent-color
 $footer-background: $navbar-background
-$separator-color: $navbar-background
 $navbar-mobile-background: $navbar-background
 $mobile-menu-backdrop-background: rgba(0, 0, 0, .8)
-$image-border-color: $separator-color
 $page-width: 1200px
 $title-font: Oxygen
 $body-font: Oxygen
@@ -54,7 +56,6 @@ a
 
 
 h1, h2, h3, h4, h5, h6
-  color: $title-color
   font:
     family: $title-font
     weight: 400
@@ -66,7 +67,7 @@ ul
 
 .highlight
   pre
-    border: 1px solid $image-border-color
+    border:
       radius: 5px
     padding: 1rem
     white-space: pre-wrap
@@ -117,6 +118,13 @@ ul
         &:not(:last-of-type)
           margin-right: 2rem
 
+.banner
+  background: $background
+  width: 100%
+
+  img
+    width: 100%
+
 .content
   background: $background
   padding: 1rem
@@ -137,26 +145,32 @@ ul
   .main-content
     margin: 4rem 0
 
-    img
-      max-width: 100%
-
 
 .main
+  background: $background
   font:
     size: 1rem
   text-rendering: optimizeLegibility;
 
-  img
-    border: 1px solid $image-border-color
+  p, h1, h2, h3, h4, h6
+    &:first-child
+      margin-top: 0
+
+  p
+    &:first-of-type
+      margin-top: 0
+
+  iframe
+    border:
       radius: 5px
+
+  img
+    border:
+      radius: 5px
+    max-width: 100%
 
   .info
     margin-bottom: 3rem
-
-    .tag
-      &:not(:last-of-type)
-        &::after
-          content: ', '
 
   .pagination
     font:
@@ -168,6 +182,8 @@ ul
       margin-right: 1rem
 
 .secondary
+  background: $sidebar-background
+  color: $sidebar-color
   overflow-wrap: break-down
 
   .title
@@ -206,12 +222,11 @@ ul
 
 
 .post-summary, .post-summary-tiny
-  margin-bottom: 1rem
-
-  .summary-thumbnail
-    margin-right: 1rem
+  margin-bottom: 2rem
 
   .summary-body
+    margin-left: 1rem
+
     .summary-title
       font:
         family: $title-font
@@ -219,12 +234,27 @@ ul
 
 
 .footer
-  background: $footer-background
-  color: $primary-color
+  color: $footer-color
   margin: auto
   padding: 2rem
   max-width: $page-width
   text-align: center
+
+  a
+    color: $footer-secondary-color
+
+    &:hover
+      color: $footer-accent-color
+
+  ul.social-networks
+    margin: 0
+      bottom: 2rem
+    font-size: 3rem
+
+    li
+      display: inline-block
+      list-style: none
+      margin: 0 1rem
 
 
   .document-updated-at
@@ -251,7 +281,7 @@ ul
   display: none
 
 
-@media (max-width: 1200px)
+@media (max-width: $page-width)
   .header
     position: fixed
     top: 0
@@ -273,6 +303,15 @@ ul
       left: 2rem
       right: 2rem
       top: 6rem
+
+
+  .footer
+
+    ul.social-networks
+      font-size: 1rem
+
+      li
+        margin: 0.5rem
 
 
   .open-mobile-menu-container
@@ -328,6 +367,10 @@ ul
     left: 0
 
 
+.related-posts
+  margin-top: 3rem
+
+
 // Small devices (landscape phones, 576px and up)
 // @media (min-width: 576px)
 
@@ -338,7 +381,7 @@ ul
 // @media (min-width: 992px)
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px)
+@media (min-width: $page-width)
   .header
     .open-mobile-menu-container
       display: none
@@ -370,7 +413,6 @@ ul
       top: 3rem
 
   .main
-    border-right: 1px solid $separator-color
     margin-right: 2rem
     padding-right: 2rem
 
@@ -388,7 +430,5 @@ ul
 
 
   .footer
-    color: $navbar-color
-
     .document-updated-at
       display: block

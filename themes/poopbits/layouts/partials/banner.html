@@ -1,0 +1,9 @@
+{{- define "banner" -}}
+  {{- $banner := .Resources.GetMatch "banner.png" -}}
+  {{- if $banner -}}
+    <div class="banner">
+      <img src="banner.png">
+    </div>
+  {{- end -}}
+{{- end -}}
+

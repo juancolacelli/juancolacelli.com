@@ -1,14 +1,13 @@
 {{- define "title" -}}
-  Recent posts
+  {{ .Title }}
 {{- end -}}
 
 {{- define "main" -}}
   {{- .Content -}}
 
-  {{- $paginator := .Paginate (where .Site.RegularPages "Type" "!=" "page") -}}
-  {{- range $paginator.Pages -}}
+  <h2>{{ i18n "recentPosts" }}</h2>
+
+  {{- range first 5 (where .Site.RegularPages "Type" "!=" "page").ByPublishDate.Reverse -}}
     {{ partial "post_summary" . }}
   {{- end -}}
-
-  {{ partial "pagination" . }}
 {{- end -}}

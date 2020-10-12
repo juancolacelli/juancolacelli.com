@@ -1,4 +1,4 @@
-<h3 class="title">Recent posts</h3>
+<h3 class="title">{{ i18n "recentPosts" }}</h3>
 <ul class="secondary-section">
   {{- range first 5 (where .Site.RegularPages "Type" "!=" "page").ByPublishDate.Reverse -}}
     <li>

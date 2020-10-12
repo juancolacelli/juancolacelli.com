@@ -1,7 +1,7 @@
-{{- $related_posts := where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink -}}
+{{- $related_posts := where (where (where .Site.Pages ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) "Type" "!=" "page" -}}
 {{- if $related_posts -}}
   <div class="related-posts">
-    <h3 class="title">Related posts</h3>
+    <h2 class="title">{{- i18n "relatedPosts" -}}</h2>
     {{- range first 5 $related_posts -}}
       {{- if ne .Permalink $.Permalink -}}
         {{- partial "post_summary.html" . -}}

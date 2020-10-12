@@ -1,66 +1,125 @@
 baseURL = "https://poopbits.com/"
 languageCode = "en-us"
-title = "Poopbits"
 theme = "poopbits"
 enableGitInfo = "true"
 paginate = 8
+# disableKinds = ["taxonomyTerm"]
 
 [markup.goldmark.renderer]
   unsafe = true
 
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Poopbits Games"
+
+    [languages.en.permalinks]
+      tags = "/blog/tags/:slug"
+      author = "/authors/:slug"
+      blog = "/blog/:slug"
+      game = "/games/:slug"
+
+    [languages.en.params]
+      dateFormat = "01-02-2006"
+      homePath = "/"
+      copyright = "Copyright &copy; 2012-2020 Poopbits<br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
+
+      [languages.en.menu]
+        [[languages.en.menu.nav]]
+          name = "Games"
+          pre = "fas fa-fw fa-gamepad"
+          title = "Games"
+          url = "/games"
+          weight = 1
+
+        [[languages.en.menu.nav]]
+          name = "Blog"
+          pre = "fas fa-fw fa-blog"
+          title = "Blog"
+          url = "/blog"
+          weight = 2
+
+        [[languages.en.menu.nav]]
+          name = "Discord"
+          pre = "fab fa-fw fa-discord"
+          title = "Join us on Discord"
+          url = "/discord"
+          weight = 3
+
+        [[languages.en.menu.nav]]
+          name = "About"
+          pre = "fas fa-fw fa-info-circle"
+          title = "About"
+          url = "/about"
+          weight = 4
+
+
+  [languages.es]
+    languageName = "Español"
+    weight = 2
+    title = "Poopbits Videojuegos"
+
+    [languages.es.permalinks]
+      tags = "/blog/etiquetas/:slug"
+      author = "/autores/:slug"
+      blog = "/blog/:slug"
+      game = "/videojuegos/:slug"
+
+    [languages.es.params]
+      dateFormat = "02/01/2006"
+      homePath = "/es"
+      copyright = "Copyright &copy; 2012-2020 Poopbits<br>El contenido de este sitio está licenciado bajo <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.es'>(cc) by-nc-nd 4.0 license</a>"
+
+    [languages.es.menu]
+      [[languages.es.menu.nav]]
+        name = "Videojuegos"
+        pre = "fas fa-fw fa-gamepad"
+        title = "Videojuegos"
+        url = "/es/videojuegos"
+        weight = 1
+
+      [[languages.es.menu.nav]]
+        name = "Blog"
+        pre = "fas fa-fw fa-blog"
+        title = "Blog"
+        url = "/es/blog"
+        weight = 2
+
+      [[languages.es.menu.nav]]
+        name = "Discord"
+        pre = "fab fa-fw fa-discord"
+        title = "Únete a nosotros en Discord"
+        url = "/es/discord"
+        weight = 3
+
+      [[languages.es.menu.nav]]
+        name = "Acerca"
+        pre = "fas fa-fw fa-info-circle"
+        title = "Acerca"
+        url = "/es/acerca"
+        weight = 4
+
+
 [params]
   showAuthors = false
-  gitRepository = "https://gitlab.com/poopbits/poopbits.com"
-  copyright = "Copyright &copy; 2012-2020 Poopbits<br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
+  gitRepository = "https://gitlab.com/poopbits/poopbits.gitlab.io"
   thumbnailSize = "80x80"
   thumbnailOGSize = "200x200"
   googleAnalytics = "UA-168777548-1"
-  logo = "/images/poopbits.png"
+  logo = "/images/poopbits.gif"
   socialNetworks = [
-    ["itch.io", "https://poopbits.itch.io"],
-    ["Discord", "https://discord.gg/t7vd2NT"],
-    ["Twitter", "https://twitter.com/poopbits"],
-    ["Facebook", "https://facebook.com/poopbits"],
-    ["Instagram", "https://instagram.com/poopbits"],
-    ["Mastodon", "https://mastodon.social/@poopbits"],
-    ["Patreon", "https://patreon.com/juancolacelli"],
+    ["itch.io", "fab fa-itch-io", "https://poopbits.itch.io"],
+    ["Discord", "fab fa-discord", "https://discord.gg/t7vd2NT"],
+    ["Twitter", "fab fa-twitter", "https://twitter.com/poopbits"],
+    ["Facebook", "fab fa-facebook", "https://facebook.com/poopbits"],
+    ["Instagram", "fab fa-instagram", "https://instagram.com/poopbits"],
+    ["Mastodon", "fab fa-mastodon", "https://mastodon.social/@poopbits"],
+    ["Twitch", "fab fa-twitch", "https://twitch.com/poopbits"],
+    ["RSS", "fa fa-rss", "/index.xml"],
   ]
 
 [Taxonomies]
   tag = "tags"
   author = "authors"
-  gamedev = "gamedevs"
-  general = "generals"
-
-[Permalinks]
-  tags = "/tags/:slug"
-  authors = "/authors/:slug"
-  gamedev = "/gamedev/:slug"
-  general = "/general/:slug"
-  tutorials = "/tutorials/:slug"
-
-[menu]
-  [[menu.nav]]
-    name = "Blog"
-    title = "Blog"
-    url = "/"
-    weight = 1
-
-  [[menu.nav]]
-    name = "Games"
-    title = "Games"
-    url = "/games"
-    weight = 2
-
-  [[menu.nav]]
-    name = "Tutorials"
-    title = "Tutorials"
-    url = "/tutorials"
-    weight = 3
-
-  [[menu.nav]]
-    name = "About"
-    title = "About"
-    url = "/about"
-    weight = 4
-
+  blog = "blogs"

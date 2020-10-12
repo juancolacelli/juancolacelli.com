@@ -23,14 +23,7 @@
 
     <time>{{- .Date.Format (.Site.Params.dateformat | default "January 02, 2006") -}}</time>
 
-    &#47;
-    {{ range $key, $section := where .Site.Sections.ByTitle ".File.Dir" (printf "%s/" .Section) -}}
-      <a href="{{- .RelPermalink -}}">
-        {{- .Title -}}
-      </a>
-    {{- end }}
-
-    &#47;
+    &mdash;
     {{ partial "tags" . -}}
   </div>
 

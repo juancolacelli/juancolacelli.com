@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{- .Language -}}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,6 +28,7 @@
 
     {{ $sass := resources.Get "/sass/style.sass" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" type="text/css" href="{{- $sass.RelPermalink -}}"/>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.0/css/all.css">
   </head>
   <body>
     <div class="header">
@@ -36,7 +37,7 @@
       </div>
       <nav class="navbar" id="main-menu">
         <div class="navbar-title">
-          <a href="/">
+          <a href="{{- .Site.Params.homePath -}}">
             {{- if not .Site.Params.logo -}}
               {{- .Site.Title -}}
             {{- else -}}
@@ -51,12 +52,21 @@
             </a>
           </li>
           {{- range .Site.Menus.nav -}}
-            <li><a href="{{- .URL -}}" title="{{- .Title -}}">{{- .Name | safeHTML -}}</a></li>
+            <li>
+              <a href="{{- .URL -}}" title="{{- .Title -}}">
+                {{- if .Pre -}}
+                  <i class="{{- .Pre -}}"></i>&nbsp;
+                {{- end -}}
+                {{- .Name | safeHTML -}}
+              </a>
+            </li>
           {{- end -}}
         </ul>
         <a class="menu-backdrop" href="#close-mobile-menu">&nbsp;</a>
       </nav>
     </div>
+
+    {{- block "banner" . -}}{{- end -}}
 
     <div class="content">
       <div class="grid-container">
@@ -77,22 +87,37 @@
                 {{- partial "recent_posts" . -}}
               {{- end -}}
 
-              {{- if or (.IsHome) (not (eq .Type "page")) -}}
-                {{- partial "sections" . -}}
+              {{- if not (eq .Type "page") -}}
                 {{- partial "popular_tags" . -}}
               {{- end -}}
 
               {{- partial "social_networks" . -}}
+
+              {{ if .IsTranslated }}
+  	            <h3 class="title">{{ i18n "translations" }}</h3>
+                <ul class="secondary-section">
+	              {{ range .Translations }}
+	  	            <li><a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a></li>
+	              {{ end }}
+  	            </ul>
+              {{ end }}
             {{- end -}}
           </div>
         </div>
       </div>
     </div>
     <div class="footer">
+      <ul class="social-networks">
+        {{- range .Site.Params.socialNetworks -}}
+          <li>
+            <a rel="me" href="{{- index . 2 -}}" title="{{- index . 0 -}}"><i class="{{ index . 1 -}}"></i></a>
+          </li>
+        {{- end -}}
+      </ul>
       {{- if isset .Site.Params "gitrepository" -}}
         {{- $gitRepository := .Site.Params.gitRepository -}}
         <div class="document-updated-at">
-          <q><a href="{{- .RelPermalink | urlize -}}">{{- .RelPermalink | urlize -}}</a></q> was last updated <time>{{- .Lastmod.Format (.Site.Params.dateformat | default "January 02, 2006") -}}</time>
+          <q><a href="{{- .RelPermalink | urlize -}}">{{- .Title -}}</a></q> {{ i18n "lastUpdated"}} <time>{{- .Lastmod.Format (.Site.Params.dateFormat | default "01-02-2006") -}}</time>
           {{- with .GitInfo -}}
             &nbsp;(<a href="{{- $gitRepository -}}/commit/{{- .AbbreviatedHash -}}"><abbr title="{{- .Subject -}}">{{- .AbbreviatedHash -}}</abbr></a>)
           {{- end -}}
