@@ -10,10 +10,10 @@ We have a strong Spanish community, so I decided to translate the **full website
 
 At the same time, I created a new website theme, more fresh.
 
-**Old theme**
+**Old website theme**
 
 ![Old theme](old_theme.png)
 
-**New theme**
+**New website theme**
 
 ![New theme](new_theme.png)

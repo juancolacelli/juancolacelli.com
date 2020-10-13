@@ -10,10 +10,10 @@ Tenemos una fuerte comunidad en Español, por eso decidí traducir el **sitio we
 
 Al mismo tiempo, creé un nuevo tema para el sitio, más fresco.
 
-**Viejo tema**
+**Viejo tema del sitio**
 
-![Old theme](old_theme.png)
+![Viejo tema](old_theme.png)
 
-**Nuevo tema**
+**Nuevo tema del sitio**
 
-![New theme](new_theme.png)
+![Nuevo tema](new_theme.png)
