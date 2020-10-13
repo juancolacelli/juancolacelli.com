@@ -4,6 +4,7 @@ date: 2020-03-01T05:09:43-03:00
 description: "Yes, I'm still woking on the tileset"
 tags: [pixelart, platformer, droid7]
 authors: [juancolacelli]
+aliases: [/gamedev/tileset-overthinking/]
 ---
 
 I've made some improvements on the tileset, limits will be less intrusive and one way floor will be more visible.

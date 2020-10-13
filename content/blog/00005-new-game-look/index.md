@@ -4,6 +4,7 @@ date: 2020-02-29T01:10:48-03:00
 description: "Game tileset and player have been reworked"
 tags: [pixelart, platformer, droid7, bubblegum-16]
 authors: [juancolacelli]
+aliases: [/gamedev/new-game-look/]
 ---
 
 I have been working a lot on the game, that's why I couldn't post on weekend :( but I really like how it's looking now.

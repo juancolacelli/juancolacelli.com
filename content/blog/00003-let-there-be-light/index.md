@@ -4,6 +4,7 @@ date: 2020-02-21T00:34:50-03:00
 description: "Light has been added to my new game"
 tags: [pixelart, platformer, droid7]
 authors: [juancolacelli]
+aliases: [/gamedev/let-there-be-light/]
 ---
 
 Well... I'm not God, but I added light to my new game.

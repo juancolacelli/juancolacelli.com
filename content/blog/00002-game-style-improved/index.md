@@ -4,6 +4,7 @@ date: 2020-02-18T18:06:29-03:00
 description: "I improved the style and resolution of my new game"
 tags: [pixelart, platformer, droid7]
 authors: [juancolacelli]
+aliases: [/gamedev/game-style-improved/]
 ---
 
 Today I improved the style and resolution of my new game. I changed sprite resolution from 16px to 8px and also improved the tileset.

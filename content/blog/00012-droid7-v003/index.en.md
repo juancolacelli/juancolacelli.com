@@ -4,6 +4,7 @@ date: 2020-06-20T03:21:50-03:00
 description: "Fullscreen, settings, inputs, levels, and more..."
 tags: [droid7, pixelart, platformer]
 authors: [juancolacelli]
+aliases: [/gamedev/droid7-v0.0.3/]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) v0.0.3 launched!
