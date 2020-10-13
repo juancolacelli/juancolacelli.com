@@ -1,7 +1,7 @@
 ---
-title: "Paquete por la justicia racial e igualdad"
+title: Paquete por la justicia racial e igualdad
 date: 2020-06-09T06:45:00-03:00
-description: "Obten +1,500 proyectos por solo $5!"
+description: Obten +1,500 proyectos por solo $5!
 tags: [droid7, itch.io, oferta, paquete, black-lives-matter]
 authors: [juancolacelli]
 ---

@@ -1,7 +1,7 @@
 ---
-title: "Ofertas de verano 2020 en itch.io"
+title: Ofertas de verano 2020 en itch.io
 date: 2020-06-23T16:55:00-03:00
-description: "DROID7 está en oferta!"
+description: DROID7 está en oferta!
 tags: [droid7, itch.io, oferta, oferta-de-verano]
 authors: [juancolacelli]
 ---

@@ -1,7 +1,7 @@
 ---
-title: "DROID7 publicado!"
+title: DROID7 publicado!
 date: 2020-03-12T21:23:00-03:00
-description: "DROID7 ha sido publicado!"
+description: DROID7 ha sido publicado!
 tags: [pixelart, platforma, droid7, itch.io]
 authors: [juancolacelli]
 ---

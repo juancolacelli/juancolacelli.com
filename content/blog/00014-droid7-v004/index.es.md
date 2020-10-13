@@ -1,7 +1,7 @@
 ---
-title: "DROID7 v0.0.4"
+title: DROID7 v0.0.4
 date: 2020-08-01T00:00:00-03:00
-description: "Camara y laser mejorados, nuevos items, nuevas animaciones, y más..."
+description: Camara y laser mejorados, nuevos items, nuevas animaciones, y más...
 tags: [droid7, pixelart, platforma]
 authors: [juancolacelli]
 ---

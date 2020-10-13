@@ -1,7 +1,7 @@
 ---
-title: "Oferta por cuarentena!"
+title: Oferta por cuarentena!
 date: 2020-06-06T19:05:21-03:00
-description: "DROID7 está en oferta!"
+description: DROID7 está en oferta!
 tags: [droid7, itch.io, oferta]
 authors: [juancolacelli]
 ---
