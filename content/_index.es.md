@@ -1,5 +1,5 @@
 ---
 title: Poopbits Videojuegos
 type: page
-description: Reconocerá a Poopbits como el creador de DROID7. Soy un desarrollador de videojuegos independiente enfocado en juegos pixelart retro.
+description: Creadores de DROID7, Poopbits es un pequeño estudio de videojuegos independiente enfocado en juegos pixelart retro.
 ---

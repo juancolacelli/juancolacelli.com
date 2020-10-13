@@ -12,7 +12,7 @@ paginate = 8
   [languages.en]
     languageName = "English"
     weight = 1
-    title = "Poopbits Games"
+    title = "Poopbits"
 
     [languages.en.permalinks]
       tags = "/blog/tags/:slug"
@@ -58,7 +58,7 @@ paginate = 8
   [languages.es]
     languageName = "Español"
     weight = 2
-    title = "Poopbits Videojuegos"
+    title = "Poopbits"
 
     [languages.es.permalinks]
       tags = "/blog/etiquetas/:slug"

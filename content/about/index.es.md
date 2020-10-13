@@ -8,7 +8,7 @@ slug: acerca
 
 ![Juan Colacelli](jc.gif)
 
-Mi nombre es Juan Colacelli, me reconocerá como el creador de [DROID7]({{< ref "/games/droid7" >}}).
+Mi nombre es Juan Colacelli, me reconocerás como el creador de [DROID7]({{< ref "/games/droid7" >}}).
 
 Soy un desarrollador de videojuegos independiente enfocado en juegos pixelart retro.
 
