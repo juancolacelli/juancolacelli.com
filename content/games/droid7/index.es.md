@@ -4,6 +4,7 @@ date: 2020-09-02T06:35:15-03:00
 type: page
 description: Escapa o muere, es tu desición
 tags: [droid7]
+url: /es/videojuegos/droid7
 ---
 
 **DROID7** es un **juego de plataformas infinito**, en el que hay que saltar hacia arriba en una torre generada sin fin mientras un rayo láser te persigue desde abajo.
