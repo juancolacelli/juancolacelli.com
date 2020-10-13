@@ -2,7 +2,7 @@
 title: Sobrepensando el tileset
 date: 2020-03-01T05:09:43-03:00
 description: Si, todavía estoy trabajando en el tileset
-tags: [pixelart, platforma, droid7]
+tags: [pixelart, plataforma, droid7]
 authors: [juancolacelli]
 ---
 

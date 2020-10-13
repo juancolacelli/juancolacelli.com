@@ -2,7 +2,7 @@
 title: Nuevo look del juego
 date: 2020-02-29T01:10:48-03:00
 description: El tileset del juego y el jugador han sido rehechos
-tags: [pixelart, platforma, droid7, bubblegum-16]
+tags: [pixelart, plataforma, droid7, bubblegum-16]
 authors: [juancolacelli]
 ---
 
