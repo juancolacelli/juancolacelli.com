@@ -1,7 +1,6 @@
 ---
 title: Únete a nosotros en Discord
 description: Únete a nosotros en Discord
-tags: [discord]
 type: page
 ---
 

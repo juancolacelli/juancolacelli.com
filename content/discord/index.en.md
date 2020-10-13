@@ -1,7 +1,6 @@
 ---
 title: Join us on Discord
 description: Join us on Discord
-tags: [discord]
 type: page
 ---
 
