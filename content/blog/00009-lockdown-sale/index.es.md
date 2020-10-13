@@ -3,7 +3,7 @@ title: "Oferta por cuarentena!"
 date: 2020-06-06T19:05:21-03:00
 description: "DROID7 está en oferta!"
 tags: [droid7, itch.io, oferta]
-authors: [jc]
+authors: [juancolacelli]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) está en oferta en [itch.io](https://poopbits.itch.io) hasta el 21 de Junio del 2020.

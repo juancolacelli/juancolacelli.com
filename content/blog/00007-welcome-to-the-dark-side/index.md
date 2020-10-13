@@ -3,7 +3,7 @@ title: "Welcome to the Dark Side"
 date: 2020-03-02T02:55:39-03:00
 description: "Game now it's in darkness, and it has lasers!"
 tags: [pixelart, platformer, droid7]
-authors: [jc]
+authors: [juancolacelli]
 ---
 
 Today I've been woking on game lights.

@@ -3,7 +3,7 @@ title: "DROID7 v0.0.3"
 date: 2020-06-20T03:21:50-03:00
 description: "Fullscreen, settings, inputs, levels, and more..."
 tags: [droid7, pixelart, platformer]
-authors: [jc]
+authors: [juancolacelli]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) v0.0.3 launched!

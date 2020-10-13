@@ -3,7 +3,7 @@ title: "Lockdown sale!"
 date: 2020-06-06T19:05:21-03:00
 description: "DROID7 is on sale!"
 tags: [droid7, itch.io, sale]
-authors: [jc]
+authors: [juancolacelli]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) is on sale on [itch.io](https://poopbits.itch.io) until June 21, 2020.

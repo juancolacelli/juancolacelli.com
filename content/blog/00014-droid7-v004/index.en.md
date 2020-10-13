@@ -3,7 +3,7 @@ title: "DROID7 v0.0.4"
 date: 2020-08-01T00:00:00-03:00
 description: "Laser and camera rework, new items, new animations, and more..."
 tags: [droid7, pixelart, platformer]
-authors: [jc]
+authors: [juancolacelli]
 ---
 I received a lot of comments about laser being a little frustrating, so I decided to rework it. Another issue was the fast camera movement, I reworked it too.
 
