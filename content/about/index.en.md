@@ -1,8 +1,8 @@
 ---
-title: "About"
+title: About
 date: 2020-02-16T04:24:09-03:00
-type: "page"
-description: "About"
+type: page
+description: About Poopbits
 ---
 
 ![Juan Colacelli](jc.gif)

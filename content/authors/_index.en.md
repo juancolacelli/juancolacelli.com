@@ -1,4 +1,4 @@
 ---
-title: "Authors"
-url: "/blog/authors"
+title: Authors
+url: /blog/authors
 ---

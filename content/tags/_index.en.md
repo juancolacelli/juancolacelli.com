@@ -1,4 +1,4 @@
 ---
-title: "Tags"
-url: "/blog/tags"
+title: Tags
+url: /blog/tags
 ---

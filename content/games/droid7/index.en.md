@@ -1,8 +1,8 @@
 ---
-title: "DROID7"
+title: DROID7
 date: 2020-09-02T06:35:15-03:00
-type: "page"
-description: "Escape or die, it's your choice"
+type: page
+description: Escape or die, it's your choice
 tags: [droid7]
 ---
 

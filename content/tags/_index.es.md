@@ -1,4 +1,4 @@
 ---
-title: "Etiquetas"
-url: "/es/blog/etiquetas"
+title: Etiquetas
+url: /es/blog/etiquetas
 ---

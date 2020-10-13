@@ -1,6 +1,8 @@
 ---
 title: Únete a nosotros en Discord
+description: Únete a nosotros en Discord
 tags: [discord]
+type: page
 ---
 
 Estamos usando [Discord](https://discord.com) para hospedar un chat público para Poopbits.
