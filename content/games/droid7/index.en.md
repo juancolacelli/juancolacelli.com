@@ -28,6 +28,6 @@ You gain score as you ascend, with your high score being saved.
 
 ## Credits
 
-Juego por [Juan Colacelli]({{< ref "/about" >}})
+Game by [Juan Colacelli]({{< ref "/about" >}})
 
 Music by [Nicole Marie T](https://twitter.com/musicvsartstuff)
