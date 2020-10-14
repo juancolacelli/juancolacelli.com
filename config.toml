@@ -3,7 +3,7 @@ languageCode = "en-us"
 theme = "poopbits"
 enableGitInfo = "true"
 paginate = 8
-# disableKinds = ["taxonomyTerm"]
+disableKinds = ["taxonomyTerm"]
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -62,14 +62,14 @@ paginate = 8
 
     [languages.es.permalinks]
       tags = "/blog/etiquetas/:slug"
-      author = "/autores/:slug"
+      author = "/blog/autores/:slug"
       blog = "/blog/:slug"
       game = "/videojuegos/:slug"
 
     [languages.es.params]
       dateFormat = "02/01/2006"
       homePath = "/es"
-      copyright = "Copyright &copy; 2012-2020 Poopbits<br>El contenido de este sitio está licenciado bajo <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.es'>(cc) by-nc-nd 4.0 license</a>"
+      copyright = "Derechos de autor &copy; 2012-2020 Poopbits<br>El contenido de este sitio está licenciado bajo <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.es'>(cc) by-nc-nd 4.0 license</a>"
 
     [languages.es.menu]
       [[languages.es.menu.nav]]
@@ -98,6 +98,52 @@ paginate = 8
         pre = "fas fa-fw fa-info-circle"
         title = "Acerca"
         url = "/es/acerca"
+        weight = 4
+
+
+  [languages.eo]
+    languageName = "Esperanto"
+    weight = 2
+    title = "Poopbits"
+
+    [languages.eo.permalinks]
+      tags = "/blogo/etikedoj/:slug"
+      author = "/blogo/auxtoroj/:slug"
+      blog = "/blogo/:slug"
+      game = "/ludoj/:slug"
+
+    [languages.eo.params]
+      dateFormat = "02/01/2006"
+      homePath = "/eo"
+      copyright = "Kopirajto &copy; 2012-2020 Poopbits<br>El ĉi tiu enhavo estas licencita sub <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.eo'>(cc) by-nc-nd 4.0 permesilo</a>"
+
+    [languages.eo.menu]
+      [[languages.eo.menu.nav]]
+        name = "Ludoj"
+        pre = "fas fa-fw fa-gamepad"
+        title = "Ludoj"
+        url = "/eo/ludoj"
+        weight = 1
+
+      [[languages.eo.menu.nav]]
+        name = "Blogo"
+        pre = "fas fa-fw fa-blog"
+        title = "Blogo"
+        url = "/eo/blogo"
+        weight = 2
+
+      [[languages.eo.menu.nav]]
+        name = "Diskordo"
+        pre = "fab fa-fw fa-discord"
+        title = "Aligŭ al ni ĉe Discord"
+        url = "/eo/diskordo"
+        weight = 3
+
+      [[languages.eo.menu.nav]]
+        name = "Pri"
+        pre = "fas fa-fw fa-info-circle"
+        title = "Pri"
+        url = "/eo/pri"
         weight = 4
 
 
