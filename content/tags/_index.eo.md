@@ -1,4 +1,4 @@
 ---
 title: Etikedoj
-url: /es/blogo/etikedoj
+url: /eo/blogo/etikedoj
 ---
