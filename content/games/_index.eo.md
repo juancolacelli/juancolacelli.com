@@ -1,9 +1,9 @@
 ---
-title: Ludoj
+title: videoludoj
 date: 2020-09-04T20:39:00-03:00
-description: Niaj ludoj
+description: Niaj videoludoj
 type: page
-url: /eo/ludoj
+url: /eo/videoludoj
 ---
 
 [![DROID7](droid7/thumbnail.gif)](droid7)

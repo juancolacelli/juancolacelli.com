@@ -110,7 +110,7 @@ disableKinds = ["taxonomyTerm"]
       tags = "/blogo/etikedoj/:slug"
       author = "/blogo/auxtoroj/:slug"
       blog = "/blogo/:slug"
-      game = "/ludoj/:slug"
+      game = "/videoludoj/:slug"
 
     [languages.eo.params]
       dateFormat = "02/01/2006"
@@ -119,10 +119,10 @@ disableKinds = ["taxonomyTerm"]
 
     [languages.eo.menu]
       [[languages.eo.menu.nav]]
-        name = "Ludoj"
+        name = "Videoludoj"
         pre = "fas fa-fw fa-gamepad"
-        title = "Ludoj"
-        url = "/eo/ludoj"
+        title = "Videoludoj"
+        url = "/eo/videoludoj"
         weight = 1
 
       [[languages.eo.menu.nav]]
@@ -133,10 +133,10 @@ disableKinds = ["taxonomyTerm"]
         weight = 2
 
       [[languages.eo.menu.nav]]
-        name = "Diskordo"
+        name = "Discord"
         pre = "fab fa-fw fa-discord"
         title = "Aligŭ al ni ĉe Discord"
-        url = "/eo/diskordo"
+        url = "/eo/discord"
         weight = 3
 
       [[languages.eo.menu.nav]]

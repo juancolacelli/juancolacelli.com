@@ -1,13 +1,12 @@
 ---
-title: Aliĝu al ni ĉe Diskordo
-description: Aliĝu al ni ĉe Diskordo
+title: Aliĝu al ni ĉe Discord
+description: Aliĝu al ni ĉe Discord
 type: page
-slug: diskordo
 ---
 
-Ni uzas Diskordo pro gastigi publikan babilejon por Poopbits.
+Ni uzas Discord pro gastigi publikan babilejon por Poopbits.
 
-Vi devos krei Diskordon-konton pro daŭrigi.
+Vi devos krei Discordn-konton pro daŭrigi.
 
 Simple alklaku Konekti maldekstre por aliĝi aŭ provi ĉi [tiun ligon](https://discord.gg/t7vd2NT).
 
