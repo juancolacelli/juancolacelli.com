@@ -6,14 +6,14 @@ tags: [retejo]
 authors: [juancolacelli]
 ---
 
-Ni havas fortan hispanan komunumon, do mi decidis traduki la **plenan retejosn kaj ĝian tutan enhavon** al la Hispana, [kontrolu ĝin](/es).
+Ni havas fortan hispanan komunumon, do mi decidis traduki la **plenan retejon kaj ĝian tutan enhavon** al la Hispana, [kontrolu ĝin](/es).
 
 Samtempe mi kreis novan retejan temon, pli freŝan.
 
-**Malnova retejo-temo**
+**Malnova reteja temo**
 
-![Old theme](old_theme.png)
+![Malnova reteja temo](old_theme.png)
 
-**Nova retejo-temo**
+**Nova reteja temo**
 
-![New theme](new_theme.png)
+![Nova reteja temo](new_theme.png)
