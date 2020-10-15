@@ -2,6 +2,7 @@
 title: Aliĝu al ni ĉe Discord
 description: Aliĝu al ni ĉe Discord
 type: page
+slug: babilo
 ---
 
 Ni uzas Discord pro gastigi publikan babilejon por Poopbits.

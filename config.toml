@@ -41,10 +41,10 @@ disableKinds = ["taxonomyTerm"]
           weight = 2
 
         [[languages.en.menu.nav]]
-          name = "Discord"
+          name = "Chat"
           pre = "fab fa-fw fa-discord"
           title = "Join us on Discord"
-          url = "/discord"
+          url = "/chat"
           weight = 3
 
         [[languages.en.menu.nav]]
@@ -87,10 +87,10 @@ disableKinds = ["taxonomyTerm"]
         weight = 2
 
       [[languages.es.menu.nav]]
-        name = "Discord"
+        name = "Chat"
         pre = "fab fa-fw fa-discord"
         title = "Únete a nosotros en Discord"
-        url = "/es/discord"
+        url = "/es/chat"
         weight = 3
 
       [[languages.es.menu.nav]]
@@ -133,10 +133,10 @@ disableKinds = ["taxonomyTerm"]
         weight = 2
 
       [[languages.eo.menu.nav]]
-        name = "Discord"
+        name = "Babilo"
         pre = "fab fa-fw fa-discord"
         title = "Aligŭ al ni ĉe Discord"
-        url = "/eo/discord"
+        url = "/eo/babilo"
         weight = 3
 
       [[languages.eo.menu.nav]]
