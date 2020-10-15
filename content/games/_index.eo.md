@@ -1,5 +1,5 @@
 ---
-title: videoludoj
+title: Videoludoj
 date: 2020-09-04T20:39:00-03:00
 description: Niaj videoludoj
 type: page
