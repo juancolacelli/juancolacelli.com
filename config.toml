@@ -13,6 +13,16 @@ paginate = 8
     languageName = "English"
     weight = 1
     title = "Poopbits"
+    socialNetworks = [
+      ["itch.io", "fab fa-itch-io", "https://poopbits.itch.io"],
+      ["Discord", "fab fa-discord", "https://discord.gg/t7vd2NT"],
+      ["Twitter", "fab fa-twitter", "https://twitter.com/poopbits"],
+      ["Facebook", "fab fa-facebook", "https://facebook.com/poopbits"],
+      ["Instagram", "fab fa-instagram", "https://instagram.com/poopbits"],
+      ["Mastodon", "fab fa-mastodon", "https://mastodon.social/@poopbits"],
+      ["Twitch", "fab fa-twitch", "https://twitch.com/poopbits"],
+      ["RSS", "fa fa-rss", "/index.xml"],
+    ]
 
     [languages.en.permalinks]
       tags = "/blog/tags/:slug"
@@ -59,6 +69,16 @@ paginate = 8
     languageName = "Español"
     weight = 2
     title = "Poopbits"
+    socialNetworks = [
+      ["itch.io", "fab fa-itch-io", "https://poopbits.itch.io"],
+      ["Discord", "fab fa-discord", "https://discord.gg/t7vd2NT"],
+      ["Twitter", "fab fa-twitter", "https://twitter.com/poopbits"],
+      ["Facebook", "fab fa-facebook", "https://facebook.com/poopbits"],
+      ["Instagram", "fab fa-instagram", "https://instagram.com/poopbits"],
+      ["Mastodon", "fab fa-mastodon", "https://mastodon.social/@poopbits"],
+      ["Twitch", "fab fa-twitch", "https://twitch.com/poopbits"],
+      ["RSS", "fa fa-rss", "/es/index.xml"],
+    ]
 
     [languages.es.permalinks]
       tags = "/blog/etiquetas/:slug"
@@ -105,6 +125,16 @@ paginate = 8
     languageName = "Esperanto"
     weight = 2
     title = "Poopbits"
+    socialNetworks = [
+      ["itch.io", "fab fa-itch-io", "https://poopbits.itch.io"],
+      ["Discord", "fab fa-discord", "https://discord.gg/t7vd2NT"],
+      ["Twitter", "fab fa-twitter", "https://twitter.com/poopbits"],
+      ["Facebook", "fab fa-facebook", "https://facebook.com/poopbits"],
+      ["Instagram", "fab fa-instagram", "https://instagram.com/poopbits"],
+      ["Mastodon", "fab fa-mastodon", "https://mastodon.social/@poopbits"],
+      ["Twitch", "fab fa-twitch", "https://twitch.com/poopbits"],
+      ["RSS", "fa fa-rss", "/eo/index.xml"],
+    ]
 
     [languages.eo.permalinks]
       tags = "/blogo/etikedoj/:slug"
@@ -158,16 +188,6 @@ paginate = 8
   logoHover = "/images/poopbits_animated.gif"
   logoWidth = "141px"
   logoHeight = "39px"
-  socialNetworks = [
-    ["itch.io", "fab fa-itch-io", "https://poopbits.itch.io"],
-    ["Discord", "fab fa-discord", "https://discord.gg/t7vd2NT"],
-    ["Twitter", "fab fa-twitter", "https://twitter.com/poopbits"],
-    ["Facebook", "fab fa-facebook", "https://facebook.com/poopbits"],
-    ["Instagram", "fab fa-instagram", "https://instagram.com/poopbits"],
-    ["Mastodon", "fab fa-mastodon", "https://mastodon.social/@poopbits"],
-    ["Twitch", "fab fa-twitch", "https://twitch.com/poopbits"],
-    ["RSS", "fa fa-rss", "/index.xml"],
-  ]
 
 [Taxonomies]
   tag = "tags"
