@@ -16,4 +16,4 @@ I dropped [PICO-8](https://lospec.com/palette-list/pico-8) color palette, now I'
 *Minor changes*
 - Dotted-line blocks will toggle all at once (synchronized).
 - Floor now will blink 3 times before disappearing.
-- Floor tilesets now have start, middle and end
+- Floor tilesets now have start, middle and end.
