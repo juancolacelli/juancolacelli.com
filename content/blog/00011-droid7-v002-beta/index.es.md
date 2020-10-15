@@ -6,7 +6,7 @@ tags: [droid7, pixelart, plataforma]
 authors: [juancolacelli]
 ---
 
-[DROID7](/es/droid7) fue originalmente creado para _dispositivos móviles_, pero ahora ha sido rediseñado para _computadoras de escritorio_.
+[DROID7]({{< ref "/games/droid7" >}}) fue originalmente creado para _dispositivos móviles_, pero ahora ha sido rediseñado para _computadoras de escritorio_.
 
 ![Pantalla de inicio](screenshot_1.png)
 
@@ -14,7 +14,7 @@ authors: [juancolacelli]
 
 ![Juego](screenshot_3.png)
 
-**0.0.2-beta** cuenta con los siguientes cambios:
+[DROID7]({{< ref "/games/droid7" >}}) 0.0.2-beta cuenta con los siguientes cambios:
 
 - Aspecto de ventana cambiado a 16:9
 - Movimiento del jugador con flechas (originalmente automatizado)

@@ -22,7 +22,7 @@ Se ha agregado la pantalla de configuraciones con soporte de pantalla completa y
 
 ![Niveles](lights.png)
 
-**0.0.3** cuenta con los siguientes cambios:
+[DROID7]({{< ref "/games/droid7" >}}) 0.0.3 cuenta con los siguientes cambios:
 
 - Niveles
   - La dificultad ahora escala

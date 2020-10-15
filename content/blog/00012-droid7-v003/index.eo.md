@@ -22,7 +22,7 @@ Agorda ekrano aldonita kun plena ekrana subteno kaj volumaj glitiloj. Eniga agor
 
 ![Niveloj](lights.png)
 
-DROID7 0.0.3 versio havas la jenanjn ludon ŝanĝojn:
+[DROID7]({{< ref "/games/droid7" >}}) 0.0.3 versio havas la jenanjn ludon ŝanĝojn:
 
 - Niveloj
   - Malfacila grimpado

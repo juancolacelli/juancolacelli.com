@@ -15,7 +15,7 @@ aliases: [/gamedev/droid7-v0.0.2-beta/]
 
 ![In game](screenshot_3.png)
 
-**0.0.2-beta** release has the following game changes:
+[DROID7]({{< ref "/games/droid7" >}}) 0.0.2-beta release has the following game changes:
 
 - Window aspect changed to 16:9
 - Player movement with arrow keys (originally automated)
