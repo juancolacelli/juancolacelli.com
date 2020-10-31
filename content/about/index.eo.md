@@ -8,12 +8,16 @@ slug: pri
 
 ![Juan Colacelli](jc.gif)
 
-Mi estas Juan Colacelli, eble vi konas min kiel la programiston de [DROID7]({{< ref "/games/droid7" >}}).
+## Kiu estas mi
 
-Mi estas sola sendependa ludprogramisto enfokusigita al retroaj pikselrtaj ludoj.
+Mi estas Juan Colacelli, sola sendependa ludprogramisto enfokusigita al retroaj pikselrtaj ludoj.
 
-Laborinte pli ol 15 jarojn ĉe kompanioj kaj diplomiĝinte kiel Programa Analizsto, mi komencis mian nunan karieron pro sendependa ludprogramisto.
+Post pli ol dudek jarojn ĉe kiel frofesia programisto, mi malkovris mian antaŭdikan pasion por pikselarto kaj ludprogramisto.
 
-Mi estas pasia pri programado, ludprogramado, pikselarto kaj muziko.
+## Iloj
 
-Mi ankaŭ estas fervorulo pri batalartoj, kaj nuntempe mi antigis bluan zonon en Brazila Ĵuĵicuo en la akademio Quique Denegri.
+Mi plejparte uzas [Godot-Motoron](https://godotengine.org) por miaj ludoj, [Vim](https://vim.org) kiel mia kodredaktilo kaj [Aseprite](https://aseprite.org) por miaj desegnoj.
+
+## Subtenu min
+
+Se vi ŝatas mian laboron, bonvolu konsideri iĝi [Patreon-membro](https://patreon.com/juancolacelli)

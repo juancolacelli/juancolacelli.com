@@ -8,12 +8,16 @@ slug: acerca
 
 ![Juan Colacelli](jc.gif)
 
-Mi nombre es Juan Colacelli, me reconocerás como el creador de [DROID7]({{< ref "/games/droid7" >}}).
+## Quién soy
 
-Soy un desarrollador de videojuegos independiente enfocado en juegos pixelart retro.
+Mi nombre es Juan Colacelli, un desarrollador de videojuegos independiente enfocado en juegos pixelart retro.
 
-Luego de trabajar por mas de 15 años en empresas y graduarme de Analista de Sistemas, comencé mi actual carrera como desarrollador de videojuegos independiente.
+Luego de mas de veinte años como desarrollador de software profesional, descubrí mi arraigada pasión por el pixelart y el desarrollo de videojuegos.
 
-Soy un apasionado del desarrollo, desarrollo de viojuegos, pixelart y la música.
+## Herramientas
 
-También soy fanático de las artes marciales, y actualmente he alcanzado el grado de cinturón azul en Brazilian Jiu-Jitsu en la academia Quique Denegri.
+Mayormente uso [Godot Engine](https://godotengine.org) para mis juegos, [Vim](https://vim.org) como editor de código y [Aseprite](https://aseprite.org) para mis dibujos.
+
+## Dame soporte
+
+Si te gusta mi trabajo, por favor considera convertirte [miembro en Patreon](https://patreon.com/juancolacelli)

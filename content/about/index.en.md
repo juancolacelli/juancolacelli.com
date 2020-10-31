@@ -7,12 +7,16 @@ description: About Poopbits
 
 ![Juan Colacelli](jc.gif)
 
-I am Juan Colacelli, You may know me as the developer of [DROID7]({{< ref "/games/droid7" >}}).
+## Who am I
 
-I am a solo indie gamedev focused on retro pixelart games.
+I am Juan Colacelli, a solo indie game developer focused on retro pixelart games.
 
-After working over 15 years at companies and graduating as Software Analyst, I started my current indie game developer career.
+After more than twenty years as a professional software developer, I discovered my long-rooted passion for pixelart and game development.
 
-I am passionate about development, game development, pixelart and music.
+## Tools
 
-I am also a fan of martial arts, and currently I reached blue belt grade in Brazilian Jiu-Jitsu at Quique Denegri academy.
+I mostly use [Godot Engine](https://godotengine.org) for my games, [Vim](https://vim.org) as my code editor and [Aseprite](https://aseprite.org) for my drawings.
+
+## Support me
+
+If you like my work, please consider becoming a [Patreon member](https://patreon.com/juancolacelli)
