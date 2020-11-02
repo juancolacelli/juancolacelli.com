@@ -6,7 +6,7 @@ description: Escape or die, it's your choice
 tags: [droid7]
 ---
 
-**DROID7** is an **infinite pixel platformer**, jump your way up on endlessly generated tower while a laser beam chases you from below.
+**DROID7** is an **platformer**, jump your way up on a generated tower while a laser beam chases you from below.
 
 The higher you go, the faster it gets, and isn't long before disappearing (and reappearing) platforms and spikes are introduced to make your life harder.
 

@@ -7,7 +7,7 @@ tags: [droid7]
 url: /eo/videoludoj/droid7
 ---
 
-**DROID7** estas **senfina piksela platformo**, saltu sur senfine generita turo dum lasera radio persekutas vin de sube.
+**DROID7** estas **platformo**, saltu sur generita turo dum lasera radio persekutas vin de sube.
 
 Ju pli vi altas, des pli rapide ĝi fariĝas, kaj ne longe antaŭ malaperi (kaj reaperi) platformoj kaj pikiloj estas enkondukitaj por malfaciligi vian vivon.
 

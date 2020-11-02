@@ -7,7 +7,7 @@ tags: [droid7]
 url: /es/videojuegos/droid7
 ---
 
-**DROID7** es un **juego de plataformas infinito**, en el que hay que saltar hacia arriba en una torre generada sin fin mientras un rayo láser te persigue desde abajo.
+**DROID7** es un **juego de plataformas**, en el que hay que saltar hacia arriba en una torre generada mientras un rayo láser te persigue desde abajo.
 
 Cuanto más alto vas, más rápido se vuelve, y no pasa mucho tiempo antes de que desaparezcan (y reaparezcan) plataformas y picos que se introducen para hacer tu vida más difícil.
 
