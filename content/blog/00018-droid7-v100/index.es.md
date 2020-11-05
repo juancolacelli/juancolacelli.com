@@ -1,5 +1,5 @@
 ---
-title: DROID7 V1.0.0
+title: DROID7 v1.0.0
 date: 2020-11-02T01:29:03-03:00
 description: Ahora DROID7 tiene que pelear contra su creador por su libertad
 tags: [droid7, pixelart, plataforma]
