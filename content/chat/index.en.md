@@ -4,7 +4,7 @@ description: Join us on Discord
 type: page
 ---
 
-We're using [Discord](https://discord.com) to host a public chat for Poopbits.
+I'm using [Discord](https://discord.com) to host a public chat.
 
 You'll need to create a Discord account to continue.
 

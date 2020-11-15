@@ -1,5 +1,5 @@
 ---
-title: Poopbits
+title: Ejmo
 type: page
-description: Kreintoj de DROID7, Poopbits estas malgranda sendependa ludstudio centrita en retroaj pikselartaj ludoj.
+description: Kreinto de DROID7, mi estas sendependa ludprogramisto centrita en retroaj pikselartaj ludoj.
 ---

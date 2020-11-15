@@ -2,7 +2,7 @@
 title: Acerca
 date: 2020-02-16T04:24:09-03:00
 type: page
-description: Acerca de Poopbits
+description: Acerca de mí
 slug: acerca
 ---
 
@@ -16,7 +16,7 @@ Luego de mas de veinte años como desarrollador de software profesional, descubr
 
 ## Herramientas
 
-Mayormente uso [Godot Engine](https://godotengine.org) para mis juegos, [Vim](https://vim.org) como editor de código y [Aseprite](https://aseprite.org) para mis dibujos.
+Mayormente uso [Godot Engine](https://godotengine.org) o [SDL](https://libsdl.org) para mis juegos, [Vim](https://vim.org) como editor de código y [Aseprite](https://aseprite.org) para mis dibujos.
 
 ## Dame soporte
 

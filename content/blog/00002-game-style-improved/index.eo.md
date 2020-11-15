@@ -4,6 +4,8 @@ date: 2020-02-18T18:06:29-03:00
 description: Mi plibonigis la stilon kaj distingivon de mia nova ludo
 tags: [pikselarto, platforma, droid7]
 authors: [juancolacelli]
+slug: ludstilo-plibonigxis
+aliases: [/eo/blogo/ludstilo-pliboniĝis/]
 ---
 
 Hodiaŭ mi plibonigis la stilon kaj distingivon de mia nova ludo. Mi ŝanĝis bildan grandecon de 16 rastrumero al 8 rastrumero kaj ankaŭ plibonigis la kahelaron.

@@ -28,7 +28,6 @@
 
     {{ $sass := resources.Get "/sass/style.sass" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" type="text/css" href="{{- $sass.RelPermalink -}}"/>
-    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.8.0/css/all.css">
 
     {{- if .Site.Params.favicon -}}
       <link rel="shortcut icon" href="{{- .Site.Params.favicon -}}"/>
@@ -97,21 +96,26 @@
 
     <div class="content">
       {{- block "banner" . -}}{{- end -}}
-
       <div class="grid-container">
-        <div>
-          <div class="main">
-            {{- if not .IsHome -}}
-              <h1 class="main-title">{{- block "title" . -}}{{- end -}}</h1>
-            {{- end -}}
+        <div class="main">
+          {{- if not .IsHome -}}
+            <h1 class="main-title">{{- block "title" . -}}{{- end -}}</h1>
+          {{- end -}}
 
-            {{- block "main" . -}}{{- end -}}
-          </div>
+          {{- block "main" . -}}{{- end -}}
         </div>
-
         <div>
           <div class="secondary">
             {{- block "secondary" . -}}
+              {{ if .IsTranslated }}
+  	            <h3 class="title">{{ i18n "translations" }}</h3>
+                <ul class="secondary-section">
+	              {{ range sort .Translations "Language.LanguageName" "asc"}}
+	  	            <li><a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a></li>
+	              {{ end }}
+  	            </ul>
+              {{ end }}
+
               {{- if not .IsHome -}}
                 {{- partial "recent_posts" . -}}
               {{- end -}}
@@ -121,28 +125,12 @@
               {{- end -}}
 
               {{- partial "social_networks" . -}}
-
-              {{ if .IsTranslated }}
-  	            <h3 class="title">{{ i18n "translations" }}</h3>
-                <ul class="secondary-section">
-	              {{ range .Translations }}
-	  	            <li><a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a></li>
-	              {{ end }}
-  	            </ul>
-              {{ end }}
             {{- end -}}
           </div>
         </div>
       </div>
     </div>
     <div class="footer">
-      <ul class="social-networks">
-        {{- range .Site.Params.socialNetworks -}}
-          <li>
-            <a rel="me" href="{{- index . 2 -}}" title="{{- index . 0 -}}"><i class="{{ index . 1 -}}"></i></a>
-          </li>
-        {{- end -}}
-      </ul>
       {{- if isset .Site.Params "gitrepository" -}}
         {{- $gitRepository := .Site.Params.gitRepository -}}
         <div class="document-updated-at">

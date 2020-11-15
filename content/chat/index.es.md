@@ -1,10 +1,10 @@
 ---
-title: Únete a nosotros en Discord
-description: Únete a nosotros en Discord
+title: Únetenos en Discord
+description: Únetenos en Discord
 type: page
 ---
 
-Estamos usando [Discord](https://discord.com) para hospedar un chat público para Poopbits.
+Estoy usando [Discord](https://discord.com) para hospedar un chat público.
 
 Necesitarás crearte una cuenta en Discord para continuar.
 

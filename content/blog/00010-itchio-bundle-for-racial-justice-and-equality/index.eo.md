@@ -6,6 +6,6 @@ tags: [droid7, itch.io, vendo, fasko, black-lives-matter]
 authors: [juancolacelli]
 ---
 
-Vi povas akiri +1,500 projektonjn inkluzive de [DROID7]({{< ref "/games/droid7" >}}) en ĉi tiu timinda fasko de [itch.io](https://poopbits.itch.io).
+Vi povas akiri +1,500 projektonjn inkluzive de [DROID7]({{< ref "/games/droid7" >}}) en ĉi tiu timinda fasko de [itch.io](https://juancolacelli.itch.io).
 
 [![Fasko](bundle.png)](https://itch.io/b/520/bundle-for-racial-justice-and-equality)

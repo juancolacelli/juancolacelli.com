@@ -2,9 +2,9 @@
 {{- if gt $paginator.TotalPages 1 -}}
   <nav class="pagination">
     {{- if $paginator.HasPrev -}}
-      <a href="{{- $paginator.Prev.URL -}}"><i class="fas fa-angle-left"></i></a>
+      <a href="{{- $paginator.Prev.URL -}}">&laquo;</a>
     {{- else -}}
-      <span><i class="fas fa-angle-left"></i></span>
+      <span>&laquo;</span>
     {{- end  -}}
 
     {{- range $paginator.Pagers -}}
@@ -18,9 +18,9 @@
     {{- end -}}
 
     {{- if $paginator.HasNext -}}
-      <a href="{{- $paginator.Next.URL -}}"><i class="fas fa-angle-right"></i></a>
+      <a href="{{- $paginator.Next.URL -}}">&raquo;</a>
     {{- else -}}
-      <span><i class="fas fa-angle-right"></i></span>
+      <span>&raquo;</span>
     {{- end -}}
   </nav>
 {{- end -}}

@@ -2,7 +2,7 @@
 title: Pri
 date: 2020-02-16T04:24:09-03:00
 type: page
-description: Pri Poopbits
+description: Pri mi
 slug: pri
 ---
 
@@ -16,7 +16,7 @@ Post pli ol dudek jarojn ĉe kiel frofesia programisto, mi malkovris mian antaŭ
 
 ## Iloj
 
-Mi plejparte uzas [Godot-Motoron](https://godotengine.org) por miaj ludoj, [Vim](https://vim.org) kiel mia kodredaktilo kaj [Aseprite](https://aseprite.org) por miaj desegnoj.
+Mi plejparte uzas [Godot-Motoron](https://godotengine.org) aŭ [SDL](https://libsdl.org) por miaj ludoj, [Vim](https://vim.org) kiel mia kodredaktilo kaj [Aseprite](https://aseprite.org) por miaj desegnoj.
 
 ## Subtenu min
 

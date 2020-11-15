@@ -1,92 +1,121 @@
-$background: url(/images/navbar.png) #16171a
-$content-background: #16171a
-$primary-color: #fafdff
+$background: url(/images/background.png) #16171a
+$content-background: #fafdff
+$primary-color: #16171a
 $secondary-color: #ff2674
 $accent-color: #ff80a4
-$navbar-color: #fff
+$navbar-color: #fafdff
 $navbar-secondary-color: $accent-color
 $navbar-background: #000
-$sidebar-color: $primary-color
+$sidebar-color: $content-background
+$sidebar-background: #16171a
 $footer-color: $navbar-color
 $footer-secondary-color: $secondary-color
 $footer-accent-color: $accent-color
 $footer-background: $navbar-background
 $navbar-mobile-background: $navbar-background
 $mobile-menu-backdrop-background: rgba(0, 0, 0, .8)
-$content-shadow: #000
-$image-border-color: #000
-$page-width: 1200px
-$title-font: Oxygen
-$body-font: Oxygen
-$code-font: Oxygen mono
+$navbar-shadow: rgba(0, 0, 0, 1)
+$page-width: 1000px
+$title-font: "atlantis international"
+$body-font: "roboto"
+$code-font: "roboto mono"
+$font-size: 1rem
+$grid-border-radius: 10px
+$grid-gap: 20px
+$border-size: 2px
+$img-border-radius: 10px
 
 @font-face
   font:
     display: swap
-    family: 'Oxygen'
+    family: "atlantis international"
     style: normal
     weight: 400
-  src: url('/fonts/oxygen.ttf') format('truetype')
+  src: url("/fonts/altantis_international_custom.ttf") format("truetype")
+
 
 @font-face
   font:
     display: swap
-    family: 'Oxygen mono'
+    family: "roboto"
     style: normal
     weight: 400
-  src: url('/fonts/oxygen_mono.ttf') format('truetype')
+  src: url("/fonts/roboto_regular.ttf") format("truetype")
 
+
+@font-face
+  font:
+    display: swap
+    family: "roboto mono"
+    style: normal
+    weight: 400
+  src: url("/fonts/roboto_mono_regular.ttf") format("truetype")
 
 body
   background: $background
+    attachment: fixed
   color: $primary-color
   font:
     family: $body-font
-    size: 1rem
+    size: $font-size
     weight: 400
   margin: 0
 
 
+img
+  border-radius: $img-border-radius
+  max-width: 100%
+
 a
   color: $secondary-color
   text-decoration: none
-  transition: color .2s ease-in-out
+  transition: color .5s ease-in-out
   outline: none
 
   &:hover
     color: $accent-color
-    text-shadow: 0 0 5px $accent-color
 
 
   img
-    border: 1px solid $image-border-color
-    transition: border-color .2s ease-in-out
+    border: $border-size solid $secondary-color
+    transition: border-color .5s ease-in-out
 
     &:hover
       border-color: $accent-color
-      box-shadow: 0 0 10px $accent-color
 
 
 h1, h2, h3, h4, h5, h6
   font:
     family: $title-font
     weight: 400
+  margin: 0
+    bottom: 1rem
+
+h1
+  font-size: 4rem
+
+h2
+  font-size: 3rem
+
+h3
+  font-size: 2rem
 
 
 ul
   list-style: disclosure-closed
 
+iframe
+  border-radius: $img-border-radius
 
 .highlight
   pre
-    border: 1px solid $image-border-color
-      radius: 5px
+    border-radius: $img-border-radius
     padding: 1rem
     white-space: pre-wrap
   code
     font:
       family: $code-font
-      size: .75rem
+      size: $font-size
 
 
 .header
@@ -95,13 +124,12 @@ ul
   padding: 1rem 0
 
   .navbar
-    max-width: calc(1200px - 2rem)
+    max-width: calc(#{$page-width} - 2rem)
     margin: auto
 
     .navbar-title
       font:
         family: $title-font
-        size: 2rem
 
       a
         color: $navbar-color
@@ -109,12 +137,10 @@ ul
         &:hover
           color: $navbar-secondary-color
 
-        size: 2rem
-
     .navbar-links
       font:
         family: $title-font
-        size: 1.2rem
+        size: 2rem
 
       margin: 0
 
@@ -135,7 +161,7 @@ ul
   text-align: center
 
   img
-    border-radius: 10px 10px 0 0
+    vertical-align: middle
     width: 100%
 
   .main-section
@@ -144,8 +170,6 @@ ul
 
 
   .main-title
-    font:
-      size: 3rem
     margin: 0
       bottom: 1.5rem
 
@@ -153,10 +177,11 @@ ul
   .main-content
     margin: 4rem 0
 
-
 .main
+  margin-right: 0
+  background: $content-background
   font:
-    size: 1rem
+    size: $font-size
   text-rendering: optimizeLegibility;
 
   p, h1, h2, h3, h4, h6
@@ -167,22 +192,13 @@ ul
     &:first-of-type
       margin-top: 0
 
-  iframe
-    border: 1px solid $image-border-color
-      radius: 5px
-
-  img
-    border:
-      radius: 5px
-    max-width: 100%
-
   .info
     margin-bottom: 3rem
 
   .pagination
     font:
       family: $code-font
-      size: 1.2rem
+      size: $font-size
     text-align: center
 
     a, span
@@ -191,6 +207,7 @@ ul
 .secondary
   color: $sidebar-color
   overflow-wrap: break-down
+  background: $sidebar-background
 
   .title
     margin: 0
@@ -226,19 +243,9 @@ ul
 
 .post-summary
   display: grid
-  grid-template-columns: 80px auto
-  grid-gap: 0 1rem
-
-
-.post-summary, .post-summary-tiny
 
   .summary-body
     margin-left: 1rem
-
-    .summary-title
-      font:
-        family: $title-font
-        size: 1.2rem
 
 
 .footer
@@ -254,17 +261,6 @@ ul
     &:hover
       color: $footer-accent-color
 
-  ul.social-networks
-    margin: 0
-      bottom: 2rem
-    font-size: 3rem
-
-    li
-      display: inline-block
-      list-style: none
-      margin: 0 1rem
-
-
   .document-updated-at
     display: none
     font-style: italic
@@ -274,20 +270,15 @@ ul
 .clear
   &::after
     clear: both
-    content: ''
+    content: ""
     display: table
-
 
 .grid-container
   display: grid
   grid-template-columns: auto
-  padding: 3rem
 
 
 .content
-  background: $content-background
-  border-radius: 10px
-  box-shadow: 0 0 2rem $content-shadow
   margin: 0 auto
   max-width: $page-width
 
@@ -307,9 +298,12 @@ ul
       align-items: center
       display: grid
       grid-template-columns: auto
+      box-shadow: 0 10px 10px 10px $navbar-shadow
 
       .navbar-title
         text-align: center
+        font:
+          size: 1.5rem
 
         .navbar-logo
           margin: 0 auto
@@ -320,17 +314,18 @@ ul
   .content
     margin-top: 4rem
 
-  .grid-container
+  .main, .secondary
     padding: 2rem
 
-  .post-summary, .post-summary-tiny
+  .post-summary
+    grid-template-columns: 40px auto
     margin-bottom: 2rem
 
 
   .footer
 
     ul.social-networks
-      font-size: 2rem
+      font-size: $font-size
 
       li
         margin: 0.5rem
@@ -345,7 +340,7 @@ ul
     opacity: 1
     color: $navbar-color
     text-align: right
-    font-size: 1.5rem
+    font-size: $font-size
 
     &:hover
       color: $accent-color
@@ -421,6 +416,8 @@ ul
       .navbar-title
         margin-bottom: 0rem
         text-align: left
+        font:
+          size: 3rem
 
       .navbar-links
         text-align: right
@@ -432,20 +429,26 @@ ul
           display: inline-block
           padding-left: 2rem
 
-  .main
-    margin-right: 2rem
-    padding-right: 2rem
-
   .grid-container
-    grid-template-columns: 75% 25%
+    grid-gap: $grid-gap
+    grid-template-columns: 70% calc(30% - #{$grid-gap})
+
+    &:not(:first-child)
+      padding-top: $grid-gap
 
     .grid-full-column
       grid-column: 1 / span 2
 
 
+  .banner img, .main, .secondary
+    border-radius: $grid-border-radius
+
+  .main, .secondary
+    padding: 3rem
+
   .post-summary
     display: grid
-    grid-template-columns: auto 90%
+    grid-template-columns: 10% 90%
     grid-gap: 0 1rem
 
     &:not(:last-of-type)

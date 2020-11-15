@@ -5,7 +5,7 @@ type: page
 slug: babilo
 ---
 
-Ni uzas Discord pro gastigi publikan babilejon por Poopbits.
+Mi uzas Discord pro gastigi publikan babilejon.
 
 Vi devos krei Discordn-konton pro daŭrigi.
 

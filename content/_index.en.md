@@ -1,5 +1,5 @@
 ---
-title: Poopbits
+title: Home
 type: page
-description: Creators of DROID7, Poopbits is a small indie game studio focused on retro pixelart games.
+description: Creator of DROID7, I am a solo indie game developer focused on retro pixelart games.
 ---

@@ -1,6 +1,6 @@
-baseURL = "https://poopbits.com/"
+baseURL = "https://juancolacelli.com/"
 languageCode = "en-us"
-theme = "poopbits"
+theme = "juancolacelli"
 enableGitInfo = "true"
 paginate = 8
 # disableKinds = ["taxonomyTerm"]
@@ -12,16 +12,14 @@ paginate = 8
   [languages.en]
     languageName = "English"
     weight = 1
-    title = "Poopbits"
+    title = "Juan Colacelli"
     socialNetworks = [
-      ["itch.io", "fab fa-itch-io", "https://poopbits.itch.io"],
-      ["Discord", "fab fa-discord", "https://discord.gg/t7vd2NT"],
-      ["Twitter", "fab fa-twitter", "https://twitter.com/poopbits"],
-      ["Facebook", "fab fa-facebook", "https://facebook.com/poopbits"],
-      ["Instagram", "fab fa-instagram", "https://instagram.com/poopbits"],
-      ["Mastodon", "fab fa-mastodon", "https://mastodon.social/@poopbits"],
-      ["Twitch", "fab fa-twitch", "https://twitch.com/poopbits"],
-      ["RSS", "fa fa-rss", "/index.xml"],
+      ["itch.io", "https://juancolacelli.itch.io"],
+      ["Twitter", "https://twitter.com/juancolacelli"],
+      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
+      ["Twitch", "https://twitch.com/juancolacelli"],
+      ["YouTube", "https://youtube.com/juancolacelli"],
+      ["RSS", "/index.xml"],
     ]
 
     [languages.en.permalinks]
@@ -33,33 +31,29 @@ paginate = 8
     [languages.en.params]
       dateFormat = "01-02-2006"
       homePath = "/"
-      copyright = "Copyright &copy; 2012-2020 Poopbits<br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
+      copyright = "Copyright &copy; 2012-2020 Juan Colacelli<br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
 
       [languages.en.menu]
         [[languages.en.menu.nav]]
           name = "Games"
-          pre = "fas fa-fw fa-gamepad"
           title = "Games"
           url = "/games"
           weight = 1
 
         [[languages.en.menu.nav]]
           name = "Blog"
-          pre = "fas fa-fw fa-blog"
           title = "Blog"
           url = "/blog"
           weight = 2
 
         [[languages.en.menu.nav]]
           name = "Chat"
-          pre = "fab fa-fw fa-discord"
           title = "Join us on Discord"
           url = "/chat"
           weight = 3
 
         [[languages.en.menu.nav]]
           name = "About"
-          pre = "fas fa-fw fa-info-circle"
           title = "About"
           url = "/about"
           weight = 4
@@ -68,15 +62,13 @@ paginate = 8
   [languages.es]
     languageName = "Español"
     weight = 2
-    title = "Poopbits"
+    title = "Juan Colacelli"
     socialNetworks = [
-      ["itch.io", "fab fa-itch-io", "https://poopbits.itch.io"],
-      ["Discord", "fab fa-discord", "https://discord.gg/t7vd2NT"],
-      ["Twitter", "fab fa-twitter", "https://twitter.com/poopbits"],
-      ["Facebook", "fab fa-facebook", "https://facebook.com/poopbits"],
-      ["Instagram", "fab fa-instagram", "https://instagram.com/poopbits"],
-      ["Mastodon", "fab fa-mastodon", "https://mastodon.social/@poopbits"],
-      ["Twitch", "fab fa-twitch", "https://twitch.com/poopbits"],
+      ["itch.io", "https://juancolacelli.itch.io"],
+      ["Twitter", "https://twitter.com/juancolacelli"],
+      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
+      ["Twitch", "https://twitch.com/juancolacelli"],
+      ["YouTube", "https://youtube.com/juancolacelli"],
       ["RSS", "fa fa-rss", "/es/index.xml"],
     ]
 
@@ -89,33 +81,29 @@ paginate = 8
     [languages.es.params]
       dateFormat = "02/01/2006"
       homePath = "/es"
-      copyright = "Derechos de autor &copy; 2012-2020 Poopbits<br>El contenido de este sitio está licenciado bajo <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.es'>(cc) by-nc-nd 4.0 license</a>"
+      copyright = "Derechos de autor &copy; 2012-2020 Juan Colacelli<br>El contenido de este sitio está licenciado bajo <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.es'>(cc) by-nc-nd 4.0 license</a>"
 
     [languages.es.menu]
       [[languages.es.menu.nav]]
         name = "Videojuegos"
-        pre = "fas fa-fw fa-gamepad"
         title = "Videojuegos"
         url = "/es/videojuegos"
         weight = 1
 
       [[languages.es.menu.nav]]
         name = "Blog"
-        pre = "fas fa-fw fa-blog"
         title = "Blog"
         url = "/es/blog"
         weight = 2
 
       [[languages.es.menu.nav]]
         name = "Chat"
-        pre = "fab fa-fw fa-discord"
         title = "Únete a nosotros en Discord"
         url = "/es/chat"
         weight = 3
 
       [[languages.es.menu.nav]]
         name = "Acerca"
-        pre = "fas fa-fw fa-info-circle"
         title = "Acerca"
         url = "/es/acerca"
         weight = 4
@@ -124,16 +112,14 @@ paginate = 8
   [languages.eo]
     languageName = "Esperanto"
     weight = 2
-    title = "Poopbits"
+    title = "Juan Colacelli"
     socialNetworks = [
-      ["itch.io", "fab fa-itch-io", "https://poopbits.itch.io"],
-      ["Discord", "fab fa-discord", "https://discord.gg/t7vd2NT"],
-      ["Twitter", "fab fa-twitter", "https://twitter.com/poopbits"],
-      ["Facebook", "fab fa-facebook", "https://facebook.com/poopbits"],
-      ["Instagram", "fab fa-instagram", "https://instagram.com/poopbits"],
-      ["Mastodon", "fab fa-mastodon", "https://mastodon.social/@poopbits"],
-      ["Twitch", "fab fa-twitch", "https://twitch.com/poopbits"],
-      ["RSS", "fa fa-rss", "/eo/index.xml"],
+      ["itch.io", "https://juancolacelli.itch.io"],
+      ["Twitter", "https://twitter.com/juancolacelli"],
+      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
+      ["Twitch", "https://twitch.com/juancolacelli"],
+      ["YouTube", "https://youtube.com/juancolacelli"],
+      ["RSS", "/eo/index.xml"],
     ]
 
     [languages.eo.permalinks]
@@ -145,33 +131,29 @@ paginate = 8
     [languages.eo.params]
       dateFormat = "02/01/2006"
       homePath = "/eo"
-      copyright = "Kopirajto &copy; 2012-2020 Poopbits<br>El ĉi tiu enhavo estas licencita sub <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.eo'>(cc) by-nc-nd 4.0 permesilo</a>"
+      copyright = "Kopirajto &copy; 2012-2020 Juan Colacelli<br>El ĉi tiu enhavo estas licencita sub <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.eo'>(cc) by-nc-nd 4.0 permesilo</a>"
 
     [languages.eo.menu]
       [[languages.eo.menu.nav]]
         name = "Videoludoj"
-        pre = "fas fa-fw fa-gamepad"
         title = "Videoludoj"
         url = "/eo/videoludoj"
         weight = 1
 
       [[languages.eo.menu.nav]]
         name = "Blogo"
-        pre = "fas fa-fw fa-blog"
         title = "Blogo"
         url = "/eo/blogo"
         weight = 2
 
       [[languages.eo.menu.nav]]
         name = "Babilo"
-        pre = "fab fa-fw fa-discord"
         title = "Aligŭ al ni ĉe Discord"
         url = "/eo/babilo"
         weight = 3
 
       [[languages.eo.menu.nav]]
         name = "Pri"
-        pre = "fas fa-fw fa-info-circle"
         title = "Pri"
         url = "/eo/pri"
         weight = 4
@@ -179,15 +161,13 @@ paginate = 8
 
 [params]
   showAuthors = false
-  gitRepository = "https://gitlab.com/poopbits/poopbits.gitlab.io"
+  gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.gitlab.io"
   thumbnailSize = "80x80"
   thumbnailOGSize = "200x200"
   googleAnalytics = "UA-168777548-1"
-  favicon = "/images/favicon.gif"
-  logo = "/images/poopbits.gif"
-  logoHover = "/images/poopbits_animated.gif"
-  logoWidth = "141px"
-  logoHeight = "39px"
+  favicon = "/images/favicon.png"
+  logoWidth = "192px"
+  logoHeight = "27px"
 
 [Taxonomies]
   tag = "tags"

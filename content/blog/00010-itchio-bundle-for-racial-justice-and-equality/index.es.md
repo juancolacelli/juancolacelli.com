@@ -6,6 +6,6 @@ tags: [droid7, itch.io, oferta, paquete, black-lives-matter]
 authors: [juancolacelli]
 ---
 
-Puedes obtener +1,500 proyectos incluyendo [DROID7]({{< ref "/games/droid7" >}}) en este increíble paquete de [itch.io](https://poopbits.itch.io).
+Puedes obtener +1,500 proyectos incluyendo [DROID7]({{< ref "/games/droid7" >}}) en este increíble paquete de [itch.io](https://juancolacelli.itch.io).
 
 [![Bundle](bundle.png)](https://itch.io/b/520/bundle-for-racial-justice-and-equality)
