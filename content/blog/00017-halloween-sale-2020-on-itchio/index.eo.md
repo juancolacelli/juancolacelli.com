@@ -7,7 +7,7 @@ authors: [juancolacelli]
 aliases: [/eo/blogo/haloveno-vendo-2020-ĉe-itchio/]
 ---
 
-Estas Haloveno Vendo 2020 ĉe [itch.io](https://juancolacelli.itch.io) 🎃
+Estas **Haloveno Vendo 2020** ĉe [itch.io](https://juancolacelli.itch.io) 🎃
 
 Akiru [DROID7]({{< ref "/games/droid7" >}}) 50% rabaton por limigita tempo!
 

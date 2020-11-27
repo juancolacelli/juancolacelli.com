@@ -7,7 +7,7 @@ authors: [juancolacelli]
 aliases: [/es/blog/ofertas-de-halloween-en-itchio/]
 ---
 
-Hay ofertas de Halloween 2020 en [itch.io](https://juancolacelli.itch.io) 🎃
+Hay **ofertas de Halloween 2020** en [itch.io](https://juancolacelli.itch.io) 🎃
 
 Obten [DROID7]({{< ref "/games/droid7" >}}) con un 50% de descuento por tiempo limitado!
 

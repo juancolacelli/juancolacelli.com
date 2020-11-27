@@ -4,11 +4,10 @@ date: 2020-06-23T16:55:00-03:00
 description: DROID7 is on sale!
 tags: [droid7, itch.io, sale, summer-sale]
 authors: [juancolacelli]
-aliases: [/gamedev/summer-sale-2020-on-itch.io/]
-aliases: [/blog/summer-sale-2020-on-itch.io/]
+aliases: [/gamedev/summer-sale-2020-on-itch.io/, /blog/summer-sale-2020-on-itch.io/]
 ---
 
-It's Summer Sale 2020 on [itch.io](https://juancolacelli.itch.io) 🌞
+It's **Summer Sale 2020** on [itch.io](https://juancolacelli.itch.io) 🌞
 
 Get [DROID7]({{< ref "/games/droid7" >}}) 50% off for a limited time!
 

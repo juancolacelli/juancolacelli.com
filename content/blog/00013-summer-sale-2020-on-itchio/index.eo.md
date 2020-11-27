@@ -7,7 +7,7 @@ authors: [juancolacelli]
 aliases: [/eo/blog/somera-vendo-2020-ĉe-itch.io/]
 ---
 
-Estas Somera Vendo 2020 ĉe [itch.io](https://juancolacelli.itch.io) 🌞
+Estas **Somera Vendo 2020** ĉe [itch.io](https://juancolacelli.itch.io) 🌞
 
 Akiru [DROID7]({{< ref "/games/droid7" >}}) 50% rabaton por limigita tempo!
 

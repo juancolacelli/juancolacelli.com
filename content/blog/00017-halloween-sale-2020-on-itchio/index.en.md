@@ -7,7 +7,7 @@ authors: [juancolacelli]
 aliases: [/blog/halloween-sale-2020-on-itchio]
 ---
 
-It's Halloween Sale 2020 on [itch.io](https://juancolacelli.itch.io) 🎃
+It's **Halloween Sale 2020** on [itch.io](https://juancolacelli.itch.io) 🎃
 
 Get [DROID7]({{< ref "/games/droid7" >}}) 50% off for a limited time!
 
