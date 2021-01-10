@@ -2,7 +2,7 @@
 <ul class="secondary-section">
   {{- range first 5 (where .Site.RegularPages "Type" "!=" "page").ByPublishDate.Reverse -}}
     <li>
-      <a class="summary-title" href="{{- .RelPermalink -}}">{{- .Title -}}</a>
+      <a class="summary-title" href="{{- .RelPermalink -}}">{{- emojify .Title -}}</a>
     </li>
   {{- end -}}
 </ul>

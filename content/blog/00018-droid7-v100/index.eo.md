@@ -2,7 +2,7 @@
 title: DROID7 v1.0.0
 date: 2020-11-02T01:29:03-03:00
 description: Nun DROID7 devas batali kontraŭ sia kreinto por sia libereco
-tags: [droid7, pikselarto, platforma]
+tags: [droid7, pikselarto, platformo]
 authors: [juancolacelli]
 ---
 

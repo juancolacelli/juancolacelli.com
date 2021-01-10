@@ -2,7 +2,7 @@
 title: Bonvenon al la Malluma Flanko
 date: 2020-03-02T02:55:39-03:00
 description: Ludo nun estas en mallumo, kaj ĝi havas laserojn!
-tags: [pikselarto, platforma, droid7]
+tags: [pikselarto, platformo, droid7]
 authors: [juancolacelli]
 ---
 

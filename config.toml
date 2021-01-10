@@ -1,6 +1,8 @@
 baseURL = "https://juancolacelli.com/"
 languageCode = "en-us"
 theme = "juancolacelli"
+removePathAccents = true
+enableEmoji = true
 enableGitInfo = "true"
 paginate = 8
 # disableKinds = ["taxonomyTerm"]

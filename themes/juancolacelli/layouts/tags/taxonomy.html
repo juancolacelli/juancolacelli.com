@@ -1,5 +1,5 @@
 {{- define "title"}}
-  {{- if isset .Data "Term" -}}#{{- .Data.Term -}}{{- end -}}
+  {{- if isset .Data "Term" -}}{{- .Data.Term -}}{{- end -}}
 	{{- if gt .Paginator.PageNumber 1 -}}
 	  &nbsp;(page {{ .Paginator.PageNumber -}})
 	{{- end -}}

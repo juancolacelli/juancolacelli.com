@@ -3,17 +3,15 @@
     <a href="{{- .RelPermalink -}}">{{- partial "thumbnail" . -}}</a>
   </div>
   <div class="summary-body">
-    <a class="summary-title" href="{{- .RelPermalink -}}">{{- .Title -}}</a></b>
-    <br>
-    <span class="summary-description">{{- .Description -}}</span>
-    {{- if .Site.Params.showAuthors -}}
-      <br>
-      <span class="summary-authors">{{- partial "authors" . }}</span>
-      &#47;
+    <a class="summary-title" href="{{- .RelPermalink -}}">{{- emojify .Title -}}</a></b>
+    {{- if .Site.Params.showAuthors }}
+      &mdash; <span class="summary-authors">{{- partial "authors" . }}</span>
     {{- end }}
     <br>
-    <time class="summary-date">{{- .Date.Format (.Site.Params.dateformat | default "January 02, 2006") -}}</time>
+    <span class="summary-description">{{- emojify .Description -}}</span>
     <br>
+    <time class="summary-date">{{- .Date.Format (.Site.Params.dateformat | default "January 02, 2006") -}}</time>
+    &mdash;
     {{ partial "tags" . -}}
   </div>
 </div>

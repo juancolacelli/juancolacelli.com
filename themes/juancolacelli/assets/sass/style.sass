@@ -20,10 +20,10 @@ $title-font: "atlantis international"
 $body-font: "roboto"
 $code-font: "roboto mono"
 $font-size: 1rem
-$grid-border-radius: 10px
+$grid-border-radius: 5px
 $grid-gap: 20px
 $border-size: 2px
-$img-border-radius: 10px
+$img-border-radius: 5px
 
 @font-face
   font:
@@ -246,6 +246,12 @@ iframe
 
   .summary-body
     margin-left: 1rem
+
+
+.tag
+  &:not(:last-of-type)
+    &:after
+      content: ','
 
 
 .footer

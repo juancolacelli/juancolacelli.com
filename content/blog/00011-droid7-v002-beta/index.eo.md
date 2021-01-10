@@ -2,7 +2,7 @@
 title: DROID7 v0.0.2-beta
 date: 2020-06-12T05:37:24-03:00
 description: DROID7 renaskiĝis kiel laborta ludo
-tags: [droid7, pikselarto, platforma]
+tags: [droid7, pikselarto, platformo]
 authors: [juancolacelli]
 ---
 

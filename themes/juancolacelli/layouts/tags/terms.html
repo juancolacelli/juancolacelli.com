@@ -3,7 +3,7 @@
   <ul>
 	  {{- range .Data.Pages.ByTitle -}}
 	    <li>
-        <a href="{{- .Page.Permalink -}}">#{{- .Title | urlize -}}</a>
+        <a href="{{- .Page.Permalink -}}">{{- .Title | urlize -}}</a>
       </li>
 	  {{- end -}}
 	</ul>

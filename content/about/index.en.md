@@ -9,7 +9,7 @@ description: About me
 
 ## Who am I
 
-I'm Juan Colacelli, a solo indie game developer focused on retro pixelart games.
+I'm Juan Colacelli, a **solo indie game developer** focused on **retro pixelart games**.
 
 After more than twenty years as a professional software developer, I discovered my long-rooted passion for pixelart and game development.
 
@@ -19,4 +19,4 @@ I mostly use [Godot Engine](https://godotengine.org) or [SDL](https://libsdl.org
 
 ## Support me
 
-If you like my work, please consider becoming a [Patreon member](https://patreon.com/juancolacelli)
+If you like my work, please :pray: consider becoming a [Patreon member](https://patreon.com/juancolacelli)
