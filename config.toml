@@ -33,7 +33,7 @@ paginate = 8
     [languages.en.params]
       dateFormat = "01-02-2006"
       homePath = "/"
-      copyright = "Copyright &copy; 2012-2020 Juan Colacelli<br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
+      copyright = "Copyright &copy; 2012-2021 Juan Colacelli<br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
 
       [languages.en.menu]
         [[languages.en.menu.nav]]
@@ -83,7 +83,7 @@ paginate = 8
     [languages.es.params]
       dateFormat = "02/01/2006"
       homePath = "/es"
-      copyright = "Derechos de autor &copy; 2012-2020 Juan Colacelli<br>El contenido de este sitio está licenciado bajo <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.es'>(cc) by-nc-nd 4.0 license</a>"
+      copyright = "Derechos de autor &copy; 2012-2021 Juan Colacelli<br>El contenido de este sitio está licenciado bajo <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.es'>(cc) by-nc-nd 4.0 license</a>"
 
     [languages.es.menu]
       [[languages.es.menu.nav]]
@@ -133,7 +133,7 @@ paginate = 8
     [languages.eo.params]
       dateFormat = "02/01/2006"
       homePath = "/eo"
-      copyright = "Kopirajto &copy; 2012-2020 Juan Colacelli<br>El ĉi tiu enhavo estas licencita sub <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.eo'>(cc) by-nc-nd 4.0 permesilo</a>"
+      copyright = "Kopirajto &copy; 2012-2021 Juan Colacelli<br>El ĉi tiu enhavo estas licencita sub <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/deed.eo'>(cc) by-nc-nd 4.0 permesilo</a>"
 
     [languages.eo.menu]
       [[languages.eo.menu.nav]]
