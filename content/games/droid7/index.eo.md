@@ -5,6 +5,7 @@ type: page
 description: Escape or die, it's your choice
 tags: [droid7]
 url: /eo/videoludoj/droid7
+aliases: [/eo/droid7/]
 ---
 
 **DROID7** estas **platformo**, saltu sur generita turo dum lasera radio persekutas vin de sube.

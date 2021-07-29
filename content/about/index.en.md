@@ -9,9 +9,9 @@ description: About me
 
 ## Who am I
 
-I'm Juan Colacelli, a **solo indie game developer** focused on **retro pixelart games**.
+I'm Juan Colacelli, a **solo indie game developer** focused on **retro pixel art games**.
 
-After more than twenty years as a professional software developer, I discovered my long-rooted passion for pixelart and game development.
+After more than twenty years as a professional software developer, I discovered my long-rooted passion for pixel art and game development.
 
 ## Tools
 

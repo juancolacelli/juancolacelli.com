@@ -5,6 +5,7 @@ type: page
 description: Escapa o muere, es tu desición
 tags: [droid7]
 url: /es/videojuegos/droid7
+aliases: [/es/droid7/]
 ---
 
 **DROID7** es un **juego de plataformas**, en el que hay que saltar hacia arriba en una torre generada mientras un rayo láser te persigue desde abajo.
