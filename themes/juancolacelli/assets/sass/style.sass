@@ -1,13 +1,13 @@
 $background: url(/images/background.png) #16171a
-$content-background: #fafdff
-$primary-color: #16171a
+$content-background: #16171a
+$primary-color: #fafdff
 $secondary-color: #ff2674
 $accent-color: #ff80a4
 $navbar-color: #fafdff
 $navbar-secondary-color: $accent-color
 $navbar-background: #000
-$sidebar-color: $content-background
-$sidebar-background: #16171a
+$sidebar-color: $primary-color
+$sidebar-background: $content-background
 $footer-color: $navbar-color
 $footer-secondary-color: $secondary-color
 $footer-accent-color: $accent-color
@@ -15,7 +15,7 @@ $footer-background: $navbar-background
 $navbar-mobile-background: $navbar-background
 $mobile-menu-backdrop-background: rgba(0, 0, 0, .8)
 $navbar-shadow: rgba(0, 0, 0, 1)
-$page-width: 1000px
+$page-width: 1100px
 $title-font: "atlantis international"
 $body-font: "roboto"
 $code-font: "roboto mono"
@@ -93,6 +93,7 @@ h1, h2, h3, h4, h5, h6
 
 h1
   font-size: 4rem
+  line-height: 3rem
 
 h2
   font-size: 3rem
@@ -258,6 +259,7 @@ iframe
 
 
 .footer
+  background: $footer-background
   color: $footer-color
   margin: auto
   padding: 2rem
@@ -295,8 +297,21 @@ iframe
 .menu-backdrop
   display: none
 
+h1 + :not(.info)
+  padding-top: 1rem
+
 
 @media (max-width: $page-width)
+  h1
+    font-size: 3rem
+    line-height: 2rem
+
+  h2
+    font-size: 2rem
+
+  h3
+    font-size: 2rem
+
   .header
     background: $navbar-background
     position: fixed
@@ -326,13 +341,15 @@ iframe
   .main, .secondary
     padding: 2rem
 
+  .secondary
+    background: $footer-background
+
   .post-summary
     grid-template-columns: 40px auto
     margin-bottom: 2rem
 
 
   .footer
-
     ul.social-networks
       font-size: $font-size
 
