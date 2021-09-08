@@ -13,7 +13,7 @@ $footer-secondary-color: $secondary-color
 $footer-accent-color: $accent-color
 $footer-background: $navbar-background
 $navbar-mobile-background: $navbar-background
-$mobile-menu-backdrop-background: rgba(0, 0, 0, .8)
+$mobile-menu-backdrop-background: rgba(0, 0, 0, .5)
 $navbar-shadow: rgba(0, 0, 0, 1)
 $page-width: 1100px
 $title-font: "atlantis international"
@@ -326,7 +326,7 @@ h1 + :not(.info)
       .navbar-title
         text-align: center
         font:
-          size: 1.5rem
+          size: 2rem
 
         .navbar-logo
           margin: 0 auto
@@ -362,14 +362,15 @@ h1 + :not(.info)
 
   .open-mobile-menu-container
     position: absolute
-    left: 2rem
-    top: 1rem
+    top: 1.5rem
+    left: 1rem
 
   #open-mobile-menu
-    opacity: 1
     color: $navbar-color
     text-align: right
     font-size: $font-size
+    opacity: 1
+    padding: 10px
 
     &:hover
       color: $accent-color
@@ -396,7 +397,7 @@ h1 + :not(.info)
     position: fixed
     z-index: 1001
     background: $navbar-mobile-background
-    width: 200px
+    width: 175px
     margin: 0
     padding: 2rem
     top: 0

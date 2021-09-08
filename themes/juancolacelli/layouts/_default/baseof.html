@@ -75,8 +75,15 @@
         </div>
         <ul class="navbar-links" id="mobile-menu">
           <li>
-            <a href="/">
-              <div class="navbar-logo"></div>
+            <a href="{{- .Site.Params.homePath -}}">
+              {{- if not .Site.Params.logo -}}
+                {{- .Site.Title -}}
+              {{- else -}}
+                <div class="navbar-logo"></div>
+                {{- if .Site.Params.logoHover -}}
+                  <img class="navbar-logo-hover-preload" src="{{- .Site.Params.logoHover -}}">
+                {{- end -}}
+              {{- end -}}
             </a>
           </li>
           {{- range .Site.Menus.nav -}}
