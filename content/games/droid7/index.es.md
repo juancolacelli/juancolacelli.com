@@ -33,3 +33,5 @@ Obtienes puntaje a medida que asciendes, y tu puntaje más alto se guarda.
 Juego por [Juan Colacelli]({{< ref "/about" >}})
 
 Música por [Nicole Marie T](https://twitter.com/musicvsartstuff)
+
+Música del jefe por [Locomule](https://opengameart.org/users/locomule)

@@ -32,3 +32,5 @@ You gain score as you ascend, with your high score being saved.
 Game by [Juan Colacelli]({{< ref "/about" >}})
 
 Music by [Nicole Marie T](https://twitter.com/musicvsartstuff)
+
+Boss music by [Locomule](https://opengameart.org/users/locomule)

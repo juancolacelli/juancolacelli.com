@@ -33,3 +33,5 @@ Vi gajnas poentaron dum vi supreniras, kun via alta poentaro savita.
 Videoludo de [Juan Colacelli]({{< ref "/about" >}})
 
 Muziko de [Nicole Marie T](https://twitter.com/musicvsartstuff)
+
+Estra muziko de [Locomule](https://opengameart.org/users/locomule)
