@@ -6,7 +6,11 @@ type: page
 url: /es/videojuegos
 ---
 
+### DROID7
+
 [![DROID7](droid7.gif)](droid7)
 
-[![Spaceships](spaceships.png)]({{< ref "/blog/00026-how-is-my-new-game-looking" >}})
-<small>_Trabajo en progreso..._</small>
+### Escape pod
+
+[![Escape pod](spaceships.png)]({{< ref "/blog/00026-how-is-my-new-game-looking" >}})
+<small>_Fecha de lanzamiento: TBD_</small>

@@ -5,7 +5,11 @@ description: My games
 type: page
 ---
 
+### DROID7
+
 [![DROID7](droid7.gif)](droid7)
 
-[![Spaceships](spaceships.png)]({{< ref "/blog/00026-how-is-my-new-game-looking" >}})
-<small>_Work in progress..._</small>
+### Escape pod
+
+[![Escape pod](spaceships.png)]({{< ref "/blog/00026-how-is-my-new-game-looking" >}})
+<small>_Release date: TBD_</small>
