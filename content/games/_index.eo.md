@@ -7,3 +7,6 @@ url: /eo/videoludoj
 ---
 
 [![DROID7](droid7.gif)](droid7)
+
+[![Spaceships](spaceships.png)]({{< ref "/blog/00026-how-is-my-new-game-looking" >}})
+<small>_Laboro en progreso..._</small>
