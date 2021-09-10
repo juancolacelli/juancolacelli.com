@@ -4,7 +4,7 @@ $primary-color: #fafdff
 $secondary-color: #ff2674
 $accent-color: #94216a
 $navbar-color: #fafdff
-$navbar-secondary-color: $accent-color
+$navbar-secondary-color: $secondary-color
 $navbar-background: #000
 $sidebar-color: $primary-color
 $sidebar-background: $content-background
@@ -55,12 +55,12 @@ $default-shadow: 0 0 5px
 
 @keyframes border-blink
   100%
-    box-shadow: 0 0 2px $accent-color, 0 0 3px $accent-color, 0 0 4px $accent-color, 0 0 5px $accent-color
+    box-shadow: 0 0 2px $secondary-color, 0 0 3px $accent-color, 0 0 4px $secondary-color, 0 0 5px $accent-color
 
 
 @keyframes color-blink
   100%
-    text-shadow: 0 0 1px $accent-color, 0 0 2px $accent-color, 0 0 3px $accent-color
+    text-shadow: 0 0 1px $accent-color, 0 0 2px $secondary-color, 0 0 3px $accent-color
 
 body
   background: $background
