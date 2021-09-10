@@ -16,7 +16,7 @@ Obtienes puntaje a medida que asciendes, y tu puntaje más alto se guarda.
 
 ![Video](1.gif)
 
-"Si te gustan los DROIDs, estás en el lugar correcto, y sino, voy a encontrarte, y voy a matarte." — ![DROID7](droid7.gif) DROID7
+"Si te gustan los DROIDs, estás en el lugar correcto, y sino, voy a encontrarte, y voy a matarte." — <img alt="DROID7" class="borderless" src="droid7.gif"> DROID7
 
 ![Video](2.gif)
 

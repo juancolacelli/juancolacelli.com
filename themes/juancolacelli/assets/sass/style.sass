@@ -20,10 +20,11 @@ $title-font: "atlantis international"
 $body-font: "roboto"
 $code-font: "roboto mono"
 $font-size: 1rem
-$grid-border-radius: 5px
 $grid-gap: 20px
-$border-size: 2px
-$img-border-radius: 5px
+$grid-main-width: 70%
+$grid-secondary-width: calc(30% - #{$grid-gap})
+$default-border: 1px solid
+$default-shadow: 0 0 5px
 
 @font-face
   font:
@@ -51,6 +52,11 @@ $img-border-radius: 5px
     weight: 400
   src: url("/fonts/roboto_mono_regular.ttf") format("truetype")
 
+
+@keyframes border-blink
+  100%
+    box-shadow: 0 0 2px $secondary-color, 0 0 3px $accent-color, 0 0 4px $accent-color, 0 0 5px $accent-color
+
 body
   background: $background
     attachment: fixed
@@ -63,8 +69,11 @@ body
 
 
 img
-  border-radius: $img-border-radius
+  border: 1px solid $content-background
   max-width: 100%
+
+  &:not(.borderless)
+    box-shadow: $default-shadow black
 
 a
   color: $secondary-color
@@ -77,11 +86,13 @@ a
 
 
   img
-    border: $border-size solid $secondary-color
+    border: 1px solid $secondary-color
     transition: border-color .5s ease-in-out
 
     &:hover
       border-color: $accent-color
+      -webkit-animation: border-blink .25s infinite alternate
+      animation: border-blink .25s infinite alternate
 
 
 h1, h2, h3, h4, h5, h6
@@ -105,12 +116,9 @@ h3
 ul
   list-style: disclosure-closed
 
-iframe
-  border-radius: $img-border-radius
 
 .highlight
   pre
-    border-radius: $img-border-radius
     padding: 1rem
     white-space: pre-wrap
   code
@@ -219,6 +227,7 @@ iframe
     padding: 0
 
     li
+      color: $secondary-color
       overflow: hidden
       list-style: none
       text-overflow: ellipsis
@@ -263,7 +272,6 @@ iframe
   color: $footer-color
   margin: auto
   padding: 2rem
-  max-width: $page-width
   text-align: center
 
   a
@@ -337,9 +345,6 @@ h1 + :not(.info)
 
   .content
     margin-top: 4rem
-
-    .banner img, .main, .secondary
-      border-radius: 0px
 
   .main, .secondary
     padding: 2rem
@@ -462,7 +467,7 @@ h1 + :not(.info)
 
   .grid-container
     grid-gap: $grid-gap
-    grid-template-columns: 70% calc(30% - #{$grid-gap})
+    grid-template-columns: $grid-main-width $grid-secondary-width
 
     &:not(:first-child)
       padding-top: $grid-gap
@@ -472,7 +477,7 @@ h1 + :not(.info)
 
 
   .banner img, .main, .secondary
-    border-radius: $grid-border-radius
+    box-shadow: $default-shadow black
 
   .main, .secondary
     padding: 3rem

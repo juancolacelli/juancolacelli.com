@@ -111,7 +111,6 @@
 
           {{- block "main" . -}}{{- end -}}
         </div>
-        <div>
           <div class="secondary">
             {{- block "secondary" . -}}
               {{ if .IsTranslated }}
@@ -134,20 +133,19 @@
               {{- partial "social_networks" . -}}
             {{- end -}}
           </div>
-        </div>
       </div>
-    </div>
-    <div class="footer">
-      {{- if isset .Site.Params "gitrepository" -}}
-        {{- $gitRepository := .Site.Params.gitRepository -}}
-        <div class="document-updated-at">
-          <q><a href="{{- .RelPermalink | urlize -}}">{{- .Title -}}</a></q> {{ i18n "lastUpdated"}} <time>{{- .Lastmod.Format (.Site.Params.dateFormat | default "01-02-2006") -}}</time>
-          {{- with .GitInfo -}}
-            &nbsp;(<a href="{{- $gitRepository -}}/commit/{{- .AbbreviatedHash -}}"><abbr title="{{- .Subject -}}">{{- .AbbreviatedHash -}}</abbr></a>)
+        <div class="footer">
+          {{- if isset .Site.Params "gitrepository" -}}
+            {{- $gitRepository := .Site.Params.gitRepository -}}
+            <div class="document-updated-at">
+              <q><a href="{{- .RelPermalink | urlize -}}">{{- .Title -}}</a></q> {{ i18n "lastUpdated"}} <time>{{- .Lastmod.Format (.Site.Params.dateFormat | default "01-02-2006") -}}</time>
+              {{- with .GitInfo -}}
+                &nbsp;(<a href="{{- $gitRepository -}}/commit/{{- .AbbreviatedHash -}}"><abbr title="{{- .Subject -}}">{{- .AbbreviatedHash -}}</abbr></a>)
+              {{- end -}}
+            </div>
           {{- end -}}
+          <div class="copyright">{{- $.Site.Params.Copyright | safeHTML -}}</div>
         </div>
-      {{- end -}}
-      <div class="copyright">{{- $.Site.Params.Copyright | safeHTML -}}</div>
     </div>
   </body>
 </html>

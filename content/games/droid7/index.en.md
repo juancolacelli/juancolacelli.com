@@ -15,7 +15,7 @@ You gain score as you ascend, with your high score being saved.
 
 ![Video](1.gif)
 
-"If you like DROIDs, you are in the right place, if you don't, I will find you, and I will kill you." — ![DROID7](droid7.gif) DROID7
+"If you like DROIDs, you are in the right place, if you don't, I will find you, and I will kill you." — <img alt="DROID7" class="borderless" src="droid7.gif"> DROID7
 
 ![Video](2.gif)
 

@@ -16,7 +16,7 @@ Vi gajnas poentaron dum vi supreniras, kun via alta poentaro savita.
 
 ![Video](1.gif)
 
-"Se vi ŝatas DROIDojn, vi estas en la ĝusta loko, se vi ne volas, mi trovos vin, kaj mi mortigos vin." — ![DROID7](droid7.gif) DROID7
+"Se vi ŝatas DROIDojn, vi estas en la ĝusta loko, se vi ne volas, mi trovos vin, kaj mi mortigos vin." — <img alt="DROID7" class="borderless" src="droid7.gif"> DROID7
 
 ![Video](2.gif)
 
