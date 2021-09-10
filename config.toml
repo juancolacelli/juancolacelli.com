@@ -16,11 +16,9 @@ paginate = 8
     weight = 1
     title = "Juan Colacelli"
     socialNetworks = [
-      ["itch.io", "https://juancolacelli.itch.io"],
       ["Twitter", "https://twitter.com/juancolacelli"],
-      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
-      ["Twitch", "https://twitch.com/juancolacelli"],
-      ["YouTube", "https://youtube.com/juancolacelli"],
+      ["Discord", "https://dcsv.io/server/gdc"],
+      ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS", "/index.xml"],
     ]
 
@@ -66,11 +64,9 @@ paginate = 8
     weight = 2
     title = "Juan Colacelli"
     socialNetworks = [
-      ["itch.io", "https://juancolacelli.itch.io"],
       ["Twitter", "https://twitter.com/juancolacelli"],
-      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
-      ["Twitch", "https://twitch.com/juancolacelli"],
-      ["YouTube", "https://youtube.com/juancolacelli"],
+      ["Discord", "https://dcsv.io/es/servidor/gdc"],
+      ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS", "fa fa-rss", "/es/index.xml"],
     ]
 
@@ -116,11 +112,9 @@ paginate = 8
     weight = 2
     title = "Juan Colacelli"
     socialNetworks = [
-      ["itch.io", "https://juancolacelli.itch.io"],
       ["Twitter", "https://twitter.com/juancolacelli"],
-      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
-      ["Twitch", "https://twitch.com/juancolacelli"],
-      ["YouTube", "https://youtube.com/juancolacelli"],
+      ["Discord", "https://dcsv.io/eo/servilo/gdc"],
+      ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS", "/eo/index.xml"],
     ]
 
