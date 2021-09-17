@@ -2,7 +2,7 @@
 title: How is my new game looking?
 date: 2021-07-27T19:45:00-03:00
 description: "Yes, I'm still working on a space shooter :rocket:"
-tags: [pixelart, shooter, spaceships, godot, aseprite, 1-bit]
+tags: [gamedev, pixelart, shooter, spaceships, godot, aseprite, 1-bit]
 authors: [juancolacelli]
 ---
 

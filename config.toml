@@ -17,7 +17,6 @@ paginate = 8
     title = "Juan Colacelli"
     socialNetworks = [
       ["Twitter", "https://twitter.com/juancolacelli"],
-      ["Discord", "https://dcsv.io/server/gdc"],
       ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS", "/index.xml"],
     ]
@@ -65,7 +64,6 @@ paginate = 8
     title = "Juan Colacelli"
     socialNetworks = [
       ["Twitter", "https://twitter.com/juancolacelli"],
-      ["Discord", "https://dcsv.io/es/servidor/gdc"],
       ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS", "fa fa-rss", "/es/index.xml"],
     ]
@@ -113,7 +111,6 @@ paginate = 8
     title = "Juan Colacelli"
     socialNetworks = [
       ["Twitter", "https://twitter.com/juancolacelli"],
-      ["Discord", "https://dcsv.io/eo/servilo/gdc"],
       ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS", "/eo/index.xml"],
     ]

@@ -2,7 +2,7 @@
 title: DROID7 v1.0.0
 date: 2020-11-02T01:29:03-03:00
 description: Now DROID7 has to fight versus its creator for its freedom
-tags: [droid7, pixelart, platformer]
+tags: [gamedev, droid7, pixelart, platformer]
 authors: [juancolacelli]
 ---
 

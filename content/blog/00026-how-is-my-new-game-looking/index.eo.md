@@ -2,7 +2,7 @@
 title: Kiel aspektas mia nova ludo?
 date: 2021-07-27T19:45:00-03:00
 description: "Jes, mi ankoraŭ laboras pri spaca pafilo :rocket:"
-tags: [pikselarto, pafilo, kosmosxipoj, godot, aseprite, 1-bito]
+tags: [ludevoluo, pikselarto, pafilo, kosmosxipoj, godot, aseprite, 1-bito]
 authors: [juancolacelli]
 ---
 

@@ -2,7 +2,7 @@
 title: DROID7 publicado!
 date: 2020-03-12T21:23:00-03:00
 description: DROID7 ha sido publicado!
-tags: [pixelart, plataforma, droid7, itch.io]
+tags: [desarrollo-videojuegos, pixelart, plataforma, droid7, itch.io]
 authors: [juancolacelli]
 ---
 

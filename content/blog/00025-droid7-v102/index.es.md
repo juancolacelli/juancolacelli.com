@@ -2,7 +2,7 @@
 title: DROID7 v1.0.2
 date: 2021-06-22T03:25:00-03:00
 description: Arreglo de errores menores y actualización del game engine...
-tags: [droid7, pixelart, plataforma]
+tags: [desarrollo-videojuegos, droid7, pixelart, plataforma]
 authors: [juancolacelli]
 ---
 

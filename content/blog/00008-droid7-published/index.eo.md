@@ -2,7 +2,7 @@
 title: DROID7 eldonita!
 date: 2020-03-12T21:23:00-03:00
 description: DROID7 eldonita!
-tags: [pikselarto, platformo, droid7, itch.io]
+tags: [ludevoluo, pikselarto, platformo, droid7, itch.io]
 authors: [juancolacelli]
 ---
 

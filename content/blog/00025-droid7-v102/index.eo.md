@@ -2,7 +2,7 @@
 title: DROID7 v1.0.2
 date: 2021-06-22T03:25:00-03:00
 description: Malgrandaj cimoj korektitaj kaj ĝisdatigo de ludmaŝino...
-tags: [droid7, pikselarto, platformo]
+tags: [ludevoluo, droid7, pikselarto, platformo]
 authors: [juancolacelli]
 ---
 

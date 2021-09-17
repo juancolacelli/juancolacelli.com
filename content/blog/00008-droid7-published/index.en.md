@@ -2,7 +2,7 @@
 title: DROID7 published!
 date: 2020-03-12T21:23:00-03:00
 description: DROID7 has been published!
-tags: [pixelart, platformer, droid7, itch.io]
+tags: [gamedev, pixelart, platformer, droid7, itch.io]
 authors: [juancolacelli]
 aliases: [/gamedev/droid7-published/]
 ---

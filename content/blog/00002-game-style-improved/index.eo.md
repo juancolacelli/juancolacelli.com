@@ -2,7 +2,7 @@
 title: Ludstilo pliboniĝis
 date: 2020-02-18T18:06:29-03:00
 description: Mi plibonigis la stilon kaj distingivon de mia nova ludo
-tags: [pikselarto, platformo, droid7]
+tags: [ludevoluo, pikselarto, platformo, droid7]
 authors: [juancolacelli]
 slug: ludstilo-plibonigxis
 aliases: [/eo/blogo/ludstilo-pliboniĝis/]

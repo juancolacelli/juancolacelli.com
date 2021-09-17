@@ -2,7 +2,7 @@
 title: DROID7 v1.0.1
 date: 2021-01-15T08:34:20-03:00
 description: Ŝanĝoj en ŝpruca ekrano, ikonoj kaj pli...
-tags: [droid7, pikselarto, platformo]
+tags: [ludevoluo, droid7, pikselarto, platformo]
 authors: [juancolacelli]
 ---
 

@@ -2,7 +2,7 @@
 title: DROID7 v1.0.1
 date: 2021-01-15T08:34:20-03:00
 description: Changes in splash screen, icons, and more...
-tags: [droid7, pixelart, platformer]
+tags: [gamedev, droid7, pixelart, platformer]
 authors: [juancolacelli]
 ---
 

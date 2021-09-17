@@ -2,7 +2,7 @@
 title: Nova kosmoŝipa ludo
 date: 2021-01-10T10:43:57-03:00
 description: "Mi laboras pri nova ludo :rocket:"
-tags: [pikselarto, pafilo, kosmosxipoj, godot, aseprite, 1-bito]
+tags: [ludevoluo, pikselarto, pafilo, kosmosxipoj, godot, aseprite, 1-bito]
 authors: [juancolacelli]
 slug: nova-kosmosxipa-ludo
 ---

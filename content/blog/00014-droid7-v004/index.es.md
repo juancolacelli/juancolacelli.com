@@ -2,7 +2,7 @@
 title: DROID7 v0.0.4
 date: 2020-08-01T00:00:00-03:00
 description: Camara y laser mejorados, nuevos items, nuevas animaciones, y más...
-tags: [droid7, pixelart, plataforma]
+tags: [desarrollo-videojuegos, droid7, pixelart, plataforma]
 authors: [juancolacelli]
 ---
 He recibido muchos comentarios acerca del laser siendo un poco frustrante, por eso  decidí rehacerlo. Otro problema era el movimiento de la cámara demasiado rápido, que también fue rehecho.

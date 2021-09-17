@@ -10,10 +10,9 @@ slug: pri
 
 ## Kiu estas mi
 
-Mi estas Juan Colacelli, sola **sendependa ludprogramisto** enfokusigita al **retroaj pikselrtaj ludoj**.
+Mi estas Juan Colacelli, sola **sendependa ludevoluo** enfokusigita al **retroaj pikselrtaj ludoj**.
 
-Post pli ol dudek jarojn ĉe kiel frofesia programisto, mi malkovris mian antaŭdikan pasion por pikselarto kaj ludprogramisto.
-
+Post pli ol dudek jarojn ĉe kiel frofesia programisto, mi malkovris mian antaŭdikan pasion por [pikselarto]({{< ref "/tags/pikselarto" >}}) kaj [ludevoluo]({{< ref "/tags/ludevoluo" >}}).
 ## Iloj
 
 Mi plejparte uzas [Godot-Motoron](https://godotengine.org) aŭ [SDL](https://libsdl.org) por miaj ludoj, [Vim](https://vim.org) kiel mia kodredaktilo kaj [Aseprite](https://aseprite.org) por miaj desegnoj.

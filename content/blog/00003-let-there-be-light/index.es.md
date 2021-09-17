@@ -2,7 +2,7 @@
 title: Hágase la luz
 date: 2020-02-21T00:34:50-03:00
 description: La luz ha sido agregada a mi nuevo juego
-tags: [pixelart, plataforma, droid7]
+tags: [desarrollo-videojuegos, pixelart, plataforma, droid7]
 authors: [juancolacelli]
 ---
 
