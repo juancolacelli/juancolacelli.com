@@ -3,17 +3,22 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{- if not .IsHome -}}{{- block "title" . -}}{{- .Title -}}{{- end -}}{{- end -}}{{- if not .IsHome -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}</title>
+    <title>{{- if not .IsHome -}}{{- block "title" . -}}{{- .Title -}}{{- end -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}</title>
 
+    <meta name="google" content="notranslate">
     <meta name="description" content="{{- block "description" . -}}{{- end -}}"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content="{{- block "title" . -}}{{- end -}}{{- if not .IsHome -}}&nbsp;&mdash;&nbsp;{{- .Site.Title -}}{{- end -}}"/>
+    <meta property="og:title" content="{{- if not .IsHome -}}{{- block "title" . -}}{{- end -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}"/>
     <meta property="og:description" content="{{- block "description" . -}}{{- end -}}"/>
     <meta property="og:image" content="{{- block "thumbnail" . -}}{{ "/images/thumbnail.png" | absURL }}{{- end -}}"/>
     <meta property="twitter:card" content="summary"/>
-    <meta property="twitter:title" content="{{- block "title" . -}}{{- end -}}{{- if not .IsHome -}}&nbsp;&mdash;&nbsp;{{- .Site.Title -}}{{- end -}}"/>
+    <meta property="twitter:title" content="{{- if not .IsHome -}}{{- block "title" . -}}{{- end -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}"/>
     <meta property="twitter:description" content="{{- block "description" . -}}{{- end -}}"/>
     <meta property="twitter:image" content="{{- block "thumbnail" . -}}{{- end -}}"/>
+
+    {{ range .AlternativeOutputFormats -}}
+      <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+    {{ end -}}
 
     {{ if .Site.Params.googleAnalytics }}
       <script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.Params.googleAnalytics -}}"></script>

@@ -18,7 +18,7 @@ paginate = 8
     socialNetworks = [
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["itch.io", "https://juancolacelli.itch.io"],
-      ["RSS", "/index.xml"],
+      ["RSS feed", "/feed.xml"],
     ]
 
     [languages.en.permalinks]
@@ -65,7 +65,7 @@ paginate = 8
     socialNetworks = [
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["itch.io", "https://juancolacelli.itch.io"],
-      ["RSS", "fa fa-rss", "/es/index.xml"],
+      ["RSS feed", "/es/feed.xml"],
     ]
 
     [languages.es.permalinks]
@@ -112,7 +112,7 @@ paginate = 8
     socialNetworks = [
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["itch.io", "https://juancolacelli.itch.io"],
-      ["RSS", "/eo/index.xml"],
+      ["RSS feed", "/eo/feed.xml"],
     ]
 
     [languages.eo.permalinks]
@@ -166,3 +166,8 @@ paginate = 8
   tag = "tags"
   author = "authors"
   blog = "blogs"
+
+[outputFormats]
+  [outputFormats.RSS]
+    mediatype = "application/rss"
+    baseName = "feed"
