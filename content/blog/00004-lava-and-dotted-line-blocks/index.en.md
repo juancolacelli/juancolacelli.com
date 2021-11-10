@@ -5,6 +5,7 @@ description: Lava and dotted-line blocks were added to the game
 tags: [gamedev, pixelart, platformer, droid7]
 authors: [juancolacelli]
 aliases: [/gamedev/lava-and-dotted-line-blocks/]
+games: [droid7]
 ---
 
 Today I added lava and dotted-line blocks to my new game.

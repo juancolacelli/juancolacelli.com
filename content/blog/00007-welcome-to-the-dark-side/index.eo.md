@@ -4,6 +4,7 @@ date: 2020-03-02T02:55:39-03:00
 description: Ludo nun estas en mallumo, kaj ĝi havas laserojn!
 tags: [ludevoluo, pikselarto, platformo, droid7]
 authors: [juancolacelli]
+games: [droid7]
 ---
 
 Hodiaŭ mi vekis ludlumojn.

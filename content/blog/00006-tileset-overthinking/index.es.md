@@ -4,6 +4,7 @@ date: 2020-03-01T05:09:43-03:00
 description: Si, todavía estoy trabajando en el tileset
 tags: [desarrollo-videojuegos, pixelart, plataforma, droid7]
 authors: [juancolacelli]
+games: [droid7]
 ---
 
 He hecho algunas mejoras en el tileset, los limites serán menos intrusivos y los pisos más visibles.

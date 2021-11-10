@@ -5,6 +5,7 @@ description: Yes, I'm still working on the tileset
 tags: [gamedev, pixelart, platformer, droid7]
 authors: [juancolacelli]
 aliases: [/gamedev/tileset-overthinking/]
+games: [droid7]
 ---
 
 I've made some improvements on the tileset, limits will be less intrusive and one way floor will be more visible.

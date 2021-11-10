@@ -4,6 +4,7 @@ date: 2020-02-18T18:06:29-03:00
 description: Mejoré el estilo y resolución de mi nuevo juego
 tags: [desarrollo-videojuegos, pixelart, plataforma, droid7]
 authors: [juancolacelli]
+games: [droid7]
 ---
 
 Hoy mejoré el estilo y resolución de mi nuevo juego. Cambié la resolución de 16px a 8px y también mejoré el tileset.

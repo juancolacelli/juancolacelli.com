@@ -4,6 +4,7 @@ date: 2020-08-01T00:00:00-03:00
 description: Camara y laser mejorados, nuevos items, nuevas animaciones, y más...
 tags: [desarrollo-videojuegos, droid7, pixelart, plataforma]
 authors: [juancolacelli]
+games: [droid7]
 ---
 He recibido muchos comentarios acerca del laser siendo un poco frustrante, por eso  decidí rehacerlo. Otro problema era el movimiento de la cámara demasiado rápido, que también fue rehecho.
 

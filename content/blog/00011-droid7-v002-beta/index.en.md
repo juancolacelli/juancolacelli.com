@@ -5,6 +5,7 @@ description: DROID7 Has reborn as a desktop game
 tags: [gamedev, droid7, pixelart, platformer]
 authors: [juancolacelli]
 aliases: [/gamedev/droid7-v0.0.2-beta/]
+games: [droid7]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) was originally created for _mobile devices_, but now it’s re-designed for _desktop computers_.

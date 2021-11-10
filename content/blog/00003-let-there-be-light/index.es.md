@@ -4,6 +4,7 @@ date: 2020-02-21T00:34:50-03:00
 description: La luz ha sido agregada a mi nuevo juego
 tags: [desarrollo-videojuegos, pixelart, plataforma, droid7]
 authors: [juancolacelli]
+games: [droid7]
 ---
 
 Bueno... No soy Dios, pero agregué luz a mi nuevo juego.

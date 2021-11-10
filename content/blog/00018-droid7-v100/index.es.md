@@ -4,6 +4,7 @@ date: 2020-11-02T01:29:03-03:00
 description: Ahora DROID7 tiene que pelear contra su creador por su libertad
 tags: [desarrollo-videojuegos, droid7, pixelart, plataforma]
 authors: [juancolacelli]
+games: [droid7]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) ha sido un _videojuego infinito_ desde el principio, pero ahora tiene un límite de 10 pisos de dificulta, y una pelea contra su creaodr (Doc).

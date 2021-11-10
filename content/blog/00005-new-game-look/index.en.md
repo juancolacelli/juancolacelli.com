@@ -5,6 +5,7 @@ description: Game tileset and player have been reworked
 tags: [gamedev, pixelart, platformer, droid7, bubblegum-16]
 authors: [juancolacelli]
 aliases: [/gamedev/new-game-look/]
+games: [droid7]
 ---
 
 I have been working a lot on the game, that's why I couldn't post on weekend :( but I really like how it's looking now.

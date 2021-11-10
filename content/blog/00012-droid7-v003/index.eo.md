@@ -4,6 +4,7 @@ date: 2020-06-20T03:21:50-03:00
 description: Plena ekrano, agordoj, enigoj, niveloj kaj pli...
 tags: [ludevoluo, droid7, pikselarto, platformo]
 authors: [juancolacelli]
+games: [droid7]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) v0.0.3 lanĉita!

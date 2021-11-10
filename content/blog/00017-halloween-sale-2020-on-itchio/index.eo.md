@@ -5,6 +5,7 @@ description: DROID7 vendiĝas!
 tags: [droid7, itch.io, vendo, haloveno-vendo]
 authors: [juancolacelli]
 aliases: [/eo/blogo/haloveno-vendo-2020-ĉe-itchio/]
+games: [droid7]
 ---
 
 Estas **Haloveno Vendo 2020** ĉe [itch.io](https://juancolacelli.itch.io) 🎃

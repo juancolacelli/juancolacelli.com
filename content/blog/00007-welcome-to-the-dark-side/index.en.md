@@ -5,6 +5,7 @@ description: Game now it's in darkness, and it has lasers!
 tags: [gamedev, pixelart, platformer, droid7]
 authors: [juancolacelli]
 aliases: [/gamedev/welcome-to-the-dark-side/]
+games: [droid7]
 ---
 
 Today I've been working on game lights.

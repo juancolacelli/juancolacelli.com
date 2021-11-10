@@ -31,5 +31,37 @@
     {{- .Content -}}
   </div>
 
+  {{- $games := .Params.Games -}}
+  {{- if $games -}}
+    <div class="games">
+      {{- range .Site.Params.games -}}
+        {{- if in $games .id -}}
+          <div class="game-summary">
+            <div class="game-summary-thumbnail">
+              <a href="{{- .url -}}">
+                <img src="{{- .thumbnail -}}">
+              </a>
+            </div>
+            <div class="game-summary-body">
+              <a class="game-title" href="{{- .url -}}">{{ .name -}}</a>
+              <div>
+                {{ .description }}
+              </div>
+              <div class="game-info">
+                {{ .genre }}
+                &mdash;
+                {{- range .platforms -}}
+                  <span class="platform">
+                      {{ . -}}
+                  </span>
+                {{- end -}}
+              </div>
+            </div>
+          </div>
+        {{- end -}}
+      {{- end -}}
+    </div>
+  {{- end -}}
+
   {{ partial "related_posts" . }}
 {{- end -}}

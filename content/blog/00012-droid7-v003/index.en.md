@@ -5,6 +5,7 @@ description: Fullscreen, settings, inputs, levels, and more...
 tags: [gamedev, droid7, pixelart, platformer]
 authors: [juancolacelli]
 aliases: [/gamedev/droid7-v0.0.3/]
+games: [droid7]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) v0.0.3 launched!

@@ -4,6 +4,7 @@ date: 2020-06-12T05:37:24-03:00
 description: DROID7 renaskiĝis kiel laborta ludo
 tags: [ludevoluo, droid7, pikselarto, platformo]
 authors: [juancolacelli]
+games: [droid7]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) estis kreita por _porteblaj aparatoj_, sed nun ĝi estas restrukturita por _surtablaj komputiloj_.

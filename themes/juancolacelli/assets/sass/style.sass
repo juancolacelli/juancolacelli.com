@@ -23,6 +23,8 @@ $grid-main-width: 70%
 $grid-secondary-width: calc(30% - #{$grid-gap})
 $default-border: 1px solid
 $default-shadow: 0 0 5px
+$info-color: rgba(250, 253, 255, .4)
+$info-size: 0.85rem
 
 @font-face
   font:
@@ -210,6 +212,8 @@ ul
       margin-top: 0
 
   .info
+    color: $info-color
+    font-size: $info-size
     margin-bottom: 3rem
 
   .pagination
@@ -241,7 +245,7 @@ ul
       white-space: nowrap
 
       &:not(:last-of-type)
-        margin-bottom: 0.5rem
+        margin-bottom: .5rem
 
     &:not(:last-of-type)
       margin-bottom: 2rem
@@ -268,6 +272,30 @@ ul
   .summary-body
     margin-left: 1rem
 
+    .summary-info
+      color: $info-color
+      font-size: $info-size
+      margin-top: .5rem
+
+.games
+  margin:
+    top: 3rem
+
+  .game-summary
+    display: grid
+
+    .game-summary-body
+      margin-left: 1rem
+
+    .game-info
+      color: $info-color
+      font-size: $info-size
+      margin-top: .5rem
+
+      .platform
+        &:not(:last-of-type)
+          &:after
+            content: ','
 
 .tag
   &:not(:last-of-type)
@@ -356,6 +384,11 @@ h1 + :not(.info)
   .post-summary
     grid-template-columns: 40px auto
     margin-bottom: 2rem
+
+  .games
+    .game-summary
+      grid-template-columns: 40px auto
+      margin-bottom: 2rem
 
 
   .footer
@@ -490,6 +523,12 @@ h1 + :not(.info)
 
     &:not(:last-of-type)
       margin-bottom: 2rem
+
+  .games
+    .game-summary
+      display: grid
+      grid-template-columns: 10% 90%
+      grid-gap: 0 1rem
 
 
   .footer

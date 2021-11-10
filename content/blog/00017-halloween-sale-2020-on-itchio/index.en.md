@@ -5,6 +5,7 @@ description: DROID7 is on sale!
 tags: [droid7, itch.io, sale, halloween-sale]
 authors: [juancolacelli]
 aliases: [/blog/halloween-sale-2020-on-itchio]
+games: [droid7]
 ---
 
 It's **Halloween Sale 2020** on [itch.io](https://juancolacelli.itch.io) 🎃

@@ -4,6 +4,7 @@ date: 2020-11-02T01:29:03-03:00
 description: Now DROID7 has to fight versus its creator for its freedom
 tags: [gamedev, droid7, pixelart, platformer]
 authors: [juancolacelli]
+games: [droid7]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) has been an _endless game_ since the beginning, but now it’s limited 10 floors of difficulty, and a fight versus its creator (Doc).

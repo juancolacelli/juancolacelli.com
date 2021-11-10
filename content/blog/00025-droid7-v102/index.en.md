@@ -4,6 +4,7 @@ date: 2021-06-22T03:25:00-03:00
 description: Small bug fixes and game engine update...
 tags: [gamedev, droid7, pixelart, platformer]
 authors: [juancolacelli]
+games: [droid7]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) v1.0.2 release has the following game changes:

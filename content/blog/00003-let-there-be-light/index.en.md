@@ -5,6 +5,7 @@ description: Light has been added to my new game
 tags: [gamedev, pixelart, platformer, droid7]
 authors: [juancolacelli]
 aliases: [/gamedev/let-there-be-light/]
+games: [droid7]
 ---
 
 Well... I'm not God, but I added light to my new game.

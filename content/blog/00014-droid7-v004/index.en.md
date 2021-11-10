@@ -5,6 +5,7 @@ description: Laser and camera rework, new items, new animations, and more...
 tags: [gamedev, droid7, pixelart, platformer]
 authors: [juancolacelli]
 aliases: [/gamedev/droid7-v0.0.4/]
+games: [droid7]
 ---
 I received a lot of comments about laser being a little frustrating, so I decided to rework it. Another issue was the fast camera movement, I reworked it too.
 

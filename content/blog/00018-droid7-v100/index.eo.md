@@ -4,6 +4,7 @@ date: 2020-11-02T01:29:03-03:00
 description: Nun DROID7 devas batali kontraŭ sia kreinto por sia libereco
 tags: [ludevoluo, droid7, pikselarto, platformo]
 authors: [juancolacelli]
+games: [droid7]
 ---
 
 [DROID7]({{< ref "/games/droid7" >}}) estis *senfina ludo* ekde la komenco, sed nun ĝi havas limigitajn 10 etaĝojn de malfacileco, kaj batalon kontraŭ ĝia kreinto (Dok).

@@ -7,11 +7,11 @@
     {{- if .Site.Params.showAuthors }}
       &mdash; <span class="summary-authors">{{- partial "authors" . }}</span>
     {{- end }}
-    <br>
-    <span class="summary-description">{{- emojify .Description -}}</span>
-    <br>
-    <time class="summary-date">{{- .Date.Format (.Site.Params.dateformat | default "January 02, 2006") -}}</time>
-    &mdash;
-    {{ partial "tags" . -}}
+    <div class="summary-description">{{- emojify .Description -}}</div>
+    <div class="summary-info">
+      <time class="summary-date">{{- .Date.Format (.Site.Params.dateformat | default "January 02, 2006") -}}</time>
+      &mdash;
+      {{ partial "tags" . -}}
+    </div>
   </div>
 </div>

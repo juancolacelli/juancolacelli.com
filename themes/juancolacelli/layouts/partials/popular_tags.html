@@ -2,7 +2,7 @@
 <ul class="secondary-section">
   {{- range $key, $tag := first 15 .Site.Taxonomies.tags.ByCount -}}
     <li>
-      <a href="{{- .Page.Permalink -}}">{{- .Page.Title -}}</a> ({{- .Count -}})
+      <a href="{{- .Page.Permalink -}}">{{- .Page.Title }} ({{- .Count -}})</a>
     </li>
   {{- end -}}
 </ul>

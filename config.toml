@@ -32,30 +32,39 @@ paginate = 8
       homePath = "/"
       copyright = "Copyright &copy; 2012-2021 Juan Colacelli<br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
 
-      [languages.en.menu]
-        [[languages.en.menu.nav]]
-          name = "Games"
-          title = "Games"
-          url = "/games"
-          weight = 1
+    [languages.en.menu]
+      [[languages.en.menu.nav]]
+        name = "Games"
+        title = "Games"
+        url = "/games"
+        weight = 1
 
-        [[languages.en.menu.nav]]
-          name = "Blog"
-          title = "Blog"
-          url = "/blog"
-          weight = 2
+      [[languages.en.menu.nav]]
+        name = "Blog"
+        title = "Blog"
+        url = "/blog"
+        weight = 2
 
-        [[languages.en.menu.nav]]
-          name = "Chat"
-          title = "Join us on Discord"
-          url = "/chat"
-          weight = 3
+      [[languages.en.menu.nav]]
+        name = "Chat"
+        title = "Join us on Discord"
+        url = "/chat"
+        weight = 3
 
-        [[languages.en.menu.nav]]
-          name = "About"
-          title = "About"
-          url = "/about"
-          weight = 4
+      [[languages.en.menu.nav]]
+        name = "About"
+        title = "About"
+        url = "/about"
+        weight = 4
+
+    [[languages.en.games]]
+      id = "droid7"
+      name = "DROID7"
+      description = "Escape or die, it's your choice"
+      genre = "Platformer"
+      thumbnail = "/games/droid7/thumbnail.png"
+      url = "/games/droid7"
+      platforms = ["Mac", "PC", "Linux"]
 
 
   [languages.es]
@@ -104,6 +113,15 @@ paginate = 8
         url = "/es/acerca"
         weight = 4
 
+    [[languages.es.games]]
+      id = "droid7"
+      name = "DROID7"
+      genre = "Plataforma"
+      description = "Escapa o muere, es tu decisión"
+      thumbnail = "/games/droid7/thumbnail.png"
+      url = "/es/videojuegos/droid7"
+      platforms = ["Mac", "PC", "Linux"]
+
 
   [languages.eo]
     languageName = "Esperanto"
@@ -150,6 +168,15 @@ paginate = 8
         title = "Pri"
         url = "/eo/pri"
         weight = 4
+
+    [[languages.eo.games]]
+      id = "droid7"
+      name = "DROID7"
+      genre = "Platformo"
+      description = "Eskapi aŭ morti estas via elekto"
+      thumbnail = "/games/droid7/thumbnail.png"
+      url = "/eo/videoludoj/droid7"
+      platforms = ["Mac", "PC", "Linux"]
 
 
 [params]

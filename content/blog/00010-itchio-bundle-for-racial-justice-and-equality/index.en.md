@@ -5,6 +5,7 @@ description: Get +1,500 projects for only $5!
 tags: [droid7, itch.io, sale, bundle, black-lives-matter]
 authors: [juancolacelli]
 aliases: [/gamedev/bundle-for-racial-justice-and-equality/]
+games: [droid7]
 ---
 
 You can get +1,500 projects including [DROID7]({{< ref "/games/droid7" >}}) on this awesome [itch.io](https://juancolacelli.itch.io) bundle.
