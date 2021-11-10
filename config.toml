@@ -66,6 +66,15 @@ paginate = 8
       url = "/games/droid7"
       platforms = ["Mac", "PC", "Linux"]
 
+    [[languages.en.games]]
+      id = "escape_pod"
+      name = "Escape Pod"
+      description = "Release date: TBD"
+      genre = "Shooter"
+      thumbnail = "/games/escape_pod/thumbnail.png"
+      url = "/games/escape_pod"
+      platforms = ["Mac", "PC", "Linux"]
+
 
   [languages.es]
     languageName = "Español"
@@ -122,6 +131,15 @@ paginate = 8
       url = "/es/videojuegos/droid7"
       platforms = ["Mac", "PC", "Linux"]
 
+    [[languages.es.games]]
+      id = "escape_pod"
+      name = "Escape Pod"
+      description = "Fecha de lanzamiento: TBD"
+      genre = "Disparos"
+      thumbnail = "/games/escape_pod/thumbnail.png"
+      url = "/es/videojuegos/escape_pod"
+      platforms = ["Mac", "PC", "Linux"]
+
 
   [languages.eo]
     languageName = "Esperanto"
@@ -176,6 +194,15 @@ paginate = 8
       description = "Eskapi aŭ morti estas via elekto"
       thumbnail = "/games/droid7/thumbnail.png"
       url = "/eo/videoludoj/droid7"
+      platforms = ["Mac", "PC", "Linux"]
+
+    [[languages.eo.games]]
+      id = "escape_pod"
+      name = "Escape Pod"
+      description = "Eldondato: TBD"
+      genre = "Pafisto"
+      thumbnail = "/games/escape_pod/thumbnail.png"
+      url = "/eo/videoludoj/escape_pod"
       platforms = ["Mac", "PC", "Linux"]
 
 

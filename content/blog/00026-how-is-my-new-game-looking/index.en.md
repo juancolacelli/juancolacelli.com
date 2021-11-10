@@ -4,6 +4,8 @@ date: 2021-07-27T19:45:00-03:00
 description: "Yes, I'm still working on a space shooter :rocket:"
 tags: [gamedev, pixelart, shooter, spaceships, godot, aseprite, 1-bit]
 authors: [juancolacelli]
+games: [escape_pod]
+aliases: [/games/escape_pod]
 ---
 
 This is how my new game is looking, and yes, I am a camper...
