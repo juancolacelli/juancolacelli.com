@@ -1,8 +1,8 @@
 <h3 class="title">{{ i18n "popularTags" }}</h3>
-<ul class="secondary-section">
+<ul>
   {{- range $key, $tag := first 15 .Site.Taxonomies.tags.ByCount -}}
     <li>
-      <a href="{{- .Page.Permalink -}}">{{- .Page.Title }} ({{- .Count -}})</a>
+      <a href="{{- .Page.Permalink -}}">{{- .Page.Title }}</a> <span class="tag-counter">({{- .Count -}})</span>
     </li>
   {{- end -}}
 </ul>
