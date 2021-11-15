@@ -13,13 +13,13 @@ games: [droid7]
 
 Juego
 
-* Ya no es un juego sin fin
-* El piso 10 es el máximo
-* Una vez que sales del edificio, deberás **pelear contra el creador de DROID7 (Doc)**
+-   Ya no es un juego sin fin
+-   El piso 10 es el máximo
+-   Una vez que sales del edificio, deberás **pelear contra el creador de DROID7 (Doc)**
 
 Cambios generales
 
-* Juego completamente **traducido a Español y Esperanto**
-* Nueva pantalla de inicio
-* Se agregó la pantalla de créditos
-* Severos arreglos de errores
+-   Juego completamente **traducido a Español y Esperanto**
+-   Nueva pantalla de inicio
+-   Se agregó la pantalla de créditos
+-   Severos arreglos de errores

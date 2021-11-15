@@ -13,7 +13,8 @@ Mi faligis koloran paletron [PICO-8](https://lospec.com/palette-list/pico-8), nu
 
 ![Ludregistrado](recording.gif)
 
-*Malgrandaj ŝanĝoj*
-- Punkt-liniaj blokoj alternos samtempe (sinkronigitaj).
-- Etaĝo nun palpebrumos 3 fojojn antaŭ ol malaperi.
-- Plankaj kaheloj nun havas komencon, mezon kaj finon.
+_Malgrandaj ŝanĝoj_
+
+-   Punkt-liniaj blokoj alternos samtempe (sinkronigitaj).
+-   Etaĝo nun palpebrumos 3 fojojn antaŭ ol malaperi.
+-   Plankaj kaheloj nun havas komencon, mezon kaj finon.

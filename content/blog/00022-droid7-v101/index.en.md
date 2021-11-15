@@ -9,7 +9,7 @@ games: [droid7]
 
 [DROID7]({{< ref "/games/droid7" >}}) v1.0.1 release has the following game changes:
 
-* New splash screen
-* Splash screen can be skipped with pause key (Escape by default)
-* Windows icons fixed
-* Terminal debug window removed
+-   New splash screen
+-   Splash screen can be skipped with pause key (Escape by default)
+-   Windows icons fixed
+-   Terminal debug window removed

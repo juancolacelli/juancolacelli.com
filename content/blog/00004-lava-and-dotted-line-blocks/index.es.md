@@ -13,6 +13,7 @@ La lava irá subiendo constantemente impulsando al jugador a ser más rápido, y
 
 ![Game recording](recording.gif)
 
-*Cambios menores*
-- Tileset de bloques mejorado.
-- El jugador ya no quedará trabado entre dos tiles.
+_Cambios menores_
+
+-   Tileset de bloques mejorado.
+-   El jugador ya no quedará trabado entre dos tiles.

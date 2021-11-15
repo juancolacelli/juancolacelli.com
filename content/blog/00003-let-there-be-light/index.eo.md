@@ -11,9 +11,10 @@ Nu... Mi ne estas Dio, sed mi aldonis lumon al mia nova ludo.
 
 ![Luda ekrankopio](thumbnail.png)
 
-*Ŝanĝoj faritaj*
-- Luma ombranto estis aldonita, ĝi nur uzos kolorajn paletrajn kolorojn [PICO-8](https://lospec.com/palette-list/pico-8).
-- Lumo estis aldonita al ludanto.
-- Plankaj kaheloj (sen unudirekta kolizio) haltos lumon.
-- Brikoj kaj steloj fonoj estis aldonitaj.
-- Lumo speguliĝos sur brikoj kaj ne en la steloj.
+_Ŝanĝoj faritaj_
+
+-   Luma ombranto estis aldonita, ĝi nur uzos kolorajn paletrajn kolorojn [PICO-8](https://lospec.com/palette-list/pico-8).
+-   Lumo estis aldonita al ludanto.
+-   Plankaj kaheloj (sen unudirekta kolizio) haltos lumon.
+-   Brikoj kaj steloj fonoj estis aldonitaj.
+-   Lumo speguliĝos sur brikoj kaj ne en la steloj.

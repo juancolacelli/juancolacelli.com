@@ -14,7 +14,8 @@ I dropped [PICO-8](https://lospec.com/palette-list/pico-8) color palette, now I'
 
 ![Game recording](recording.gif)
 
-*Minor changes*
-- Dotted-line blocks will toggle all at once (synchronized).
-- Floor now will blink 3 times before disappearing.
-- Floor tilesets now have start, middle and end.
+_Minor changes_
+
+-   Dotted-line blocks will toggle all at once (synchronized).
+-   Floor now will blink 3 times before disappearing.
+-   Floor tilesets now have start, middle and end.

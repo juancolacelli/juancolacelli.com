@@ -21,6 +21,7 @@ Entonces, la lava ha sido remplazada con un laser que sigue al jugador (el mismo
 
 ![Laser](laser.gif)
 
-*Cambios menores*
-- Se mejoró el efecto de la reflexión del tileset.
-- Se quitaron las obstrucciónes de luz.
+_Cambios menores_
+
+-   Se mejoró el efecto de la reflexión del tileset.
+-   Se quitaron las obstrucciónes de luz.

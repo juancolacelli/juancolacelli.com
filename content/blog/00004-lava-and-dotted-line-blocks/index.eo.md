@@ -13,6 +13,7 @@ Lafo kreskos senĉese puŝante la ludanton por esti pli rapida, kaj punkt-liniaj
 
 ![Ludregistrado](recording.gif)
 
-*Malgrandaj ŝanĝoj*
-- Blokoj kahelaro pliboniĝis.
-- Ludanto ne plu estos blokita inter du kaheloj.
+_Malgrandaj ŝanĝoj_
+
+-   Blokoj kahelaro pliboniĝis.
+-   Ludanto ne plu estos blokita inter du kaheloj.

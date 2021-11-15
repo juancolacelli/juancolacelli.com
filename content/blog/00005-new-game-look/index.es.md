@@ -13,7 +13,8 @@ Dejé de usar la paleta [PICO-8](https://lospec.com/palette-list/pico-8), ahora 
 
 ![Game recording](recording.gif)
 
-*Cambios menores*
-- Los bloques se alternarán a la vez (sincronizados).
-- El piso ahora titilará 3 veces antes de desaparecer.
-- Los tilesets del piso ahora tienen principio, medio y fin.
+_Cambios menores_
+
+-   Los bloques se alternarán a la vez (sincronizados).
+-   El piso ahora titilará 3 veces antes de desaparecer.
+-   Los tilesets del piso ahora tienen principio, medio y fin.

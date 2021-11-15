@@ -1,6 +1,6 @@
 baseURL = "https://juancolacelli.com/"
 languageCode = "en-us"
-theme = "juancolacelli"
+theme = "elefantoj"
 removePathAccents = true
 enableEmoji = true
 enableGitInfo = "true"
@@ -213,8 +213,10 @@ paginate = 8
   thumbnailOGSize = "200x200"
   googleAnalytics = "G-38S870CD65"
   favicon = "/images/favicon.png"
-  logoWidth = "192px"
-  logoHeight = "27px"
+  logo = "/images/logo.gif"
+  logoHover = "/images/logo_hover.gif"
+  logoWidth = "32px"
+  logoHeight = "32px"
 
 [Taxonomies]
   tag = "tags"

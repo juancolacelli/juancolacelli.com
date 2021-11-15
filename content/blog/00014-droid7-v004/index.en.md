@@ -7,6 +7,7 @@ authors: [juancolacelli]
 aliases: [/gamedev/droid7-v0.0.4/]
 games: [droid7]
 ---
+
 I received a lot of comments about laser being a little frustrating, so I decided to rework it. Another issue was the fast camera movement, I reworked it too.
 
 Introducing new items:
@@ -25,38 +26,44 @@ Introducing new items:
 
 [DROID7]({{< ref "/games/droid7" >}}) 0.0.4 release has the following game changes:
 
-- Laser
-  - Take one player’s life instead of one shoot it
-  - Enabled from level 1
-  - Laser mechanics reworked
+-   Laser
 
-- Camera
-  - Smooth movement
-  - Zoom in / zoom out
-  - Look up / look down
+    -   Take one player’s life instead of one shoot it
+    -   Enabled from level 1
+    -   Laser mechanics reworked
 
-- Items
-  - 2 lives
-  - Jetpack
-  - Yellow battery (speed up)
-  - Red battery (slow down)
-  - Mushroom
-  - Hourglass (timeout)
+-   Camera
 
-- Background
-  - Add game background
-  - Add menus background
+    -   Smooth movement
+    -   Zoom in / zoom out
+    -   Look up / look down
 
-- Animations
-  - Add jetpack animation
-  - Add mushroom animation
-  - Add look down laser animation
-  - Add screaming animation
-  - Add burning animation
-  - Improve double jump animation
-  - Improve springboard animation
+-   Items
 
-- Wallpaper
-  - Add game background
+    -   2 lives
+    -   Jetpack
+    -   Yellow battery (speed up)
+    -   Red battery (slow down)
+    -   Mushroom
+    -   Hourglass (timeout)
 
-- Several bug fixes
+-   Background
+
+    -   Add game background
+    -   Add menus background
+
+-   Animations
+
+    -   Add jetpack animation
+    -   Add mushroom animation
+    -   Add look down laser animation
+    -   Add screaming animation
+    -   Add burning animation
+    -   Improve double jump animation
+    -   Improve springboard animation
+
+-   Wallpaper
+
+    -   Add game background
+
+-   Several bug fixes

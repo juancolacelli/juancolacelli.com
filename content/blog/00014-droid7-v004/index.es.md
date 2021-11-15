@@ -6,7 +6,8 @@ tags: [desarrollo-videojuegos, droid7, pixelart, plataforma]
 authors: [juancolacelli]
 games: [droid7]
 ---
-He recibido muchos comentarios acerca del laser siendo un poco frustrante, por eso  decidí rehacerlo. Otro problema era el movimiento de la cámara demasiado rápido, que también fue rehecho.
+
+He recibido muchos comentarios acerca del laser siendo un poco frustrante, por eso decidí rehacerlo. Otro problema era el movimiento de la cámara demasiado rápido, que también fue rehecho.
 
 Nuevos objetos:
 
@@ -24,38 +25,44 @@ Nuevos objetos:
 
 [DROID7]({{< ref "/games/droid7" >}}) 0.0.4 cuenta con los siguientes cambios:
 
-- Laser
-  - Ahora quita una sola vida del jugador en ves de matarlo
-  - Habilitado desde nivel 1
-  - Mecánicas rehechas
+-   Laser
 
-- Cámara
-  - Movimiento mejorado
-  - Zoom
-  - Mirar arriba / abajo
+    -   Ahora quita una sola vida del jugador en ves de matarlo
+    -   Habilitado desde nivel 1
+    -   Mecánicas rehechas
 
-- Objetos
-  - 2 vidas
-  - Jetpack
-  - Batería amarilla (aumenta la velocidad)
-  - Batería roja (disminuye la velocidad)
-  - Hongo
-  - Reloj de arena (tiempo fuera)
+-   Cámara
 
-- Fondo
-  - Se agregó fondo al juego
-  - Se agregó fondo a los menús
+    -   Movimiento mejorado
+    -   Zoom
+    -   Mirar arriba / abajo
 
-- Animacones
-  - Agregada la animación del jetpack
-  - Agregada la animación del hongo
-  - Agregada la animación de mirar hacia abajo al laser
-  - Agregada la animación del grito
-  - Agregada la animación de quemarse con el laser
-  - Mejorada la animación del doble salto
-  - Mejorada la animación del trampolín
+-   Objetos
 
-- Fondo de pantalla
-  - Agregado fondo de pantalla
+    -   2 vidas
+    -   Jetpack
+    -   Batería amarilla (aumenta la velocidad)
+    -   Batería roja (disminuye la velocidad)
+    -   Hongo
+    -   Reloj de arena (tiempo fuera)
 
-- Severos arreglos de errores
+-   Fondo
+
+    -   Se agregó fondo al juego
+    -   Se agregó fondo a los menús
+
+-   Animacones
+
+    -   Agregada la animación del jetpack
+    -   Agregada la animación del hongo
+    -   Agregada la animación de mirar hacia abajo al laser
+    -   Agregada la animación del grito
+    -   Agregada la animación de quemarse con el laser
+    -   Mejorada la animación del doble salto
+    -   Mejorada la animación del trampolín
+
+-   Fondo de pantalla
+
+    -   Agregado fondo de pantalla
+
+-   Severos arreglos de errores

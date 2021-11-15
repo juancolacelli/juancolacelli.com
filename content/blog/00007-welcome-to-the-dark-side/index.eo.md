@@ -21,6 +21,7 @@ Do lafo anstataŭĝis per lasero, kiu sekvos ludanton (ludanto mortas se ĝi tra
 
 ![Lasero](laser.gif)
 
-*Malgrandaj ŝanĝoj*
-- Kahelaro reflektefiko pliboniĝis.
-- Luma ŝirmiloj forigitaj.
+_Malgrandaj ŝanĝoj_
+
+-   Kahelaro reflektefiko pliboniĝis.
+-   Luma ŝirmiloj forigitaj.

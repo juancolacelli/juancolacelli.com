@@ -24,4 +24,4 @@ Mi plejparte uzas [Godot-Motoron](https://godotengine.org) aŭ [SDL](https://lib
 
 ![Juan Colacelli](jc_rotating.gif)
 
-Se vi ŝatas mian laboron, bonvolu :pray: konsideri iĝi [Patreon-membro](https://patreon.com/juancolacelli)
+Se vi ŝatas mian laboron, bonvolu :pray: konsideri iĝi [Patreon-membro](https://patreon.com/Juan Colacelli)

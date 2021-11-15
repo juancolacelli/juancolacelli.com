@@ -17,8 +17,8 @@ games: [droid7]
 
 [DROID7]({{< ref "/games/droid7" >}}) 0.0.2-beta versio havas la jenanjn ludon ŝanĝojn:
 
-- Fenestra aspekto ŝanĝiĝis al 16:9
-- Ludanta movado per sagoklavoj (originale aŭtomatigitaj)
-- Komenca ekrano ĝisdatigita
-- Vivoj nun montriĝos kun koroj (originale kun nombroj)
-- Supra poentaro kaj poentaro moviĝis de supre al la dekstra angulo
+-   Fenestra aspekto ŝanĝiĝis al 16:9
+-   Ludanta movado per sagoklavoj (originale aŭtomatigitaj)
+-   Komenca ekrano ĝisdatigita
+-   Vivoj nun montriĝos kun koroj (originale kun nombroj)
+-   Supra poentaro kaj poentaro moviĝis de supre al la dekstra angulo

@@ -11,6 +11,7 @@ He hecho algunas mejoras en el tileset, los limites serán menos intrusivos y lo
 
 ![Game screenshot](screenshot.png)
 
-*Cambios menores*
-- Se quitaron tiles sin usar del spritesheet.
-- Se mejoraron los ladrillos de fondo y las estrellas (se movieron al tileset en vez de ser una imágen estática).
+_Cambios menores_
+
+-   Se quitaron tiles sin usar del spritesheet.
+-   Se mejoraron los ladrillos de fondo y las estrellas (se movieron al tileset en vez de ser una imágen estática).

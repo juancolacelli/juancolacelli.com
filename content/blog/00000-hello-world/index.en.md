@@ -21,9 +21,7 @@ This is my first post, and it always will be. I just wanted to say hello, have a
 ```
 
 ```javascript
-
   alert("Hello world!");
-
 ```
 
 ```java

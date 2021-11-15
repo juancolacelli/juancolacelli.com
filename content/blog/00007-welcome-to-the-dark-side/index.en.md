@@ -22,6 +22,7 @@ So, lava has been replaced with a laser that will follow the player along (the p
 
 ![Laser](laser.gif)
 
-*Minor changes*
-- Tileset reflection effect improved.
-- Light occluders removed.
+_Minor changes_
+
+-   Tileset reflection effect improved.
+-   Light occluders removed.

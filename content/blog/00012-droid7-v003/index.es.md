@@ -25,26 +25,31 @@ Se ha agregado la pantalla de configuraciones con soporte de pantalla completa y
 
 [DROID7]({{< ref "/games/droid7" >}}) 0.0.3 cuenta con los siguientes cambios:
 
-- Niveles
-  - La dificultad ahora escala
-  - Indicador de nivel
+-   Niveles
 
-- Luces
-  - Se agregó bloqueo de luz al piso.
+    -   La dificultad ahora escala
+    -   Indicador de nivel
 
-- Pantalla de inicio
-  - Los menús ahora tienen luces
-  - La pantalla de configuraciónes ahora tiene música de fondo
-  - Agregado el sonido al seleccionar y presionar menús
+-   Luces
 
-- Pantalla de configuraciones
-  - Soporte de pantalla completa
-  - Volúmen de la música
-  - Volúmen de los efectos de sonido
+    -   Se agregó bloqueo de luz al piso.
 
-- Pantalla de opciones de entrada
-  - Listado de entradas
-  - Edición de entradas
-  - Soporte de joystick
+-   Pantalla de inicio
 
-- Severos arreglos de errores
+    -   Los menús ahora tienen luces
+    -   La pantalla de configuraciónes ahora tiene música de fondo
+    -   Agregado el sonido al seleccionar y presionar menús
+
+-   Pantalla de configuraciones
+
+    -   Soporte de pantalla completa
+    -   Volúmen de la música
+    -   Volúmen de los efectos de sonido
+
+-   Pantalla de opciones de entrada
+
+    -   Listado de entradas
+    -   Edición de entradas
+    -   Soporte de joystick
+
+-   Severos arreglos de errores

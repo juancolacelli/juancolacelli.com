@@ -26,11 +26,9 @@ Obtienes puntaje a medida que asciendes, y tu puntaje más alto se guarda.
 
 "Lo disfruté. DROID7 es un buen juego" — [The Entity](http://the-entity.net/)
 
-<iframe src="https://itch.io/embed/570980?linkback=true&amp;bg_color=16171a&amp;fg_color=fafdff&amp;link_color=ff8426&amp;border_color=16171a" width="208" height="167" frameborder="0"><a href="https://juancolacelli.itch.io/droid7">DROID7 by Juan Colacelli</a></iframe>
+<iframe src="https://itch.io/embed/570980?linkback=true&amp;bg_color=16171a&amp;fg_color=fafdff&amp;link_color=ff2674&amp;border_color=16171a" width="208" height="167" frameborder="0"><a href="https://juancolacelli.itch.io/droid7">DROID7 by Juan Colacelli</a></iframe>
 
 ## Creditos
-
-Juego por [Juan Colacelli]({{< ref "/about" >}})
 
 Música por [Nicole Marie T](https://twitter.com/musicvsartstuff)
 

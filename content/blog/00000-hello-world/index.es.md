@@ -21,9 +21,7 @@ Esta es mi primer publicación y siempre lo será. Solamente quería decir hola,
 ```
 
 ```javascript
-
   alert("Hola mundo!");
-
 ```
 
 ```java

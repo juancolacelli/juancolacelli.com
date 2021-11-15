@@ -14,6 +14,7 @@ Lava will go up constantly pushing the player to be faster, and dotted-line bloc
 
 ![Game recording](recording.gif)
 
-*Minor changes*
-- Blocks tileset improved.
-- Player will no longer be stuck between two tiles.
+_Minor changes_
+
+-   Blocks tileset improved.
+-   Player will no longer be stuck between two tiles.

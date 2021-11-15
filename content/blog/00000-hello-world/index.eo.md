@@ -21,9 +21,7 @@ authors: [juancolacelli]
 ```
 
 ```javascript
-
   alert("Saluton mondo!");
-
 ```
 
 ```java

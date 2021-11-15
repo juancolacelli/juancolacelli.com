@@ -25,26 +25,30 @@ Agorda ekrano aldonita kun plena ekrana subteno kaj volumaj glitiloj. Eniga agor
 
 [DROID7]({{< ref "/games/droid7" >}}) 0.0.3 versio havas la jenanjn ludon ŝanĝojn:
 
-- Niveloj
-  - Malfacila grimpado
-  - Nivela indikilo
+-   Niveloj
 
-- Lumoj
-  - Plankluma malklarigo aldonis
+    -   Malfacila grimpado
+    -   Nivela indikilo
 
-- Komenca ekrano
-  - Menuoj nun havas lumojn
-  - Ekranoj nun havas fonan muzikon
-  - Menuoj nun havas sonon fokusitan kah prematan
+-   Lumoj
 
-- Agorda ekrano
-  - Subteno de plena ekrano
-  - Muzika volumo
-  - Volumo de sonefektoj
+    -   Plankluma malklarigo aldonis
 
--  Ekrano de eniga agordo
-  - Enigaĵoj listigitaj
-  - Eniga eldono
-  - Subteno de stirstango
+-   Komenca ekrano
 
-- Pluraj cimsolvoj
+    -   Menuoj nun havas lumojn
+    -   Ekranoj nun havas fonan muzikon
+    -   Menuoj nun havas sonon fokusitan kah prematan
+
+-   Agorda ekrano
+
+    -   Subteno de plena ekrano
+    -   Muzika volumo
+    -   Volumo de sonefektoj
+
+-   Ekrano de eniga agordo
+-   Enigaĵoj listigitaj
+-   Eniga eldono
+-   Subteno de stirstango
+
+-   Pluraj cimsolvoj

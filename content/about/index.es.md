@@ -10,7 +10,7 @@ slug: acerca
 
 ![Juan Colacelli](jc_with_cats.gif)
 
-Mi nombre es Juan Colacelli, soy un **desarrollador de videojuegos independiente** enfocado en **juegos pixel art retro**.
+Soy Juan Colacelli, un **desarrollador de videojuegos independiente** enfocado en **juegos pixel art retro**.
 
 Luego de mas de veinte años como desarrollador de software profesional, descubrí mi arraigada pasión por el [pixel art]({{< ref "/tags/pixelart" >}}) y el [desarrollo de videojuegos]({{< ref "/tags/desarrollo-videojuegos" >}}).
 
@@ -24,4 +24,4 @@ Mayormente uso [Godot Engine](https://godotengine.org) o [SDL](https://libsdl.or
 
 ![Juan Colacelli](jc_rotating.gif)
 
-Si te gusta mi trabajo, por favor :pray: considera convertirte [miembro en Patreon](https://patreon.com/juancolacelli)
+Si te gusta mi trabajo, por favor :pray: considera convertirte [miembro en Patreon](https://patreon.com/Juan Colacelli)

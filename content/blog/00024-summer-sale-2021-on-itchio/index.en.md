@@ -4,7 +4,8 @@ date: 2021-06-20T21:47:00-03:00
 description: DROID7 is on sale!
 tags: [droid7, itch.io, sale, summer-sale]
 authors: [juancolacelli]
-aliases: [/gamedev/summer-sale-2021-on-itch.io/, /blog/summer-sale-2021-on-itch.io/]
+aliases:
+    [/gamedev/summer-sale-2021-on-itch.io/, /blog/summer-sale-2021-on-itch.io/]
 games: [droid7]
 ---
 

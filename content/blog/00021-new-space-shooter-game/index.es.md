@@ -2,7 +2,8 @@
 title: Nuevo juego de naves
 date: 2021-01-10T10:43:57-03:00
 description: "Estoy trabajando en un nuevo juego :rocket:"
-tags: [desarrollo-videojuegos, pixelart, disparos, naves, godot, aseprite, 1-bit]
+tags:
+    [desarrollo-videojuegos, pixelart, disparos, naves, godot, aseprite, 1-bit]
 authors: [juancolacelli]
 ---
 

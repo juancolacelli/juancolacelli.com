@@ -17,9 +17,8 @@ games: [droid7]
 
 [DROID7]({{< ref "/games/droid7" >}}) 0.0.2-beta cuenta con los siguientes cambios:
 
-- Aspecto de ventana cambiado a 16:9
-- Movimiento del jugador con flechas (originalmente automatizado)
-- Pantalla de inicio actualizada
-- Las vidas ahora se mostrarán con corazones (originalmente con números)
-- Puntaje y récord movidos desde arriba hacia la esquina derecha
-
+-   Aspecto de ventana cambiado a 16:9
+-   Movimiento del jugador con flechas (originalmente automatizado)
+-   Pantalla de inicio actualizada
+-   Las vidas ahora se mostrarán con corazones (originalmente con números)
+-   Puntaje y récord movidos desde arriba hacia la esquina derecha

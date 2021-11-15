@@ -11,7 +11,7 @@ Mi faris iujn plibonigojn en la kahelaro, limoj estos malpli trudemaj kaj unudir
 
 ![Luda ekrankopio](screenshot.png)
 
-*Malgrandaj ŝanĝojn*
+_Malgrandaj ŝanĝojn_
 
-- Forigis neuzantajn kaheloj de folio.
-- Fonaj brikoj kaj steloj pliboniĝis (moviĝis al kahelaro anstataŭ statika bildo).
+-   Forigis neuzantajn kaheloj de folio.
+-   Fonaj brikoj kaj steloj pliboniĝis (moviĝis al kahelaro anstataŭ statika bildo).

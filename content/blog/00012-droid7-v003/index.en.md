@@ -26,26 +26,31 @@ Settings screen has been added with fullscreen support and volume sliders. Input
 
 [DROID7]({{< ref "/games/droid7" >}}) 0.0.3 release has the following game changes:
 
-- Levels
-  - Difficulty scaling
-  - Level indicator
+-   Levels
 
-- Lights
-  - Floor light obfuscation added
+    -   Difficulty scaling
+    -   Level indicator
 
-- Start screen
-  - Menus now have lights
-  - Screens now have background music
-  - Menus now have sound on focus and press
+-   Lights
 
-- Settings screen
-  - Fullscreen support
-  - Music volume
-  - Sound effects volume
+    -   Floor light obfuscation added
 
-- Input settings screen
-  - Inputs listing
-  - Inputs edition
-  - Joystick support
+-   Start screen
 
-- Several bug fixes
+    -   Menus now have lights
+    -   Screens now have background music
+    -   Menus now have sound on focus and press
+
+-   Settings screen
+
+    -   Fullscreen support
+    -   Music volume
+    -   Sound effects volume
+
+-   Input settings screen
+
+    -   Inputs listing
+    -   Inputs edition
+    -   Joystick support
+
+-   Several bug fixes

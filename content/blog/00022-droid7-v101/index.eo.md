@@ -9,7 +9,7 @@ games: [droid7]
 
 [DROID7]({{< ref "/games/droid7" >}}) v1.0.1 versio havas la jenanjn ludon ŝanĝojn:
 
-* Nova ŝpruca ekrano
-* Ŝpruca ekrano povas esti transsaltita per paŭza klavo (defaŭlte Eskapi)
-* Vindozaj ikonoj riparis
-* Fenestra elpuriga fenestro forigita
+-   Nova ŝpruca ekrano
+-   Ŝpruca ekrano povas esti transsaltita per paŭza klavo (defaŭlte Eskapi)
+-   Vindozaj ikonoj riparis
+-   Fenestra elpuriga fenestro forigita

@@ -8,7 +8,7 @@ aliases: [/gamedev/i-started-a-new-game/]
 games: [droid7]
 ---
 
-I'm woking on my new game, it doesn't have a name yet (I just call it *"Jump Game"*), but it has a lot of love already &hearts;.
+I'm woking on my new game, it doesn't have a name yet (I just call it _"Jump Game"_), but it has a lot of love already &hearts;.
 
 Jump Game is about **jumping and evading spikes**. It looks simple but as you go through levels it becomes harder.
 

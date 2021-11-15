@@ -13,13 +13,13 @@ games: [droid7]
 
 Gameplay
 
-* It’s not an endless game anymore
-* Floor 10 is the maximum floor
-* Once you left the building you will **fight versus DROID7 creator (Doc)**
+-   It’s not an endless game anymore
+-   Floor 10 is the maximum floor
+-   Once you left the building you will **fight versus DROID7 creator (Doc)**
 
 General changes
 
-* Game completely **translated to Spanish and Esperanto**
-* New splash screen has been added to the game
-* Credits screen has been added
-* Several bug fixes
+-   Game completely **translated to Spanish and Esperanto**
+-   New splash screen has been added to the game
+-   Credits screen has been added
+-   Several bug fixes

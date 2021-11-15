@@ -18,9 +18,8 @@ games: [droid7]
 
 [DROID7]({{< ref "/games/droid7" >}}) 0.0.2-beta release has the following game changes:
 
-- Window aspect changed to 16:9
-- Player movement with arrow keys (originally automated)
-- Start screen updated
-- Lives now will be shown with hearts (originally with numbers)
-- Top and score moved from top to the right corner
-
+-   Window aspect changed to 16:9
+-   Player movement with arrow keys (originally automated)
+-   Start screen updated
+-   Lives now will be shown with hearts (originally with numbers)
+-   Top and score moved from top to the right corner

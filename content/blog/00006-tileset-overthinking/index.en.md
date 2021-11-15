@@ -12,6 +12,7 @@ I've made some improvements on the tileset, limits will be less intrusive and on
 
 ![Game screenshot](screenshot.png)
 
-*Minor changes*
-- Removed unused tiles from spritesheet.
-- Background bricks and stars improved (moved to tileset instead of static image).
+_Minor changes_
+
+-   Removed unused tiles from spritesheet.
+-   Background bricks and stars improved (moved to tileset instead of static image).

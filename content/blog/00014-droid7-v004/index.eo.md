@@ -25,38 +25,44 @@ Novajn erojn:
 
 [DROID7]({{< ref "/games/droid7" >}}) 0.0.4 versio havas la jenanjn ludon ŝanĝojn:
 
-- Lasero
-  - Prenu la vivon de unu ludanto anstataŭ unu pafu ĝin
-  - Ebligita de nivelo 1
-  - Lasera mekaniko reverkis
+-   Lasero
 
-- Fotilo
-  - Glata movado
-  - Zomi / Malzomi
-  - Rigardu supren / Rigardu malsupren
+    -   Prenu la vivon de unu ludanto anstataŭ unu pafu ĝin
+    -   Ebligita de nivelo 1
+    -   Lasera mekaniko reverkis
 
-- Eroj
-  - 2 vivoj
-  - Jetpack
-  - Flava baterio (rapidu)
-  - Ruĝa baterio (malrapidu)
-  - Fungo
-  - Sablohorloĝo (paŭzo)
+-   Fotilo
 
-- Fono
-  - Aldoni ludan fonon
-  - Aldoni menuo fonon
+    -   Glata movado
+    -   Zomi / Malzomi
+    -   Rigardu supren / Rigardu malsupren
 
-- Kuraĝigoj
-  - Aldoni kuraĝigon de jetpack
-  - Aldoni kuraĝigon de fungo
-  - Aldoni rigardi malsupren
-  - Aldoni krian kuraĝigon
-  - Aldoni brulan kuraĝigon
-  - Plibonigi kuraĝigon de duobla salto
-  - Plibonigi kuraĝigon de saltotabulo
+-   Eroj
 
-- Tapeto
-  - Aldoni tapeto
+    -   2 vivoj
+    -   Jetpack
+    -   Flava baterio (rapidu)
+    -   Ruĝa baterio (malrapidu)
+    -   Fungo
+    -   Sablohorloĝo (paŭzo)
 
-- Pluraj cimsolvoj
+-   Fono
+
+    -   Aldoni ludan fonon
+    -   Aldoni menuo fonon
+
+-   Kuraĝigoj
+
+    -   Aldoni kuraĝigon de jetpack
+    -   Aldoni kuraĝigon de fungo
+    -   Aldoni rigardi malsupren
+    -   Aldoni krian kuraĝigon
+    -   Aldoni brulan kuraĝigon
+    -   Plibonigi kuraĝigon de duobla salto
+    -   Plibonigi kuraĝigon de saltotabulo
+
+-   Tapeto
+
+    -   Aldoni tapeto
+
+-   Pluraj cimsolvoj

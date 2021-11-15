@@ -9,5 +9,5 @@ games: [droid7]
 
 [DROID7]({{< ref "/games/droid7" >}}) v1.0.2 release has the following game changes:
 
-* Fixed some menu options that could be selected with the mouse
-* Update game engine to its last version (Godot Engine 3.3.2)
+-   Fixed some menu options that could be selected with the mouse
+-   Update game engine to its last version (Godot Engine 3.3.2)
