@@ -24,4 +24,4 @@ Mayormente uso [Godot Engine](https://godotengine.org) o [SDL](https://libsdl.or
 
 ![Juan Colacelli](jc_rotating.gif)
 
-Si te gusta mi trabajo, por favor :pray: considera convertirte [miembro en Patreon](https://patreon.com/Juan Colacelli)
+Si te gusta mi trabajo, por favor :pray: considera convertirte [miembro en Patreon](https://patreon.com/juancolacelli)
