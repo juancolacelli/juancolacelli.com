@@ -3,7 +3,7 @@ title: DROID7 v1.0.1
 date: 2021-01-15T08:34:20-03:00
 description: Cambios en la pantalla de bienvenida, iconos, y mas...
 tags: [desarrollo-videojuegos, droid7, pixelart, plataforma]
-authors: [juancolacelli]
+authors: [jc]
 games: [droid7]
 ---
 

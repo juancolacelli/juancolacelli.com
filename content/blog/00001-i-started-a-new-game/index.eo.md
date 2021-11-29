@@ -3,7 +3,7 @@ title: Mi komencis novan ludon
 date: 2020-02-15T04:33:52-03:00
 description: Mi laboras pri mia nova ludo.
 tags: [ludevoluo, pikselarto, platformo, droid7, godot, aseprite, pico-8]
-authors: [juancolacelli]
+authors: [jc]
 games: [droid7]
 ---
 

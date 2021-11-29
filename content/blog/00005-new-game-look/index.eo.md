@@ -3,7 +3,7 @@ title: Nova ludaspekto
 date: 2020-02-29T01:10:48-03:00
 description: Luda kahelaro kaj ludanto estis prilaboritaj
 tags: [ludevoluo, pikselarto, platformo, droid7, bubblegum-16]
-authors: [juancolacelli]
+authors: [jc]
 games: [droid7]
 ---
 

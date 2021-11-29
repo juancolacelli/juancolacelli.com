@@ -3,7 +3,7 @@ title: DROID7 v0.0.4
 date: 2020-08-01T00:00:00-03:00
 description: Lasero kaj fotilo reverkado, novaj eroj, novaj kuraĝigoj, kaj pli...
 tags: [ludevoluo, droid7, pikselarto, platformo]
-authors: [juancolacelli]
+authors: [jc]
 games: [droid7]
 ---
 

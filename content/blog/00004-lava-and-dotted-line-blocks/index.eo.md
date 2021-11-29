@@ -3,7 +3,7 @@ title: Lafo kaj punkt-liniaj blokoj
 date: 2020-02-23T20:38:41-03:00
 description: Lafo kaj punkt-liniaj blokoj estis aldonitaj al la ludo
 tags: [ludevoluo, pikselarto, platformo, droid7]
-authors: [juancolacelli]
+authors: [jc]
 games: [droid7]
 ---
 

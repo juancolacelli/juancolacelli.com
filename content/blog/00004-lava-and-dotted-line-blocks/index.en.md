@@ -3,7 +3,7 @@ title: Lava and dotted-line blocks
 date: 2020-02-23T20:38:41-03:00
 description: Lava and dotted-line blocks were added to the game
 tags: [gamedev, pixelart, platformer, droid7]
-authors: [juancolacelli]
+authors: [jc]
 aliases: [/gamedev/lava-and-dotted-line-blocks/]
 games: [droid7]
 ---

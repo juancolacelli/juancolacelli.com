@@ -3,7 +3,7 @@ title: Lava y bloques alternables
 date: 2020-02-23T20:38:41-03:00
 description: Lava y bloques alternables fueron agregados al juego
 tags: [desarrollo-videojuegos, pixelart, plataforma, droid7]
-authors: [juancolacelli]
+authors: [jc]
 games: [droid7]
 ---
 

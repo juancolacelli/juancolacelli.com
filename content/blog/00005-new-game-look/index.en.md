@@ -3,7 +3,7 @@ title: New game look
 date: 2020-02-29T01:10:48-03:00
 description: Game tileset and player have been reworked
 tags: [gamedev, pixelart, platformer, droid7, bubblegum-16]
-authors: [juancolacelli]
+authors: [jc]
 aliases: [/gamedev/new-game-look/]
 games: [droid7]
 ---

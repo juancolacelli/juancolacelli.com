@@ -3,7 +3,7 @@ title: Estu lumo
 date: 2020-02-21T00:34:50-03:00
 description: Lumo estis aldonita al mia nova ludo
 tags: [ludevoluo, pikselarto, platformo, droid7]
-authors: [juancolacelli]
+authors: [jc]
 games: [droid7]
 ---
 

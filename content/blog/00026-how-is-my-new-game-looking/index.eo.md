@@ -3,7 +3,7 @@ title: Kiel aspektas mia nova ludo?
 date: 2021-07-27T19:45:00-03:00
 description: "Jes, mi ankoraŭ laboras pri spaca pafisto :rocket:"
 tags: [ludevoluo, pikselarto, pafisto, kosmosxipoj, godot, aseprite, 1-bito]
-authors: [juancolacelli]
+authors: [jc]
 games: [escape_pod]
 aliases: [/eo/videoludoj/escape_pod]
 ---

@@ -3,7 +3,7 @@ title: Kahelaro tro pensanta
 date: 2020-03-01T05:09:43-03:00
 description: Jes, mi ankoraŭ laboras pri la kahelaro
 tags: [ludevoluo, pikselarto, platformo, droid7]
-authors: [juancolacelli]
+authors: [jc]
 games: [droid7]
 ---
 

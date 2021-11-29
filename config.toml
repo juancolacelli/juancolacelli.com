@@ -207,8 +207,10 @@ paginate = 8
 
 
 [params]
-  showAuthors = false
+  itchio = "https://juancolacelli.itch.io"
+  patreon = "https://patreon.com/juancolacelli"
   gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.gitlab.io"
+  showAuthors = false
   thumbnailSize = "80x80"
   thumbnailOGSize = "200x200"
   googleAnalytics = "G-38S870CD65"

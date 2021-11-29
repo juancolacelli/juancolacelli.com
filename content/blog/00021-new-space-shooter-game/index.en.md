@@ -3,7 +3,7 @@ title: New space shooter game
 date: 2021-01-10T10:43:57-03:00
 description: "I'm working on a new game :rocket:"
 tags: [gamedev, pixelart, shooter, spaceships, godot, aseprite, 1-bit]
-authors: [juancolacelli]
+authors: [jc]
 slug: new-space-shooter-game
 ---
 

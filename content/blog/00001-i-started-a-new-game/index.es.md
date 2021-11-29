@@ -12,7 +12,7 @@ tags:
         aseprite,
         pico-8,
     ]
-authors: [juancolacelli]
+authors: [jc]
 games: [droid7]
 ---
 

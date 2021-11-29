@@ -3,7 +3,7 @@ title: DROID7 v0.0.2-beta
 date: 2020-06-12T05:37:24-03:00
 description: DROID7 Ha renacido como un juego de escritorio
 tags: [desarrollo-videojuegos, droid7, pixelart, plataforma]
-authors: [juancolacelli]
+authors: [jc]
 games: [droid7]
 ---
 
