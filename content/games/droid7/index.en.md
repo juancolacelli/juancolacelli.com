@@ -7,9 +7,9 @@ tags: [droid7]
 aliases: [/droid7/]
 ---
 
-**DROID7** is an **platformer**, jump your way up on a generated tower while a laser beam chases you from below.
+**DROID7** is a **platformer**, jump your way up on a generated tower while a laser beam chases you from below.
 
-The higher you go, the faster it gets, and isn't long before disappearing (and reappearing) platforms and spikes are introduced to make your life harder.
+The higher you go, the faster it gets, and it isn't long before disappearing (and reappearing) platforms and spikes are introduced to make your life harder.
 
 You gain score as you ascend, with your high score being saved.
 
