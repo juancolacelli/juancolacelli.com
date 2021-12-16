@@ -1,0 +1,18 @@
+{{- define "title" -}}
+  {{- if isset .Data "Term" -}}
+    {{- .Data.Term -}}
+	{{- else -}}
+    {{- .Title -}}
+	{{- end -}}
+	{{- if gt .Paginator.PageNumber 1 -}}
+	  &nbsp;&mdash; {{ .Paginator.PageNumber -}}
+	{{- end -}}
+{{- end -}}
+
+{{- define "description" -}}
+  {{- .Description -}}
+{{- end -}}
+
+{{- define "main"}}
+  {{- .Content -}}
+{{- end -}}

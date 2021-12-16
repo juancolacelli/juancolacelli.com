@@ -38,12 +38,20 @@
         {{- if in $games .id -}}
           <div class="game-summary">
             <div class="game-summary-thumbnail">
-              <a href="{{- .url -}}">
+              {{- if .url -}}
+                <a href="{{- .url -}}">
+                  <img src="{{- .thumbnail -}}">
+                </a>
+              {{- else -}}
                 <img src="{{- .thumbnail -}}">
-              </a>
+              {{- end -}}
             </div>
             <div class="game-summary-body">
-              <a class="game-title" href="{{- .url -}}">{{ .name -}}</a>
+              {{- if .url -}}
+                <a class="game-title" href="{{- .url -}}">{{ .name -}}</a>
+              {{- else -}}
+                <span class="game-title">{{ .name -}}</span>
+              {{- end -}}
               <div>
                 {{ .description }}
               </div>

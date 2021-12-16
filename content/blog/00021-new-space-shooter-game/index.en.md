@@ -2,16 +2,17 @@
 title: New space shooter game
 date: 2021-01-10T10:43:57-03:00
 description: "I'm working on a new game :rocket:"
-tags: [gamedev, pixelart, shooter, spaceships, godot, aseprite, 1-bit]
+tags: [gamedev]
 authors: [jc]
 slug: new-space-shooter-game
+games: [escape-pod]
 ---
 
 Well, new year :calendar:, new game :video_game:.
 
-I always wanted to create a [1-bit]({{< ref "/tags/1-bit" >}}) game and in my childhood I played a lot of space shooter games :space_invader:, so I decided to combine both and create a [1-bit]({{< ref "/tags/1-bit" >}}) space [shooter]({{< ref "/tags/shooter" >}}).
+I always wanted to create a 1-bit game and in my childhood I played a lot of space shooter games :space_invader:, so I decided to combine both and create a 1-bit space shooter.
 
-I'm working with [Godot Engine](https://godotengine.org) and [Aseprite](https://aseprite.org) using [1-bit]({{< ref "/tags/1-bit" >}}) colors (black and white only).
+I'm working with [Godot Engine](https://godotengine.org) and [Aseprite](https://aseprite.org) using 1-bit colors (black and white only).
 
 ## Status
 

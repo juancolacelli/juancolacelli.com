@@ -2,7 +2,7 @@
 title: "Vintra Vendo 2020"
 date: 2020-12-17T18:14:00-03:00
 description: DROID7 vendiĝas!
-tags: [droid7, itch.io, vendo, vintra-vendo]
+tags: [vendo]
 authors: [jc]
 games: [droid7]
 ---

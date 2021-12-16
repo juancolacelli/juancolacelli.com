@@ -2,7 +2,7 @@
 title: "Ofertas de Halloween 2020"
 date: 2020-10-27T14:38:09-03:00
 description: DROID7 está en oferta!
-tags: [droid7, itch.io, oferta, oferta-de-halloween]
+tags: [oferta]
 authors: [jc]
 aliases: [/es/blog/ofertas-de-halloween-en-itchio/]
 games: [droid7]

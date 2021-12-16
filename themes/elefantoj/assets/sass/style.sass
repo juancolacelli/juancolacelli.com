@@ -314,11 +314,15 @@ ul
           &:after
             content: ','
 
-.tag
+.tags
   &:not(:last-of-type)
     &:after
-      content: ','
+      content: '—'
 
+  .tag, .game
+    &:not(:last-of-type)
+      &:after
+        content: ','
 
 .footer
   color: $footer-color

@@ -2,10 +2,10 @@
 title: How is my new game looking?
 date: 2021-07-27T19:45:00-03:00
 description: "Yes, I'm still working on a space shooter :rocket:"
-tags: [gamedev, pixelart, shooter, spaceships, godot, aseprite, 1-bit]
+tags: [gamedev]
 authors: [jc]
-games: [escape_pod]
-aliases: [/games/escape_pod]
+games: [escape-pod]
+aliases: [/games/escape_pod, /games/escape-pod]
 ---
 
 This is how my new game is looking, and yes, I am a camper...

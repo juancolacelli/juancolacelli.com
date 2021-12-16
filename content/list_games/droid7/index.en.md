@@ -1,10 +1,12 @@
 ---
 title: DROID7
 date: 2020-09-02T06:35:15-03:00
-type: page
+type: game
 description: Escape or die, it's your choice
-tags: [droid7]
+tags: []
+url: /games/droid7
 aliases: [/droid7/]
+games: [droid7]
 ---
 
 **DROID7** is a **platformer**, jump your way up on a generated tower while a laser beam chases you from below.

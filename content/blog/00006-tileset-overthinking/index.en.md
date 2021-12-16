@@ -2,7 +2,7 @@
 title: Tileset overthinking
 date: 2020-03-01T05:09:43-03:00
 description: Yes, I'm still working on the tileset
-tags: [gamedev, pixelart, platformer, droid7]
+tags: [gamedev]
 authors: [jc]
 aliases: [/gamedev/tileset-overthinking/]
 games: [droid7]

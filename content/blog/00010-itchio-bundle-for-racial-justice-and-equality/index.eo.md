@@ -2,7 +2,7 @@
 title: Fasko por Rasa Justeco kaj Egaleco
 date: 2020-06-09T06:45:00-03:00
 description: Akiru +1,500 projektojn kontraŭ nur $5!
-tags: [droid7, itch.io, vendo, fasko, black-lives-matter]
+tags: [vendo, fasko]
 authors: [jc]
 games: [droid7]
 ---

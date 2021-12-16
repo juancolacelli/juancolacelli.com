@@ -2,7 +2,7 @@
 title: Ofertas de verano 2021
 date: 2021-06-20T21:47:00-03:00
 description: DROID7 está en oferta!
-tags: [droid7, itch.io, oferta, oferta-de-verano]
+tags: [oferta]
 authors: [jc]
 aliases: [/es/blog/ofertas-de-verano-2021-en-itchi.o/]
 games: [droid7]

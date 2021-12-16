@@ -2,7 +2,7 @@
 title: "Luna Novjara Vendo 2021"
 date: 2021-02-09T12:21:58-03:00
 description: DROID7 vendiĝas!
-tags: [droid7, itch.io, vendo, luna-novjara-vendo]
+tags: [vendo]
 authors: [jc]
 games: [droid7]
 ---

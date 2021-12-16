@@ -2,7 +2,7 @@
 title: "Haloveno Vendo 2020"
 date: 2020-10-27T14:38:09-03:00
 description: DROID7 vendiĝas!
-tags: [droid7, itch.io, vendo, haloveno-vendo]
+tags: [vendo]
 authors: [jc]
 aliases: [/eo/blogo/haloveno-vendo-2020-ĉe-itchio/]
 games: [droid7]

@@ -2,7 +2,7 @@
 <ul>
   {{- range $key, $tag := first 15 .Site.Taxonomies.tags.ByCount -}}
     <li>
-      <a href="{{- .Page.Permalink -}}">{{- .Page.Title }}</a> <span class="tag-counter">({{- .Count -}})</span>
+      <a href="{{- .Page.Permalink -}}">#{{- .Page.Title }}</a> <span class="tag-counter">({{- .Count -}})</span>
     </li>
   {{- end -}}
 </ul>

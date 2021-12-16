@@ -1,0 +1,10 @@
+{{- define "main"}}
+  {{- .Content -}}
+  <ul>
+	  {{- range .Data.Pages.ByTitle -}}
+	    <li>
+        <a href="{{- .Page.Permalink -}}">{{- .Title | urlize -}}</a>
+      </li>
+	  {{- end -}}
+	</ul>
+{{- end -}}

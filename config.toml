@@ -5,7 +5,7 @@ removePathAccents = true
 enableEmoji = true
 enableGitInfo = "true"
 paginate = 8
-# disableKinds = ["taxonomyTerm"]
+disableKinds = ["taxonomyTerm"]
 
 [markup.goldmark.renderer]
   unsafe = true
@@ -23,6 +23,7 @@ paginate = 8
 
     [languages.en.permalinks]
       tags = "/blog/tags/:slug"
+      games = "/blog/games/:slug"
       author = "/authors/:slug"
       blog = "/blog/:slug"
       game = "/games/:slug"
@@ -67,12 +68,12 @@ paginate = 8
       platforms = ["Mac", "PC", "Linux"]
 
     [[languages.en.games]]
-      id = "escape_pod"
+      id = "escape-pod"
       name = "Escape Pod"
       description = "Release date: TBD"
       genre = "Shooter"
-      thumbnail = "/games/escape_pod/thumbnail.png"
-      url = "/games/escape_pod"
+      thumbnail = "/games/escape-pod/thumbnail.png"
+      url = ""
       platforms = ["Mac", "PC", "Linux"]
 
 
@@ -88,6 +89,7 @@ paginate = 8
 
     [languages.es.permalinks]
       tags = "/blog/etiquetas/:slug"
+      games = "/blog/videojuegos/:slug"
       author = "/blog/autores/:slug"
       blog = "/blog/:slug"
       game = "/videojuegos/:slug"
@@ -132,12 +134,12 @@ paginate = 8
       platforms = ["Mac", "PC", "Linux"]
 
     [[languages.es.games]]
-      id = "escape_pod"
+      id = "escape-pod"
       name = "Escape Pod"
       description = "Fecha de lanzamiento: TBD"
       genre = "Disparos"
-      thumbnail = "/games/escape_pod/thumbnail.png"
-      url = "/es/videojuegos/escape_pod"
+      thumbnail = "/games/escape-pod/thumbnail.png"
+      url = ""
       platforms = ["Mac", "PC", "Linux"]
 
 
@@ -153,6 +155,7 @@ paginate = 8
 
     [languages.eo.permalinks]
       tags = "/blogo/etikedoj/:slug"
+      games = "/blog/videoludoj/:slug"
       author = "/blogo/aŭtoroj/:slug"
       blog = "/blogo/:slug"
       game = "/videoludoj/:slug"
@@ -197,12 +200,12 @@ paginate = 8
       platforms = ["Mac", "PC", "Linux"]
 
     [[languages.eo.games]]
-      id = "escape_pod"
+      id = "escape-pod"
       name = "Escape Pod"
       description = "Eldondato: TBD"
       genre = "Pafisto"
-      thumbnail = "/games/escape_pod/thumbnail.png"
-      url = "/eo/videoludoj/escape_pod"
+      thumbnail = "/games/escape-pod/thumbnail.png"
+      url = ""
       platforms = ["Mac", "PC", "Linux"]
 
 
@@ -224,6 +227,7 @@ paginate = 8
   tag = "tags"
   author = "authors"
   blog = "blogs"
+  game = "games"
 
 [outputFormats]
   [outputFormats.RSS]

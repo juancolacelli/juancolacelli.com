@@ -4,6 +4,9 @@ other = "Follow me"
 [popularTags]
 other = "Popular tags"
 
+[gameTags]
+other = "Games related"
+
 [translations]
 other = "Translations"
 

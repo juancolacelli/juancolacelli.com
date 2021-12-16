@@ -2,7 +2,7 @@
 title: Let there be light
 date: 2020-02-21T00:34:50-03:00
 description: Light has been added to my new game
-tags: [gamedev, pixelart, platformer, droid7]
+tags: [gamedev]
 authors: [jc]
 aliases: [/gamedev/let-there-be-light/]
 games: [droid7]

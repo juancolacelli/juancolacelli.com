@@ -2,7 +2,7 @@
 title: DROID7 v0.0.3
 date: 2020-06-20T03:21:50-03:00
 description: Fullscreen, settings, inputs, levels, and more...
-tags: [desarrollo-videojuegos, droid7, pixelart, plataforma]
+tags: [desarrollo-videojuegos]
 authors: [jc]
 games: [droid7]
 ---

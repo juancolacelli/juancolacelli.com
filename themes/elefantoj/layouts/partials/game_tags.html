@@ -1,0 +1,8 @@
+<h3 class="title">{{ i18n "gameTags" }}</h3>
+<ul>
+  {{- range $key, $tag := first 15 .Site.Taxonomies.games.ByCount -}}
+    <li>
+      <a href="{{- .Page.Permalink -}}">{{- .Page.Title }}</a> <span class="tag-counter">({{- .Count -}})</span>
+    </li>
+  {{- end -}}
+</ul>

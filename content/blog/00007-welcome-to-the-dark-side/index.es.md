@@ -2,7 +2,7 @@
 title: Bienvenido al Lado Oscuro
 date: 2020-03-02T02:55:39-03:00
 description: El juego ahora se encuentra en la obscuridad, y tiene lasers!
-tags: [desarrollo-videojuegos, pixelart, plataforma, droid7]
+tags: [desarrollo-videojuegos]
 authors: [jc]
 games: [droid7]
 ---

@@ -1,0 +1,9 @@
+{{- define "description" -}}
+  {{- .Description -}}
+{{- end -}}
+
+{{- define "main"}}
+  {{- .Content -}}
+
+  {{ partial "game_posts" . }}
+{{- end -}}

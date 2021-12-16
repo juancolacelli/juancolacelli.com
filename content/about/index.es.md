@@ -12,7 +12,7 @@ slug: acerca
 
 Soy Juan, un **desarrollador de videojuegos independiente** enfocado en **juegos pixel art retro**.
 
-Luego de mas de veinte años como desarrollador de software profesional, descubrí mi arraigada pasión por el [pixel art]({{< ref "/tags/pixelart" >}}) y el [desarrollo de videojuegos]({{< ref "/tags/desarrollo-videojuegos" >}}).
+Luego de mas de veinte años como desarrollador de software profesional, descubrí mi arraigada pasión por el pixel art y el [desarrollo de videojuegos]({{< ref "/tags/desarrollo-videojuegos" >}}).
 
 ## Herramientas
 

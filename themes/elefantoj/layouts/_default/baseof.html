@@ -136,6 +136,10 @@
                 {{- partial "popular_tags" . -}}
               {{- end -}}
 
+              {{- if not (eq .Type "page") -}}
+                {{- partial "game_tags" . -}}
+              {{- end -}}
+
               {{- partial "social_networks" . -}}
             {{- end -}}
           </div>

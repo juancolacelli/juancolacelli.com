@@ -2,7 +2,7 @@
 title: "Haloveno Vendo 2021"
 date: 2021-10-27T14:38:09-03:00
 description: DROID7 vendiĝas!
-tags: [droid7, itch.io, vendo, haloveno-vendo]
+tags: [vendo]
 authors: [jc]
 games: [droid7]
 ---

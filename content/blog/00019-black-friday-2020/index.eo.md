@@ -2,7 +2,7 @@
 title: "Nigra Vendredo 2020"
 date: 2020-11-27T16:28:00-03:00
 description: DROID7 vendiĝas!
-tags: [droid7, itch.io, vendo, nigra-vendredo]
+tags: [vendo]
 authors: [jc]
 games: [droid7]
 ---

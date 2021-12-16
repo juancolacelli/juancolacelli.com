@@ -1,11 +1,12 @@
 ---
 title: DROID7
 date: 2020-09-02T06:35:15-03:00
-type: page
+type: game
 description: Escape or die, it's your choice
-tags: [droid7]
+tags: []
 url: /eo/videoludoj/droid7
 aliases: [/eo/droid7/]
+games: [droid7]
 ---
 
 **DROID7** estas **platformo**, saltu sur generita turo dum lasera radio persekutas vin de sube.

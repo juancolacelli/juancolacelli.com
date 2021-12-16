@@ -2,7 +2,7 @@
 title: "Black Friday 2020"
 date: 2020-11-27T16:28:00-03:00
 description: DROID7 está en oferta!
-tags: [droid7, itch.io, oferta, black-friday]
+tags: [oferta]
 authors: [jc]
 games: [droid7]
 ---

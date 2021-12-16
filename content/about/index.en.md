@@ -11,7 +11,7 @@ description: About me
 
 I'm Juan, a **solo indie game developer** focused on **retro pixel art games**.
 
-After more than twenty years as a professional software developer, I discovered my long-rooted passion for [pixel art]({{< ref "/tags/pixelart" >}}) and [game development]({{< ref "/tags/gamedev" >}}).
+After more than twenty years as a professional software developer, I discovered my long-rooted passion for pixel art and [game development]({{< ref "/tags/gamedev" >}}).
 
 ## Tools
 

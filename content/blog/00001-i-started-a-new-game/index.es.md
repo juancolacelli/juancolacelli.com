@@ -2,16 +2,7 @@
 title: Comencé un nuevo juego
 date: 2020-02-15T04:33:52-03:00
 description: Estoy trabajando en un nuevo juego
-tags:
-    [
-        desarrollo-videojuegos,
-        pixelart,
-        plataforma,
-        droid7,
-        godot,
-        aseprite,
-        pico-8,
-    ]
+tags: [desarrollo-videojuegos]
 authors: [jc]
 games: [droid7]
 ---

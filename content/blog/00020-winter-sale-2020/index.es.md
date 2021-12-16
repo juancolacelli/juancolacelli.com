@@ -2,7 +2,7 @@
 title: "Ofertas de Invierno 2020"
 date: 2020-12-17T18:14:00-03:00
 description: DROID7 está en oferta!
-tags: [droid7, itch.io, oferta, oferta-de-invierno]
+tags: [oferta]
 authors: [jc]
 games: [droid7]
 ---

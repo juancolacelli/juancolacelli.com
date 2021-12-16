@@ -2,7 +2,7 @@
 title: "Black Friday 2021"
 date: 2021-11-26T16:28:00-03:00
 description: DROID7 is on sale!
-tags: [droid7, itch.io, sale, black-friday]
+tags: [sale]
 authors: [jc]
 games: [droid7]
 ---

@@ -1,0 +1,11 @@
+{{- $game_posts := where (where (where .Site.Pages ".Params.games" "intersect" .Params.games) "Permalink" "!=" .Permalink) "Type" "!=" "page" -}}
+{{- if $game_posts -}}
+  <div class="game-posts">
+    <h2 class="title">{{- i18n "relatedPosts" -}}</h2>
+    {{- range first 5 $game_posts -}}
+      {{- if ne .Permalink $.Permalink -}}
+        {{- partial "post_summary.html" . -}}
+      {{- end  -}}
+    {{- end  -}}
+  </div>
+{{- end -}}

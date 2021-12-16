@@ -2,16 +2,17 @@
 title: Nova kosmoŝipa ludo
 date: 2021-01-10T10:43:57-03:00
 description: "Mi laboras pri nova ludo :rocket:"
-tags: [ludevoluo, pikselarto, pafisto, kosmosxipoj, godot, aseprite, 1-bito]
+tags: [ludevoluo]
 authors: [jc]
 slug: nova-kosmosxipa-ludo
+games: [escape-pod]
 ---
 
 Nu, nova jaro :calendar:, nova ludo :video_game:.
 
-Mi ĉiam volis krei [1-bito]({{< ref "/tags/1-bito" >}}) ludon kaj en mia infanaĝo mi ludis multajn spacajn pafistojn :space_invader:, do mi decidis kombini ambaŭ kaj krei [1-bitan]({{< ref "/tags/1-bito" >}}) spacan [pafiston]({{< ref "/tags/pafisto" >}}).
+Mi ĉiam volis krei 1-bito ludon kaj en mia infanaĝo mi ludis multajn spacajn pafistojn :space_invader:, do mi decidis kombini ambaŭ kaj krei 1-bitan spacan pafisto.
 
-Mi laboras kun [Godot-Motoron](https://godotengine.org) kaj [Aseprite](https://aseprite.org) per [1-bitaj]({{< ref "/tags/1-bito" >}}) koloroj (nur nigra kaj blanka).
+Mi laboras kun [Godot-Motoron](https://godotengine.org) kaj [Aseprite](https://aseprite.org) per 1-bitaj koloroj (nur nigra kaj blanka).
 
 ## Stato
 

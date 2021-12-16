@@ -2,7 +2,7 @@
 title: DROID7 v0.0.3
 date: 2020-06-20T03:21:50-03:00
 description: Plena ekrano, agordoj, enigoj, niveloj kaj pli...
-tags: [ludevoluo, droid7, pikselarto, platformo]
+tags: [ludevoluo]
 authors: [jc]
 games: [droid7]
 ---
