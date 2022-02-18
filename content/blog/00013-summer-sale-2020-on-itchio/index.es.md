@@ -10,4 +10,4 @@ games: [droid7]
 
 Hay **ofertas de verano 2020** en [itch.io]({{< param "itchio" >}}) 🌞
 
-Obten [DROID7]({{< ref "/games/droid7" >}}) con un 50% de descuento por tiempo limitado!
+Obtén [DROID7]({{< ref "/games/droid7" >}}) con un 50% de descuento por tiempo limitado!

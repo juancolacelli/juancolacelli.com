@@ -1,7 +1,7 @@
 ---
 title: Paquete por la justicia racial e igualdad
 date: 2020-06-09T06:45:00-03:00
-description: Obten +1,500 proyectos por solo $5!
+description: Obtén +1,500 proyectos por solo $5!
 tags: [oferta, paquete]
 authors: [jc]
 games: [droid7]
