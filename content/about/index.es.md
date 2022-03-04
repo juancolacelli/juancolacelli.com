@@ -8,20 +8,22 @@ slug: acerca
 
 ## Quién soy
 
-![jc](jc_with_cats.gif)
+![With Cats](with_cats.gif)
 
-Soy Juan, un **desarrollador de videojuegos independiente** enfocado en **juegos pixel art retro**.
+**Bueno, soy Juan**.
+
+Soy un **desarrollador de videojuegos independiente** enfocado en **juegos pixel art retro**.
 
 Luego de mas de veinte años como desarrollador de software profesional, descubrí mi arraigada pasión por el pixel art y el [desarrollo de videojuegos]({{< ref "/tags/desarrollo-videojuegos" >}}).
 
 ## Herramientas
 
-![jc](jc_matrix.gif)
+![Matrix](matrix.gif)
 
 Mayormente uso [Godot Engine](https://godotengine.org) o [SDL](https://libsdl.org) para mis juegos, [Vim](https://vim.org) como editor de código y [Aseprite](https://aseprite.org) para mis dibujos.
 
 ## Dame soporte
 
-![jc](jc_rotating.gif)
+![Rotating](rotating.gif)
 
 Si te gusta mi trabajo, por favor :pray: considera convertirte [miembro en Patreon]({{< param "patreon" >}})

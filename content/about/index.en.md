@@ -7,20 +7,22 @@ description: About me
 
 ## Who am I
 
-![jc](jc_with_cats.gif)
+![With Cats](with_cats.gif)
 
-I'm Juan, a **solo indie game developer** focused on **retro pixel art games**.
+**Well, I'm Juan**.
+
+I'm a **solo indie game developer** focused on **retro pixel art games**.
 
 After more than twenty years as a professional software developer, I discovered my long-rooted passion for pixel art and [game development]({{< ref "/tags/gamedev" >}}).
 
 ## Tools
 
-![jc](jc_matrix.gif)
+![Matrix](matrix.gif)
 
 I mostly use [Godot Engine](https://godotengine.org) or [SDL](https://libsdl.org) for my games, [Vim](https://vim.org) as my code editor and [Aseprite](https://aseprite.org) for my drawings.
 
 ## Support me
 
-![jc](jc_rotating.gif)
+![Rotating](rotating.gif)
 
 If you like my work, please :pray: consider becoming a [Patreon member]({{< param "patreon" >}})
