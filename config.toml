@@ -1,4 +1,4 @@
-baseURL = "https://juancolacelli.com/"
+baseURL = "https://juanmakesgames.com/"
 languageCode = "en-us"
 theme = "elefantoj"
 removePathAccents = true
@@ -14,10 +14,11 @@ disableKinds = ["taxonomyTerm"]
   [languages.en]
     languageName = "English"
     weight = 1
-    title = "Juan Colacelli"
+    title = "Juan Makes Games"
     socialNetworks = [
-      ["Twitter", "https://twitter.com/juancolacelli"],
-      ["itch.io", "https://juancolacelli.itch.io"],
+      ["Twitter", "https://twitter.com/juanmakesgames"],
+      ["Instagram", "https://instagram.com/juanmakesgames"],
+      ["itch.io", "https://juanmakesgames.itch.io"],
       ["RSS feed", "/feed.xml"],
     ]
 
@@ -80,10 +81,11 @@ disableKinds = ["taxonomyTerm"]
   [languages.es]
     languageName = "Español"
     weight = 2
-    title = "Juan Colacelli"
+    title = "Juan Makes Games"
     socialNetworks = [
-      ["Twitter", "https://twitter.com/juancolacelli"],
-      ["itch.io", "https://juancolacelli.itch.io"],
+      ["Twitter", "https://twitter.com/juanmakesgames"],
+      ["Instagram", "https://instagram.com/juanmakesgames"],
+      ["itch.io", "https://juanmakesgames.itch.io"],
       ["RSS feed", "/es/feed.xml"],
     ]
 
@@ -146,10 +148,11 @@ disableKinds = ["taxonomyTerm"]
   [languages.eo]
     languageName = "Esperanto"
     weight = 2
-    title = "Juan Colacelli"
+    title = "Juan Makes Games"
     socialNetworks = [
-      ["Twitter", "https://twitter.com/juancolacelli"],
-      ["itch.io", "https://juancolacelli.itch.io"],
+      ["Twitter", "https://twitter.com/juanmakesgames"],
+      ["Instagram", "https://instagram.com/juanmakesgames"],
+      ["itch.io", "https://juanmakesgames.itch.io"],
       ["RSS feed", "/eo/feed.xml"],
     ]
 
@@ -210,9 +213,9 @@ disableKinds = ["taxonomyTerm"]
 
 
 [params]
-  itchio = "https://juancolacelli.itch.io"
-  patreon = "https://patreon.com/juancolacelli"
-  gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.gitlab.io"
+  itchio = "https://juanmakesgames.itch.io"
+  patreon = "https://patreon.com/juanmakesgames"
+  gitRepository = "https://gitlab.com/juanmakesgames/juanmakesgames.gitlab.io"
   showAuthors = false
   thumbnailSize = "80x80"
   thumbnailOGSize = "200x200"
