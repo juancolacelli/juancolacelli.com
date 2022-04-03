@@ -18,6 +18,7 @@ disableKinds = ["taxonomyTerm"]
     socialNetworks = [
       ["Twitter", "https://twitter.com/juanmakesgames"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
+      ["Facebook", "https://facebook.com/juanmakesgames"],
       ["itch.io", "https://juanmakesgames.itch.io"],
       ["RSS feed", "/feed.xml"],
     ]
@@ -85,6 +86,7 @@ disableKinds = ["taxonomyTerm"]
     socialNetworks = [
       ["Twitter", "https://twitter.com/juanmakesgames"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
+      ["Facebook", "https://facebook.com/juanmakesgames"],
       ["itch.io", "https://juanmakesgames.itch.io"],
       ["RSS feed", "/es/feed.xml"],
     ]
@@ -152,6 +154,7 @@ disableKinds = ["taxonomyTerm"]
     socialNetworks = [
       ["Twitter", "https://twitter.com/juanmakesgames"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
+      ["Facebook", "https://facebook.com/juanmakesgames"],
       ["itch.io", "https://juanmakesgames.itch.io"],
       ["RSS feed", "/eo/feed.xml"],
     ]
