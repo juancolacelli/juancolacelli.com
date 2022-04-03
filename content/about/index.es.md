@@ -10,7 +10,7 @@ slug: acerca
 
 ![With Cats](with_cats.gif)
 
-**Bueno, soy Juan**.
+**Bueno, mi nombre es Juan Colacelli**.
 
 Soy un **desarrollador de videojuegos independiente** enfocado en **juegos pixel art retro**.
 

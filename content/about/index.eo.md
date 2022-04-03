@@ -10,7 +10,7 @@ slug: pri
 
 ![With Cats](with_cats.gif)
 
-**Nu, mi estas Juan**
+**Nu, mia nomo estas Juan Colacelli**
 
 Mi estas sola **sendependa ludevoluo** enfokusigita al **retroaj pikselrtaj ludoj**.
 

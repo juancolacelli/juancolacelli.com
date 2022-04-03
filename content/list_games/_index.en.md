@@ -12,5 +12,10 @@ url: /games
 
 ### Escape pod
 
-[![Escape pod](spaceships.png)]({{< ref "/blog/00026-how-is-my-new-game-looking" >}})
+[![Escape pod](escape_pod.png)]({{< ref "/blog/00026-how-is-my-new-game-looking" >}})
+<small>_Release date: TBD_</small>
+
+### Cat in a box
+
+![Cat in a box](cat_in_a_box.png)
 <small>_Release date: TBD_</small>
