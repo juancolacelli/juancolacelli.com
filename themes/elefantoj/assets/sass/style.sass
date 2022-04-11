@@ -413,8 +413,8 @@ h1 + :not(.info)
 
   .open-mobile-menu-container
     position: absolute
-    top: 1.5rem
-    left: 1rem
+    top: 1.25rem
+    right: 1rem
 
   #open-mobile-menu
     color: $navbar-color
@@ -428,6 +428,12 @@ h1 + :not(.info)
 
   #open-mobile-menu:target
     opacity: 0
+
+
+  #close-mobile-menu
+    position: absolute
+    top: 1.5rem
+    right: 2rem
 
 
   .menu-backdrop
@@ -444,7 +450,7 @@ h1 + :not(.info)
 
 
   .navbar-links
-    transition: left .5s
+    transition: right .5s
     position: fixed
     z-index: 1001
     background: $navbar-mobile-background
@@ -458,11 +464,14 @@ h1 + :not(.info)
     li
       padding-bottom: 1rem
 
+      a
+        display: block
+
   .navbar-links:not(:target)
-    left: -350px
+    right: -350px
 
   .navbar-links:target
-    left: 0
+    right: 0
 
 
 .related-posts
