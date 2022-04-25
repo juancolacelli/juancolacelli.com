@@ -10,9 +10,11 @@ url: /es/videojuegos
 
 [![DROID7](droid7.gif)](droid7)
 
+# En progreso
+
 ### Escape pod
 
-[![Escape pod](escape_pod.png)]({{< ref "/blog/00026-how-is-my-new-game-looking" >}})
+[![Escape pod](escape_pod.png)]({{< ref "/games/escape-pod" >}})
 <small>_Fecha de lanzamiento: TBD_</small>
 
 ### Cat in the box
