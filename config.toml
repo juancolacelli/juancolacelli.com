@@ -20,6 +20,7 @@ disableKinds = ["taxonomyTerm"]
       ["Twitter", "https://twitter.com/juanmakesgames"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
       ["Facebook", "https://facebook.com/juanmakesgames"],
+      ["YouTube", "https://youtube.com/channel/UCTNU7fDMOFB68TQh8EjK-Rg?sub_confirmation=1"],
       ["itch.io", "https://juanmakesgames.itch.io"],
       ["RSS feed", "/feed.xml"],
     ]
@@ -89,6 +90,7 @@ disableKinds = ["taxonomyTerm"]
       ["Twitter", "https://twitter.com/juanmakesgames"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
       ["Facebook", "https://facebook.com/juanmakesgames"],
+      ["YouTube", "https://youtube.com/channel/UCTNU7fDMOFB68TQh8EjK-Rg?sub_confirmation=1"],
       ["itch.io", "https://juanmakesgames.itch.io"],
       ["RSS feed", "/es/feed.xml"],
     ]
@@ -158,6 +160,7 @@ disableKinds = ["taxonomyTerm"]
       ["Twitter", "https://twitter.com/juanmakesgames"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
       ["Facebook", "https://facebook.com/juanmakesgames"],
+      ["YouTube", "https://youtube.com/channel/UCTNU7fDMOFB68TQh8EjK-Rg?sub_confirmation=1"],
       ["itch.io", "https://juanmakesgames.itch.io"],
       ["RSS feed", "/eo/feed.xml"],
     ]
