@@ -1,4 +1,4 @@
-baseURL = "https://juanmakesgames.com/"
+baseURL = "https://juancolacelli.com/"
 languageCode = "en-us"
 theme = "elefantoj"
 removePathAccents = true
@@ -14,14 +14,13 @@ disableKinds = ["taxonomyTerm"]
   [languages.en]
     languageName = "English"
     weight = 1
-    title = "Juan makes games"
+    title = "Juan Colacelli's Blog"
     socialNetworks = [
       ["Discord", "/chat"],
-      ["Twitter", "https://twitter.com/juanmakesgames"],
+      ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
-      ["Facebook", "https://facebook.com/juanmakesgames"],
-      ["YouTube", "https://youtube.com/channel/UCTNU7fDMOFB68TQh8EjK-Rg?sub_confirmation=1"],
-      ["itch.io", "https://juanmakesgames.itch.io"],
+      ["YouTube", "https://youtube.com/juancolacelli"],
+      ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS feed", "/feed.xml"],
     ]
 
@@ -84,14 +83,13 @@ disableKinds = ["taxonomyTerm"]
   [languages.es]
     languageName = "Español"
     weight = 2
-    title = "Juan makes games"
+    title = "Blog de Juan Colacelli"
     socialNetworks = [
       ["Discord", "/es/chat"],
-      ["Twitter", "https://twitter.com/juanmakesgames"],
+      ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
-      ["Facebook", "https://facebook.com/juanmakesgames"],
-      ["YouTube", "https://youtube.com/channel/UCTNU7fDMOFB68TQh8EjK-Rg?sub_confirmation=1"],
-      ["itch.io", "https://juanmakesgames.itch.io"],
+      ["YouTube", "https://youtube.com/juancolacelli"],
+      ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS feed", "/es/feed.xml"],
     ]
 
@@ -154,14 +152,13 @@ disableKinds = ["taxonomyTerm"]
   [languages.eo]
     languageName = "Esperanto"
     weight = 2
-    title = "Juan makes games"
+    title = "Blogo de Juan Colacelli"
     socialNetworks = [
       ["Discord", "/eo/babilo"],
-      ["Twitter", "https://twitter.com/juanmakesgames"],
+      ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
-      ["Facebook", "https://facebook.com/juanmakesgames"],
-      ["YouTube", "https://youtube.com/channel/UCTNU7fDMOFB68TQh8EjK-Rg?sub_confirmation=1"],
-      ["itch.io", "https://juanmakesgames.itch.io"],
+      ["YouTube", "https://youtube.com/juancolacelli"],
+      ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS feed", "/eo/feed.xml"],
     ]
 
@@ -222,9 +219,9 @@ disableKinds = ["taxonomyTerm"]
 
 
 [params]
-  itchio = "https://juanmakesgames.itch.io"
-  patreon = "https://patreon.com/juanmakesgames"
-  gitRepository = "https://gitlab.com/juanmakesgames/juanmakesgames.gitlab.io"
+  itchio = "https://juancolacelli.itch.io"
+  patreon = "https://patreon.com/juancolacelli"
+  gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.com"
   showAuthors = false
   thumbnailSize = "80x80"
   thumbnailOGSize = "200x200"
