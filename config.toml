@@ -19,7 +19,7 @@ disableKinds = ["taxonomyTerm"]
       ["Discord", "/chat"],
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
-      ["YouTube", "https://youtube.com/juancolacelli"],
+      ["YouTube", "https://youtube.com/juancolacelli?sub_confirmation=1"],
       ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS feed", "/feed.xml"],
     ]
@@ -88,7 +88,7 @@ disableKinds = ["taxonomyTerm"]
       ["Discord", "/es/chat"],
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
-      ["YouTube", "https://youtube.com/juancolacelli"],
+      ["YouTube", "https://youtube.com/juancolacelli?sub_confirmation=1"],
       ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS feed", "/es/feed.xml"],
     ]
@@ -157,7 +157,7 @@ disableKinds = ["taxonomyTerm"]
       ["Discord", "/eo/babilo"],
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
-      ["YouTube", "https://youtube.com/juancolacelli"],
+      ["YouTube", "https://youtube.com/juancolacelli?sub_confirmation=1"],
       ["itch.io", "https://juancolacelli.itch.io"],
       ["RSS feed", "/eo/feed.xml"],
     ]
