@@ -14,7 +14,7 @@ disableKinds = ["taxonomyTerm"]
   [languages.en]
     languageName = "English"
     weight = 1
-    title = "Juan Colacelli's Blog"
+    title = "Juan Makes Games"
     socialNetworks = [
       ["Discord", "/chat"],
       ["Twitter", "https://twitter.com/JuanMakesGames"],
@@ -83,7 +83,7 @@ disableKinds = ["taxonomyTerm"]
   [languages.es]
     languageName = "Español"
     weight = 2
-    title = "Blog de Juan Colacelli"
+    title = "Juan Makes Games"
     socialNetworks = [
       ["Discord", "/es/chat"],
       ["Twitter", "https://twitter.com/JuanMakesGames"],
@@ -152,7 +152,7 @@ disableKinds = ["taxonomyTerm"]
   [languages.eo]
     languageName = "Esperanto"
     weight = 2
-    title = "Blogo de Juan Colacelli"
+    title = "Juan Makes Games"
     socialNetworks = [
       ["Discord", "/eo/babilo"],
       ["Twitter", "https://twitter.com/JuanMakesGames"],
