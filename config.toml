@@ -227,10 +227,10 @@ disableKinds = ["taxonomyTerm"]
   thumbnailOGSize = "200x200"
   googleAnalytics = "G-38S870CD65"
   favicon = "/images/favicon.png"
-  logo = "/images/logo.gif"
-  logoHover = "/images/logo_hover.gif"
-  logoWidth = "32px"
-  logoHeight = "32px"
+  logo = "/images/logo1.png"
+  logoHover = "/images/logo2.png"
+  logoWidth = "40px"
+  logoHeight = "40px"
 
 [Taxonomies]
   tag = "tags"

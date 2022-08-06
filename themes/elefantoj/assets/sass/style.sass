@@ -64,6 +64,9 @@ $info-size: 0.85rem
   100%
     text-shadow: 0 0 1px $accent-color, 0 0 2px $secondary-color, 0 0 3px $accent-color
 
+html, body
+  overflow-x: hidden
+
 body
   background: $background
     attachment: fixed
@@ -73,6 +76,7 @@ body
     size: $font-size
     weight: 400
   margin: 0
+  position: relative
 
 
 img, iframe
@@ -357,6 +361,11 @@ ul
 
 h1 + :not(.info)
   margin-top: 1rem
+
+
+.navbar
+  .navbar-logo
+    border-radius: $border-radius
 
 
 @media (max-width: $page-width)
