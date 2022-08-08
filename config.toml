@@ -17,10 +17,11 @@ disableKinds = ["taxonomyTerm"]
     title = "Juan Makes Games"
     socialNetworks = [
       ["Discord", "/chat"],
-      ["Twitter", "https://twitter.com/JuanMakesGames"],
+      ["Twitter", "https://twitter.com/juanmakesgames"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
       ["YouTube", "https://youtube.com/channel/UCTNU7fDMOFB68TQh8EjK-Rg?sub_confirmation=1"],
-      ["itch.io", "https://juancolacelli.itch.io"],
+      ["itch.io", "https://juanmakesgames.itch.io"],
+      ["Patreon", "https://patreon.com/juanmakesgames"],
       ["RSS feed", "/feed.xml"],
     ]
 
@@ -86,10 +87,11 @@ disableKinds = ["taxonomyTerm"]
     title = "Juan Makes Games"
     socialNetworks = [
       ["Discord", "/es/chat"],
-      ["Twitter", "https://twitter.com/JuanMakesGames"],
+      ["Twitter", "https://twitter.com/juanmakesgames"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
       ["YouTube", "https://youtube.com/channel/UCTNU7fDMOFB68TQh8EjK-Rg?sub_confirmation=1"],
-      ["itch.io", "https://juancolacelli.itch.io"],
+      ["itch.io", "https://juanmakesgames.itch.io"],
+      ["Patreon", "https://patreon.com/juanmakesgames"],
       ["RSS feed", "/es/feed.xml"],
     ]
 
@@ -155,10 +157,11 @@ disableKinds = ["taxonomyTerm"]
     title = "Juan Makes Games"
     socialNetworks = [
       ["Discord", "/eo/babilo"],
-      ["Twitter", "https://twitter.com/JuanMakesGames"],
+      ["Twitter", "https://twitter.com/juanmakesgames"],
       ["Instagram", "https://instagram.com/juanmakesgames"],
       ["YouTube", "https://youtube.com/channel/UCTNU7fDMOFB68TQh8EjK-Rg?sub_confirmation=1"],
-      ["itch.io", "https://juancolacelli.itch.io"],
+      ["itch.io", "https://juanmakesgames.itch.io"],
+      ["Patreon", "https://patreon.com/juanmakesgames"],
       ["RSS feed", "/eo/feed.xml"],
     ]
 
@@ -219,7 +222,7 @@ disableKinds = ["taxonomyTerm"]
 
 
 [params]
-  itchio = "https://juancolacelli.itch.io"
+  itchio = "https://juanmakesgames.itch.io"
   patreon = "https://patreon.com/juanmakesgames"
   gitRepository = "https://gitlab.com/juanmakesgames/juanmakesgames.com"
   showAuthors = false
