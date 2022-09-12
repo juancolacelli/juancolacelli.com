@@ -32,6 +32,13 @@ Obtienes puntaje a medida que asciendes, y tu puntaje más alto se guarda.
 
 ## Creditos
 
-Música por [Nicole Marie T](https://twitter.com/musicvsartstuff)
+- Música por [Nicole Marie T](https://twitter.com/musicvsartstuff)
+- Música del jefe por [Locomule](https://opengameart.org/users/locomule)
 
-Música del jefe por [Locomule](https://opengameart.org/users/locomule)
+## Reseñas
+
+- [PEGBRJE: ‘Penance’ and ‘Droid7 - The Ugly Monster](https://medium.com/theuglymonster/pegbrje-penance-and-droid7-54d41d19a825)
+- [Scratching That Itch: DROID7 - Waltorious](https://waltoriouswritesaboutgames.com/2022/07/15/scratching-that-itch-droid7/)
+- [DROID7 - The Entity](http://bundlescratching.the-entity.net/droid7)
+- [5 Minutes with an Indie: Episode #11 - B Green](https://www.youtube.com/watch?v=n0q1kuzXhkg)
+- [Let's Try: Droid7 - Corey Dutson](https://www.youtube.com/watch?v=NxHDMtXUAwM)

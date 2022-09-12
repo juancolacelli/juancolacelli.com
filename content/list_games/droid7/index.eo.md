@@ -32,6 +32,13 @@ Vi gajnas poentaron dum vi supreniras, kun via alta poentaro savita.
 
 ## Kreditoj
 
-Muziko de [Nicole Marie T](https://twitter.com/musicvsartstuff)
+- Muziko de [Nicole Marie T](https://twitter.com/musicvsartstuff)
+- Estra muziko de [Locomule](https://opengameart.org/users/locomule)
 
-Estra muziko de [Locomule](https://opengameart.org/users/locomule)
+## Recenzoj
+
+- [PEGBRJE: ‘Penance’ and ‘Droid7 - The Ugly Monster](https://medium.com/theuglymonster/pegbrje-penance-and-droid7-54d41d19a825)
+- [Scratching That Itch: DROID7 - Waltorious](https://waltoriouswritesaboutgames.com/2022/07/15/scratching-that-itch-droid7/)
+- [DROID7 - The Entity](http://bundlescratching.the-entity.net/droid7)
+- [5 Minutes with an Indie: Episode #11 - B Green](https://www.youtube.com/watch?v=n0q1kuzXhkg)
+- [Let's Try: Droid7 - Corey Dutson](https://www.youtube.com/watch?v=NxHDMtXUAwM)

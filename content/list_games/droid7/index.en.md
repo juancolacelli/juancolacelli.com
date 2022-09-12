@@ -32,6 +32,13 @@ You gain score as you ascend, with your high score being saved.
 
 ## Credits
 
-Music by [Nicole Marie T](https://twitter.com/musicvsartstuff)
+- Music by [Nicole Marie T](https://twitter.com/musicvsartstuff)
+- Boss music by [Locomule](https://opengameart.org/users/locomule)
 
-Boss music by [Locomule](https://opengameart.org/users/locomule)
+## Reviews
+
+- [PEGBRJE: ‘Penance’ and ‘Droid7 - The Ugly Monster](https://medium.com/theuglymonster/pegbrje-penance-and-droid7-54d41d19a825)
+- [Scratching That Itch: DROID7 - Waltorious](https://waltoriouswritesaboutgames.com/2022/07/15/scratching-that-itch-droid7/)
+- [DROID7 - The Entity](http://bundlescratching.the-entity.net/droid7)
+- [5 Minutes with an Indie: Episode #11 - B Green](https://www.youtube.com/watch?v=n0q1kuzXhkg)
+- [Let's Try: Droid7 - Corey Dutson](https://www.youtube.com/watch?v=NxHDMtXUAwM)
