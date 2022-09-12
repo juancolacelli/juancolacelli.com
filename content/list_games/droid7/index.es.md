@@ -24,7 +24,7 @@ Obtienes puntaje a medida que asciendes, y tu puntaje más alto se guarda.
 
 "Es lindo, realmente me gusta" — [Corey Dutson](https://twitter.com/cdutson)
 
-"Me gusta, fue genial" — [Kaze-Karaage](https://twitter.com/Bgreaterthan)
+"Me gusta, fue genial" — [B Green](https://twitter.com/Bgreaterthan)
 
 "Lo disfruté. DROID7 es un buen juego" — [The Entity](http://the-entity.net/)
 
@@ -37,8 +37,8 @@ Obtienes puntaje a medida que asciendes, y tu puntaje más alto se guarda.
 
 ## Reseñas
 
-- [PEGBRJE: ‘Penance’ and ‘Droid7 - The Ugly Monster](https://medium.com/theuglymonster/pegbrje-penance-and-droid7-54d41d19a825)
-- [Scratching That Itch: DROID7 - Waltorious](https://waltoriouswritesaboutgames.com/2022/07/15/scratching-that-itch-droid7/)
-- [DROID7 - The Entity](http://bundlescratching.the-entity.net/droid7)
-- [5 Minutes with an Indie: Episode #11 - B Green](https://www.youtube.com/watch?v=n0q1kuzXhkg)
-- [Let's Try: Droid7 - Corey Dutson](https://www.youtube.com/watch?v=NxHDMtXUAwM)
+- [PEGBRJE: 'Penance' and 'Droid7'](https://medium.com/theuglymonster/pegbrje-penance-and-droid7-54d41d19a825) — The Ugly Monster
+- [Scratching That Itch: DROID7](https://waltoriouswritesaboutgames.com/2022/07/15/scratching-that-itch-droid7/) — Waltorious
+- [DROID7](http://bundlescratching.the-entity.net/droid7) — The Entity
+- [5 Minutes with an Indie: Episode #11](https://www.youtube.com/watch?v=n0q1kuzXhkg) — B Green
+- [Let's Try: Droid7](https://www.youtube.com/watch?v=NxHDMtXUAwM) — Corey Dutson
