@@ -1,5 +1,5 @@
 ---
-title: "tiny tofu comics"
+title: "Tiny Tofu Comics"
 date: 2022-10-29T00:00:00-03:00
 description: I started my own comics
 tags: [comics]
@@ -7,9 +7,9 @@ authors: [jc]
 games: []
 ---
 
-I started my own comics called **tiny tofu comics**, if you want to take a look check [tinytofucomics.com](https://tinytofucomics.com)
+I started my own comics called **Tiny Tofu Comics**, if you want to take a look check [tinytofucomics.com](https://tinytofucomics.com)
 
-tiny tofu comics is also on:
+Tiny Tofu Comics is also on:
 - [Patreon](https://patreon.com/tinytofucomics)
 - [Instagram](https://instagram.com/tinytofucomics)
 - [Twitter](https://twitter.com/tinytofucomics)
