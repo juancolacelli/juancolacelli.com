@@ -9,7 +9,7 @@ games: []
 
 Comencé mi propio comic llamado **Tiny Tofu Comics**, si quieres verlo entra a [tinytofucomics.com](https://tinytofucomics.com)
 
-[![Tiny Tofu Comics](banner.png)](https://tinytofucomics.com)
+[![Tiny Tofu Comics](0020.png)](https://tinytofucomics.com)
 
 Tiny Tofu Comics está también en:
 - [Patreon](https://patreon.com/tinytofucomics)

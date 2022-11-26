@@ -9,7 +9,7 @@ games: []
 
 Mi komencis miajn proprajn bildstriojn nomitajn **Tiny Tofu Comics**, se vi volas rigardi, iru al [tinytofucomics.com](https://tinytofucomics.com)
 
-[![Tiny Tofu Comics](banner.png)](https://tinytofucomics.com)
+[![Tiny Tofu Comics](0020.png)](https://tinytofucomics.com)
 
 Tiny Tofu Comics ankaŭ estas en:
 - [Patreon](https://patreon.com/tinytofucomics)
