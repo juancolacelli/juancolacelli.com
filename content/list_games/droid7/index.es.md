@@ -8,7 +8,7 @@ url: /es/videojuegos/droid7
 aliases: [/es/droid7/]
 games: [droid7]
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QeI-Cd358aU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j_X7PdZHXOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **DROID7** es un **juego de plataformas**, en el que hay que saltar hacia arriba en una torre generada mientras un rayo láser te persigue desde abajo.
 

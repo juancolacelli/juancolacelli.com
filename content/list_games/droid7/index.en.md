@@ -8,7 +8,7 @@ url: /games/droid7
 aliases: [/droid7/]
 games: [droid7]
 ---
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/QeI-Cd358aU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j_X7PdZHXOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **DROID7** is a **platformer**, jump your way up on a generated tower while a laser beam chases you from below.
 
