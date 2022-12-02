@@ -9,6 +9,7 @@ url: /games
 ### DROID7
 
 [![DROID7](droid7.gif)](droid7)
+<small>_Release date: 03-12-2020_</small>
 
 # In progress
 
