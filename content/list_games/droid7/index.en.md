@@ -22,6 +22,16 @@ You gain score as you ascend, with your high score being saved.
 
 "I enjoyed it. DROID7 is a good game" — [The Entity](http://the-entity.net/)
 
+## Blocks
+
+| <center>Block</center>                                                                           | Description                                       |
+|--------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| <center><img alt="Block" class="borderless" src="blocks/block.png"></center>                     | Regular block                                     |
+| <center><img alt="One way" class="borderless" src="blocks/one_way.png"></center>                 | You can jump over this blocks                     |
+| <center><img alt="Droppable" class="borderless" src="blocks/droppable.png"></center>             | Disappear after 3 seconds                         |
+| <center><img alt="Togglable" class="borderless" src="blocks/togglable.gif"></center>             | Appear/Disappear every 0.5 seconds                |
+| <center><img alt="Walking machine" class="borderless" src="blocks/walking_machine.gif"></center> | Speed up/Slow down depending on the side you walk |
+
 ## Powers
 
 | <center>Power</center>                                                                        | Description                                             |
@@ -35,6 +45,15 @@ You gain score as you ascend, with your high score being saved.
 | <center><img alt="Mushroom" class="borderless" src="items/mushroom.png"></center>             | Grow up and break everything in your way for 10 seconds |
 | <center><img alt="Clock" class="borderless" src="items/clock.png"></center>                   | Freeze the time for 5 seconds                           |
 | <center><img alt="Roulette" class="borderless" src="items/roulette.gif"></center>             | Pick item from all the items pool                       |
+
+## Specials
+
+| <center>Special</center>                                                                   | Description                       |
+|--------------------------------------------------------------------------------------------|-----------------------------------|
+| <center><img alt="Springboard" class="borderless" src="specials/springboard.gif"></center> | Jump higher using springboards    |
+| <center><img alt="Spikes" class="borderless" src="specials/spikes.gif"></center>           | Spikes hurt you                   |
+| <center><img alt="Teleport" class="borderless" src="specials/teleport.gif"></center>       | Teleport you to a higher position |
+| <center><img alt="Door" class="borderless" src="specials/door.png"></center>               | Escape!                           |
 
 ## Default Input Settings
 
