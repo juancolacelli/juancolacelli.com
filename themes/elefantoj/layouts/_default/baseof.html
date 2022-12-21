@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{- if not .IsHome -}}{{- block "title" . -}}{{- .Title -}}{{- end -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}</title>
 
+    {{- if not (eq .Language.LanguageName "English") -}}
+      <meta name="robots" content="noindex">
+    {{- end -}}
+
     <meta name="google" content="notranslate">
     <meta name="description" content="{{- block "description" . -}}{{- end -}}"/>
 
@@ -110,8 +114,17 @@
 
     <div class="content">
       {{- block "banner" . -}}{{- end -}}
+
       <div class="grid-container">
         <div class="main">
+	        {{ range sort .Translations "Language.LanguageName" "asc"}}
+	          {{- if eq .Language.LanguageName "English" }}
+	            <div class="outdated-article">
+	              {{- i18n "translationsUnsupported" }} <b>{{- i18n "translationsUnsupportedOutdatedArticle" }} </b>{{- i18n "translationsUnsupportedGoTo" }} <a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">{{- i18n "translationsUnsupportedOriginalArticleLink" -}}</a>
+	            </div>
+	          {{ end }}
+	        {{ end }}
+
           {{- if not .IsHome -}}
             <h1 class="main-title">{{- block "title" . -}}{{- end -}}</h1>
           {{- end -}}
@@ -120,14 +133,7 @@
         </div>
           <div class="secondary">
             {{- block "secondary" . -}}
-              {{ if .IsTranslated }}
-  	            <h3 class="title">{{ i18n "translations" }}</h3>
-                <ul class="secondary-section">
-	              {{ range sort .Translations "Language.LanguageName" "asc"}}
-	  	            <li><a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a></li>
-	              {{ end }}
-  	            </ul>
-              {{ end }}
+              <!-- {{- partial "translations" . -}} -->
 
               {{- if not .IsHome -}}
                 {{- partial "recent_posts" . -}}

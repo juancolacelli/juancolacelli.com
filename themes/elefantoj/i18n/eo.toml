@@ -21,3 +21,15 @@ other = "estis laste ĝisdatigita"
 
 [relatedPosts]
 other = "Rilataj afiŝoj"
+
+[translationsUnsupported]
+other = "Mi ĉesis subteni tradukojn,"
+
+[translationsUnsupportedOutdatedArticle]
+other = "ĉi tiu artikolo eble estas malaktuala!"
+
+[translationsUnsupportedGoTo]
+other = "Bonvolu iri al"
+
+[translationsUnsupportedOriginalArticleLink]
+other = "originala artikolo en la Angla"

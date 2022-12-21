@@ -21,3 +21,15 @@ other = "fue actualizado el"
 
 [relatedPosts]
 other = "Publicaciones relacionadas"
+
+[translationsUnsupported]
+other = "He dejado de dar soporte a las traducciones,"
+
+[translationsUnsupportedOutdatedArticle]
+other = "este artículo puede estar desactualizado!"
+
+[translationsUnsupportedGoTo]
+other = "Por favor diríjase al"
+
+[translationsUnsupportedOriginalArticleLink]
+other = "artículo original en Inglés"

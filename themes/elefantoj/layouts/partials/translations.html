@@ -1,0 +1,8 @@
+{{ if .IsTranslated }}
+  <h3 class="title">{{ i18n "translations" }}</h3>
+  <ul class="secondary-section">
+	{{ range sort .Translations "Language.LanguageName" "asc"}}
+	  <li><a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a></li>
+	{{ end }}
+  </ul>
+{{ end }}
