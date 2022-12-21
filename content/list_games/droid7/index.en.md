@@ -52,7 +52,7 @@ You gain score as you ascend, with your high score being saved.
 |--------------------------------------------------------------------------------------------|-----------------------------------|
 | <center><img alt="Springboard" class="borderless" src="specials/springboard.gif"></center> | Jump higher using springboards    |
 | <center><img alt="Spikes" class="borderless" src="specials/spikes.gif"></center>           | Spikes hurt you                   |
-| <center><img alt="Teleport" class="borderless" src="specials/teleport.gif"></center>       | Teleport you to a higher position |
+| <center><img alt="Teleport" class="borderless" src="specials/teleport.gif"></center>       | Teleport to a higher position |
 | <center><img alt="Door" class="borderless" src="specials/door.png"></center>               | Escape!                           |
 
 ## Default Input Settings
