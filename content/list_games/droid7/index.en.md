@@ -16,24 +16,34 @@ The higher you go, the faster it gets, and it isn't long before disappearing (an
 
 You gain score as you ascend, with your high score being saved.
 
-![Video](1.gif)
-
-"If you like DROIDs, you are in the right place, if you don't, I will find you, and I will kill you." — <img alt="DROID7" class="borderless" src="droid7.gif"> DROID7
-
-![Video](2.gif)
-
 "It's cute, I really like it" — [Corey Dutson](https://twitter.com/cdutson)
 
 "I like it, it was cool" — [B Green](https://twitter.com/Bgreaterthan)
 
 "I enjoyed it. DROID7 is a good game" — [The Entity](http://the-entity.net/)
 
-<iframe src="https://itch.io/embed/570980?bg_color=16171a&amp;fg_color=fafdff&amp;link_color=ff2674&amp;border_color=16171a" width="208" height="167" frameborder="0"><a href="{{< param "itchio" >}}/droid7">DROID7</a></iframe>
+## Powers
 
-## Credits
+| <center>Power</center>                                                                        | Description                                             |
+|-----------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| <center><img alt="Life" class="borderless" src="items/life.png"></center>                     | Heal for 1 life                                         |
+| <center><img alt="Two lives" class="borderless" src="items/two_lives.png"></center>           | Heal for 2 lives                                        |
+| <center><img alt="Super battery" class="borderless" src="items/super_battery.png"></center>   | 1.4x Speed up for 5 seconds                             |
+| <center><img alt="Battery" class="borderless" src="items/battery.png"></center>               | 1.2x Speed up for 5 seconds                             |
+| <center><img alt="Broken battery" class="borderless" src="items/broken_battery.png"></center> | 0.8x Speed down for 5 seconds                           |
+| <center><img alt="Jetpack" class="borderless" src="items/jetpack.png"></center>               | Fly in a jetpack for 1.25 seconds                       |
+| <center><img alt="Mushroom" class="borderless" src="items/mushroom.png"></center>             | Grow up and break everything in your way for 10 seconds |
+| <center><img alt="Clock" class="borderless" src="items/clock.png"></center>                   | Freeze the time for 5 seconds                           |
+| <center><img alt="Roulette" class="borderless" src="items/roulette.gif"></center>             | Pick item from all the items pool                       |
 
-- Music by [Nicole Marie T](https://twitter.com/musicvsartstuff)
-- Boss music by [Locomule](https://opengameart.org/users/locomule)
+## Default Input Settings
+
+| Action     | Keyboard  | Joystick |
+|------------|-----------|----------|
+| Move left  | ←         | ←        |
+| Move right | →         | →        |
+| Jump       | Space bar | A        |
+| Pause      | Escape    | Start    |
 
 ## Reviews
 
@@ -42,3 +52,10 @@ You gain score as you ascend, with your high score being saved.
 - [DROID7](http://bundlescratching.the-entity.net/droid7) — The Entity
 - [5 Minutes with an Indie: Episode #11](https://www.youtube.com/watch?v=n0q1kuzXhkg) — B Green
 - [Let's Try: Droid7](https://www.youtube.com/watch?v=NxHDMtXUAwM) — Corey Dutson
+
+## Credits
+
+- Music by [Nicole Marie T](https://twitter.com/musicvsartstuff)
+- Boss music by [Locomule](https://opengameart.org/users/locomule)
+
+<iframe src="https://itch.io/embed/570980?bg_color=16171a&amp;fg_color=fafdff&amp;link_color=ff2674&amp;border_color=16171a" width="208" height="167" frameborder="0"><a href="{{< param "itchio" >}}/droid7">DROID7</a></iframe>
