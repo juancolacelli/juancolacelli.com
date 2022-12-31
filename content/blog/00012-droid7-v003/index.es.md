@@ -7,7 +7,7 @@ authors: [jc]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/games/droid7" >}}) v0.0.3 lanzado!
+[DROID7]({{< ref "/list_games/droid7" >}}) v0.0.3 lanzado!
 
 Los niveles al principio del juego comenzarán suaves, y luego a través de los niveles irán escalando y siendo más duros.
 
@@ -23,7 +23,7 @@ Se ha agregado la pantalla de configuraciones con soporte de pantalla completa y
 
 ![Niveles](lights.png)
 
-[DROID7]({{< ref "/games/droid7" >}}) 0.0.3 cuenta con los siguientes cambios:
+[DROID7]({{< ref "/list_games/droid7" >}}) 0.0.3 cuenta con los siguientes cambios:
 
 -   Niveles
 

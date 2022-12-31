@@ -8,7 +8,7 @@ aliases: [/gamedev/droid7-v0.0.3/]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/games/droid7" >}}) v0.0.3 launched!
+[DROID7]({{< ref "/list_games/droid7" >}}) v0.0.3 launched!
 
 Introducing the levels, in the beginning the game will start paced off, and then it will be scaling and getting harder through levels.
 
@@ -24,7 +24,7 @@ Settings screen has been added with fullscreen support and volume sliders. Input
 
 ![Levels](lights.png)
 
-[DROID7]({{< ref "/games/droid7" >}}) 0.0.3 release has the following game changes:
+[DROID7]({{< ref "/list_games/droid7" >}}) 0.0.3 release has the following game changes:
 
 -   Levels
 

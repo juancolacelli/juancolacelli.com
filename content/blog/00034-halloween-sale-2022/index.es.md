@@ -9,4 +9,4 @@ games: [droid7]
 
 Hay **ofertas de Halloween 2022** en [itch.io]({{< param "itchio" >}}) 🎃
 
-Obtén [DROID7]({{< ref "/games/droid7" >}}) con un 90% de descuento por tiempo limitado!
+Obtén [DROID7]({{< ref "/list_games/droid7" >}}) con un 90% de descuento por tiempo limitado!

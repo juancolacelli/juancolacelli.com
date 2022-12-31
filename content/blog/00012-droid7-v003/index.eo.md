@@ -7,7 +7,7 @@ authors: [jc]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/games/droid7" >}}) v0.0.3 lanĉita!
+[DROID7]({{< ref "/list_games/droid7" >}}) v0.0.3 lanĉita!
 
 En la komenco la ludo komenciĝos facila, kaj ĝi estos pli pli kaj pli malfacila tra niveloj.
 
@@ -23,7 +23,7 @@ Agorda ekrano aldonita kun plena ekrana subteno kaj volumaj glitiloj. Eniga agor
 
 ![Niveloj](lights.png)
 
-[DROID7]({{< ref "/games/droid7" >}}) 0.0.3 versio havas la jenanjn ludon ŝanĝojn:
+[DROID7]({{< ref "/list_games/droid7" >}}) 0.0.3 versio havas la jenanjn ludon ŝanĝojn:
 
 -   Niveloj
 

@@ -8,6 +8,6 @@ aliases: [/gamedev/lockdown-sale/]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/games/droid7" >}}) is on sale on [itch.io]({{< param "itchio" >}}) until June 21, 2020.
+[DROID7]({{< ref "/list_games/droid7" >}}) is on sale on [itch.io]({{< param "itchio" >}}) until June 21, 2020.
 
 Claim it now, and keep it forever!

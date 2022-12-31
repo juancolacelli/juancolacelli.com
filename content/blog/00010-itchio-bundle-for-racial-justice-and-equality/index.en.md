@@ -8,6 +8,6 @@ aliases: [/gamedev/bundle-for-racial-justice-and-equality/]
 games: [droid7]
 ---
 
-You can get +1,500 projects including [DROID7]({{< ref "/games/droid7" >}}) on this awesome [itch.io]({{< param "itchio" >}}) bundle.
+You can get +1,500 projects including [DROID7]({{< ref "/list_games/droid7" >}}) on this awesome [itch.io]({{< param "itchio" >}}) bundle.
 
 [![Bundle](bundle.png)](https://itch.io/b/520/bundle-for-racial-justice-and-equality)
