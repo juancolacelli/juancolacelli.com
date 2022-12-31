@@ -39,8 +39,12 @@
     {{ $sass := resources.Get "/sass/style.sass" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" type="text/css" href="{{- $sass.RelPermalink -}}"/>
 
-    {{- if .Site.Params.favicon -}}
-      <link rel="shortcut icon" href="{{- .Site.Params.favicon -}}"/>
+    {{- if .Params.favicon -}}
+      <link rel="shortcut icon" href="{{- .Params.favicon -}}"/>
+    {{- else -}}
+      {{- if .Site.Params.favicon -}}
+        <link rel="shortcut icon" href="{{- .Site.Params.favicon -}}"/>
+      {{- end -}}
     {{- end -}}
 
     {{- if .Site.Params.logo -}}

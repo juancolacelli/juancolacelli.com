@@ -7,6 +7,7 @@ games: [droid7]
 type: page
 url: /droid7/wiki
 aliases: [/games/droid7/wiki]
+favicon: /droid7/droid7.gif
 ---
 
 In [DROID7]({{< ref "/droid7" >}}) you can find

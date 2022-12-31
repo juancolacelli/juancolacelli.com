@@ -6,6 +6,7 @@ description: Escape or die, it's your choice
 tags: []
 aliases: [/games/droid7/]
 games: [droid7]
+favicon: droid7.gif
 ---
 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/j_X7PdZHXOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -25,6 +26,8 @@ You gain score as you ascend, with your high score being saved.
 
 "I enjoyed it. DROID7 is a good game" — [The Entity](http://the-entity.net/)
 
+"Best game ever!" — [Juan Colacelli]({{< ref "about" >}})
+
 ## Reviews
 
 - [PEGBRJE: 'Penance' and 'Droid7'](https://medium.com/theuglymonster/pegbrje-penance-and-droid7-54d41d19a825) — The Ugly Monster
@@ -35,8 +38,10 @@ You gain score as you ascend, with your high score being saved.
 
 ## Credits
 
+- Game by [Juan Colacelli]({{< ref "about" >}})
 - Music by [Nicole Marie T](https://twitter.com/musicvsartstuff)
 - Boss music by [Locomule](https://opengameart.org/users/locomule)
+- Made with [Godot Engine](https://godotengine.org) and [Aseprite](https://aseprite.org)
 
 ## Wiki
 

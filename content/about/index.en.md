@@ -9,7 +9,7 @@ description: About me
 
 ![With Cats](with_cats.gif)
 
-**Well, my name is Juan Colacelli**.
+Well, **my name is Juan Colacelli and I'm from Argentina 🇦🇷**.
 
 I'm a **solo indie game developer** focused on **retro pixel art games**.
 

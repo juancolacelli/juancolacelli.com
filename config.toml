@@ -39,26 +39,27 @@ disableKinds = ["taxonomyTerm"]
 
     [languages.en.menu]
       [[languages.en.menu.nav]]
-        name = "Games"
-        title = "Games"
+        name = "🎮 Games"
+        title = "My games"
         url = "/games"
         weight = 1
 
+
       [[languages.en.menu.nav]]
-        name = "Blog"
-        title = "Blog"
+        name = "🧻 Blog"
+        title = "Dear diary..."
         url = "/blog"
         weight = 2
 
       [[languages.en.menu.nav]]
-        name = "Chat"
+        name = "💬 Chat"
         title = "Join us on Discord"
         url = "/chat"
         weight = 3
 
       [[languages.en.menu.nav]]
-        name = "About"
-        title = "About"
+        name = "😎 About"
+        title = "Who am I?"
         url = "/about"
         weight = 4
 
