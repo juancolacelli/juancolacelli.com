@@ -58,10 +58,16 @@ disableKinds = ["taxonomyTerm"]
         weight = 3
 
       [[languages.en.menu.nav]]
+        name = "✨ Patreons"
+        title = "People supporting me"
+        url = "/patreons"
+        weight = 4
+
+      [[languages.en.menu.nav]]
         name = "😎 About"
         title = "Who am I?"
         url = "/about"
-        weight = 4
+        weight = 5
 
     [[languages.en.games]]
       id = "droid7"
