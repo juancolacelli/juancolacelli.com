@@ -7,9 +7,9 @@ authors: [jc]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/list_games/droid7" >}}) estis _senfina ludo_ ekde la komenco, sed nun ĝi havas limigitajn 10 etaĝojn de malfacileco, kaj batalon kontraŭ ĝia kreinto (Dok).
+[DROID7]({{< ref "/droid7" >}}) estis _senfina ludo_ ekde la komenco, sed nun ĝi havas limigitajn 10 etaĝojn de malfacileco, kaj batalon kontraŭ ĝia kreinto (Dok).
 
-[DROID7]({{< ref "/list_games/droid7" >}}) 1.0.0 versio havas la jenanjn ludon ŝanĝojn:
+[DROID7]({{< ref "/droid7" >}}) 1.0.0 versio havas la jenanjn ludon ŝanĝojn:
 
 Ludado
 

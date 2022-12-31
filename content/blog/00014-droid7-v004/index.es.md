@@ -23,7 +23,7 @@ Nuevos objetos:
 
 ![Reloj de arena](items7.png) Reloj de arena
 
-[DROID7]({{< ref "/list_games/droid7" >}}) 0.0.4 cuenta con los siguientes cambios:
+[DROID7]({{< ref "/droid7" >}}) 0.0.4 cuenta con los siguientes cambios:
 
 -   Laser
 

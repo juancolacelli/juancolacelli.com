@@ -9,6 +9,6 @@ aliases: [/eo/blogo/ŝtopadoi-vendo/]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/list_games/droid7" >}}) vendiĝas ĉe [itch.io]({{< param "itchio" >}}) ĝis la 21a de Junio 2020.
+[DROID7]({{< ref "/droid7" >}}) vendiĝas ĉe [itch.io]({{< param "itchio" >}}) ĝis la 21a de Junio 2020.
 
 Postulu ĝin nun, kaj konservu ĝin por ĉiam!

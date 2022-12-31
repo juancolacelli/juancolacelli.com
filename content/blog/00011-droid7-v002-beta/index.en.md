@@ -8,7 +8,7 @@ aliases: [/gamedev/droid7-v0.0.2-beta/]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/list_games/droid7" >}}) was originally created for _mobile devices_, but now it’s re-designed for _desktop computers_.
+[DROID7]({{< ref "/droid7" >}}) was originally created for _mobile devices_, but now it’s re-designed for _desktop computers_.
 
 ![Start screen](screenshot_1.png)
 
@@ -16,7 +16,7 @@ games: [droid7]
 
 ![In game](screenshot_3.png)
 
-[DROID7]({{< ref "/list_games/droid7" >}}) 0.0.2-beta release has the following game changes:
+[DROID7]({{< ref "/droid7" >}}) 0.0.2-beta release has the following game changes:
 
 -   Window aspect changed to 16:9
 -   Player movement with arrow keys (originally automated)

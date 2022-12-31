@@ -23,7 +23,7 @@ Novajn erojn:
 
 ![Sablohorloĝo](items7.png) Sablohorloĝo
 
-[DROID7]({{< ref "/list_games/droid7" >}}) 0.0.4 versio havas la jenanjn ludon ŝanĝojn:
+[DROID7]({{< ref "/droid7" >}}) 0.0.4 versio havas la jenanjn ludon ŝanĝojn:
 
 -   Lasero
 

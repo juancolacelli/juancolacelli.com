@@ -9,4 +9,4 @@ games: [droid7]
 
 It's **Black Friday 2021** on [itch.io]({{< param "itchio" >}})
 
-Get [DROID7]({{< ref "/list_games/droid7" >}}) 75% off for a limited time!
+Get [DROID7]({{< ref "/droid7" >}}) 75% off for a limited time!

@@ -7,7 +7,7 @@ authors: [jc]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/list_games/droid7" >}}) v1.0.1 versio havas la jenanjn ludon ŝanĝojn:
+[DROID7]({{< ref "/droid7" >}}) v1.0.1 versio havas la jenanjn ludon ŝanĝojn:
 
 -   Nova ŝpruca ekrano
 -   Ŝpruca ekrano povas esti transsaltita per paŭza klavo (defaŭlte Eskapi)

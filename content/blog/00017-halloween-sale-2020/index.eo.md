@@ -10,4 +10,4 @@ games: [droid7]
 
 Estas **Haloveno Vendo 2020** ĉe [itch.io]({{< param "itchio" >}}) 🎃
 
-Akiru [DROID7]({{< ref "/list_games/droid7" >}}) 50% rabaton por limigita tempo!
+Akiru [DROID7]({{< ref "/droid7" >}}) 50% rabaton por limigita tempo!

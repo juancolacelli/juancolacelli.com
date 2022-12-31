@@ -7,7 +7,7 @@ authors: [jc]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/list_games/droid7" >}}) estis kreita por _porteblaj aparatoj_, sed nun ĝi estas restrukturita por _surtablaj komputiloj_.
+[DROID7]({{< ref "/droid7" >}}) estis kreita por _porteblaj aparatoj_, sed nun ĝi estas restrukturita por _surtablaj komputiloj_.
 
 ![Komenca ekrano](screenshot_1.png)
 
@@ -15,7 +15,7 @@ games: [droid7]
 
 ![Videoludo](screenshot_3.png)
 
-[DROID7]({{< ref "/list_games/droid7" >}}) 0.0.2-beta versio havas la jenanjn ludon ŝanĝojn:
+[DROID7]({{< ref "/droid7" >}}) 0.0.2-beta versio havas la jenanjn ludon ŝanĝojn:
 
 -   Fenestra aspekto ŝanĝiĝis al 16:9
 -   Ludanta movado per sagoklavoj (originale aŭtomatigitaj)

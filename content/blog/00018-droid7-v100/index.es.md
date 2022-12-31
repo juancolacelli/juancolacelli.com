@@ -7,9 +7,9 @@ authors: [jc]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/list_games/droid7" >}}) ha sido un _videojuego infinito_ desde el principio, pero ahora tiene un límite de 10 pisos de dificulta, y una pelea contra su creaodr (Doc).
+[DROID7]({{< ref "/droid7" >}}) ha sido un _videojuego infinito_ desde el principio, pero ahora tiene un límite de 10 pisos de dificulta, y una pelea contra su creaodr (Doc).
 
-[DROID7]({{< ref "/list_games/droid7" >}}) 1.0.0 cuenta con los siguientes cambios:
+[DROID7]({{< ref "/droid7" >}}) 1.0.0 cuenta con los siguientes cambios:
 
 Juego
 

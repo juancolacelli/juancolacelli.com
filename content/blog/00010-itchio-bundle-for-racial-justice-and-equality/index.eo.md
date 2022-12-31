@@ -7,6 +7,6 @@ authors: [jc]
 games: [droid7]
 ---
 
-Vi povas akiri +1,500 projektonjn inkluzive de [DROID7]({{< ref "/list_games/droid7" >}}) en ĉi tiu timinda fasko de [itch.io]({{< param "itchio" >}}).
+Vi povas akiri +1,500 projektonjn inkluzive de [DROID7]({{< ref "/droid7" >}}) en ĉi tiu timinda fasko de [itch.io]({{< param "itchio" >}}).
 
 [![Fasko](bundle.png)](https://itch.io/b/520/bundle-for-racial-justice-and-equality)

@@ -4,8 +4,7 @@ date: 2020-09-02T06:35:15-03:00
 type: game
 description: Escape or die, it's your choice
 tags: []
-url: /games/droid7
-aliases: [/droid7/]
+aliases: [/games/droid7/]
 games: [droid7]
 ---
 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/j_X7PdZHXOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -17,6 +16,8 @@ games: [droid7]
 The higher you go, the faster it gets, and it isn't long before disappearing (and reappearing) platforms and spikes are introduced to make your life harder.
 
 You gain score as you ascend, with your high score being saved.
+
+## Opinions
 
 "It's cute, I really like it" — [Corey Dutson](https://twitter.com/cdutson)
 

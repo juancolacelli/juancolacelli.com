@@ -5,11 +5,11 @@ description: DROID7 Wiki
 tags: []
 games: [droid7]
 type: page
-url: /games/droid7/wiki
-aliases: [/droid7/wiki]
+url: /droid7/wiki
+aliases: [/games/droid7/wiki]
 ---
 
-In the game [DROID7]({{< ref "/list_games/droid7" >}}) you can find
+In [DROID7]({{< ref "/droid7" >}}) you can find
 
 - [Blocks](#blocks)
 - [Powers](#powers)
@@ -57,7 +57,7 @@ Specials are objects that can't be picked up but interact with DROID7
 
 ## Enemies
 
-Enemies hurt DROID7 when they touch it, all enemies have the same behaviour and make the same damage
+Enemies hurt DROID7 when they touch it,  all enemies have the same behaviour and make the same damage
 
 | Enemies                                                        | Description  |
 |---------------------------------------------------------------------------------|--------------|

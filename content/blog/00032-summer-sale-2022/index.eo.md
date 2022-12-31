@@ -9,4 +9,4 @@ games: [droid7]
 
 Estas **Somera Vendo 2022** ĉe [itch.io]({{< param "itchio" >}}) 🌞
 
-Akiru [DROID7]({{< ref "/list_games/droid7" >}}) 75% rabaton por limigita tempo!
+Akiru [DROID7]({{< ref "/droid7" >}}) 75% rabaton por limigita tempo!
