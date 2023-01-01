@@ -26,3 +26,12 @@ I mostly use [Godot Engine](https://godotengine.org) or [SDL](https://libsdl.org
 ![Rotating](rotating.gif)
 
 If you like my work, please :pray: consider becoming a [Patreon member]({{< param "patreon" >}})
+
+## Follow me
+
+![Deal with it](deal_with_it.gif)
+
+You can follow me on
+- [Twitter](https://twitter.com/juancolacelli)
+- [Instagram](https://instagram.com/juancolacelli)
+- [Mastodon](https://mastodon.gamedev.place/@juancolacelli)

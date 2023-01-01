@@ -16,13 +16,13 @@ disableKinds = ["taxonomyTerm"]
     weight = 1
     title = "Juan Colacelli"
     socialNetworks = [
-      ["Discord", "/chat"],
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juancolacelli"],
       ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
-      ["itch.io", "https://juancolacelli.itch.io"],
-      ["Patreon", "https://patreon.com/juancolacelli"],
       ["RSS feed", "/feed.xml"],
+    ]
+    supportNetworks = [
+      ["Patreon", "https://patreon.com/juancolacelli"],
     ]
 
     [languages.en.permalinks]

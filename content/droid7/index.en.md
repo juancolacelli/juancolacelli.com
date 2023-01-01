@@ -20,13 +20,10 @@ You gain score as you ascend, with your high score being saved.
 
 ## Opinions
 
-"It's cute, I really like it" — [Corey Dutson](https://twitter.com/cdutson)
-
-"I like it, it was cool" — [B Green](https://twitter.com/Bgreaterthan)
-
-"I enjoyed it. DROID7 is a good game" — [The Entity](http://the-entity.net/)
-
-"Best game ever!" — [Juan Colacelli]({{< ref "about" >}})
+- "It's cute, I really like it" — [Corey Dutson](https://twitter.com/cdutson)
+- "I like it, it was cool" — [B Green](https://twitter.com/Bgreaterthan)
+- "I enjoyed it. DROID7 is a good game" — [The Entity](http://the-entity.net/)
+- "Best game ever!" — [Juan Colacelli]({{< ref "about" >}})
 
 ## Reviews
 

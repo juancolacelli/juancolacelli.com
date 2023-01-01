@@ -1,0 +1,10 @@
+{{- if .Site.Params.supportNetworks -}}
+  <h3>{{ i18n "supportMe" }}</h3>
+  <ul>
+    {{- range .Site.Params.supportNetworks -}}
+      <li>
+        <a rel="me" href="{{- index . 1 -}}">{{ index . 0 -}}</a>
+      </li>
+    {{- end -}}
+  </ul>
+{{- end -}}
