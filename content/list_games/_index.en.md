@@ -2,7 +2,7 @@
 title: Games
 date: 2020-09-04T20:39:00-03:00
 description: My games
-type: games
+type: page
 url: /games
 ---
 

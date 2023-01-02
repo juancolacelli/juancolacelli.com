@@ -10,16 +10,16 @@ aliases: [/games/droid7/wiki]
 favicon: /droid7/droid7.gif
 ---
 
-In [DROID7]({{< ref "/droid7" >}}) you can find
-
 - [Blocks](#blocks)
 - [Powers](#powers)
 - [Specials](#specials)
 - [Enemies](#enemies)
+- [Secrets](#secrets)
+- [Cheat codes](#cheat-codes)
 
 ## Blocks
 
-Floor is made by blocks, and each type of block has unique properties
+Floor is made by blocks, and each type of block has unique properties.
 
 | Block                                                                           | Description                                       |
 | ------------------------------------------------------------------------------------------------ | ------------------------------------------------- |
@@ -31,7 +31,7 @@ Floor is made by blocks, and each type of block has unique properties
 
 ## Powers
 
-Powers are items that could be picked up, they change your stats for a briefly size of time
+Powers are items that could be picked up, they change your stats for a briefly size of time.
 
 | Power                                                                        | Description                                             |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------------------|
@@ -47,7 +47,7 @@ Powers are items that could be picked up, they change your stats for a briefly s
 
 ## Specials
 
-Specials are objects that can't be picked up but interact with DROID7
+Specials are objects that can't be picked up but interact with DROID7.
 
 | Special                                                                   | Description                       |
 |--------------------------------------------------------------------------------------------|-----------------------------------|
@@ -58,7 +58,7 @@ Specials are objects that can't be picked up but interact with DROID7
 
 ## Enemies
 
-Enemies hurt DROID7 when they touch it,  all enemies have the same behaviour and make the same damage
+Enemies hurt DROID7 when they touch it,  all enemies have the same behaviour and make the same damage.
 
 | Enemies                                                        | Description  |
 |---------------------------------------------------------------------------------|--------------|
@@ -68,9 +68,40 @@ Enemies hurt DROID7 when they touch it,  all enemies have the same behaviour and
 | <img alt="Lime" class="borderless" src="enemies/lime.gif">     | Lime enemy   |
 | <img alt="Green" class="borderless" src="enemies/green.gif">   | Green enemy  |
 
+## Secrets
+
+- When you pick up a clock <img alt="Clock" class="borderless small-icon" src="items/clock.png"> laser movement is stopped, but also spikes <img alt="Spikes" class="borderless small-icon" src="specials/spikes.gif"> and floors <img alt="Droppable" class="borderless small-icon" src="blocks/droppable.png"> <img alt="Togglable" class="borderless small-icon" src="blocks/togglable.gif"> <img alt="Walking machine" class="borderless small-icon" src="blocks/walking_machine.gif"> are disabled
+- Spikes <img alt="Spikes" class="borderless small-icon" src="specials/spikes.gif"> take a little time to activate, you can use that lapse of time to jump and avoid damage
+- You can jump just before touching the floor, that could help you to avoid spikes <img alt="Spikes" class="borderless small-icon" src="specials/spikes.gif"> damage
+- You can find just one teleport <img alt="Teleport" class="borderless small-icon" src="specials/teleport.gif"> in all the building, if you see it, just take it
+- Roulettes always cycle between all items in the same order (<img alt="Life" class="borderless small-icon" src="items/life.png"> <img alt="Two lives" class="borderless small-icon" src="items/two_lives.png"> <img alt="Super battery" class="borderless small-icon" src="items/super_battery.png"> <img alt="Battery" class="borderless small-icon" src="items/battery.png"> <img alt="Broken battery" class="borderless small-icon" src="items/broken_battery.png"> <img alt="Jetpack" class="borderless small-icon" src="items/jetpack.png"> <img alt="Mushroom" class="borderless small-icon" src="items/mushroom.png"> <img alt="Clock" class="borderless small-icon" src="items/clock.png">)
+- In the boss level you can find 2 lives <img alt="Life" class="borderless small-icon" src="items/life.png"> in the 7th brick, you just need to guide Doc to break it
+
+## Cheat codes
+
+*Cheat codes will ruin your game experience, they will make the game really easy to beat and maybe it could look boring, use them with consideration.*
+
+You can use cheat codes by pausing the game and typing the code, some cheats need the level to be restarted to re-generate the map. If you want to stop using cheats, just restart the game completely and they will be gone.
+
+| Code       | Description                                                                                                                   | Restart needed? |
+|------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------|
+| `cool`     | Who doesn't want to wear sunglasses?                                                                                          | No              |
+| `godlike`  | Immortality                                                                                                                   | No              |
+| `healthy`  | Heal up to max health <img alt="Life" class="borderless small-icon" src="items/life.png">                                     | No              |
+| `easy`     | Spikes <img alt="Spikes" class="borderless small-icon" src="specials/spikes.gif"> will no longer appear on the building       | Yes             |
+| `freeze`   | Clocks <img alt="Clock" class="borderless small-icon" src="items/clock.png"> will appear more frequently                      | Yes             |
+| `bounce`   | Springboards <img alt="Springboard" class="borderless small-icon" src="specials/springboard.gif"> will appear more frequently | Yes             |
+| `maverick` | Jetpacks <img alt="Jetpack" class="borderless small-icon" src="items/jetpack.png"> will appear more frequently                | Yes             |
+| `toad`     | Mushrooms <img alt="Mushroom" class="borderless small-icon" src="items/mushroom.png"> will appear more frequently             | Yes             |
+
+
 <style>
-  td:first-of-type {
+  th:first-of-type, td:first-of-type {
     text-align: center;
     width: 96px;
+  }
+
+  .small-icon {
+    height: 16px;
   }
 </style>

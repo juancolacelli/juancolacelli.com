@@ -143,11 +143,11 @@
                 {{- partial "recent_posts" . -}}
               {{- end -}}
 
-              {{- if not (eq .Type "page") -}}
+              {{- if not ( or (eq .Type "page") (eq .Type "game")) -}}
                 {{- partial "popular_tags" . -}}
               {{- end -}}
 
-              {{- if not (eq .Type "page") -}}
+              {{- if not ( or (eq .Type "page") (eq .Type "game")) -}}
                 {{- partial "game_tags" . -}}
               {{- end -}}
 
