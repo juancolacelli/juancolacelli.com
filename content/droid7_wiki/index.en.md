@@ -26,7 +26,7 @@ Floor is made by blocks, and each type of block has unique properties.
 | <img alt="Block" class="borderless" src="blocks/block.png">                                      | Regular block                                     | 1+     |
 | <img alt="One way" class="borderless" src="blocks/one_way.png">                                  | You can jump over this blocks                     | 1+     |
 | <img alt="Walking machine" class="borderless" src="blocks/walking_machine.gif">                  | Speed up/Slow down depending on the side you walk | 3+     |
-| <img alt="Droppable" class="borderless" src="blocks/droppable.png">                              | Disappear after 3 seconds                         | 5+     |
+| <img alt="Droppable" class="borderless" src="blocks/droppable.png">                              | Disappear after 1.4 seconds                       | 5+     |
 | <img alt="Togglable" class="borderless" src="blocks/togglable.gif">                              | Appear/Disappear every 0.5 seconds                | 6+     |
 
 ## Powers
