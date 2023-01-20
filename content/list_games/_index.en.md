@@ -11,6 +11,13 @@ url: /games
 [![DROID7](droid7.gif)]({{< ref "droid7" >}})
 <small>_Release date: 03-12-2020_</small>
 
+# Mini Games
+
+### Memo Memo
+
+[![Memo Memo](memomemo.png)](https://juancolacelli.itch.io/memomemo)
+<small>_Release date: 01-19-2023_</small>
+
 # In progress
 
 ### Escape pod

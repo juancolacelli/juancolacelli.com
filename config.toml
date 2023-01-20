@@ -87,6 +87,15 @@ disableKinds = ["taxonomyTerm"]
       url = ""
       platforms = ["Mac", "PC", "Linux"]
 
+    [[languages.en.games]]
+      id = "memomemo"
+      name = "Memo Memo"
+      description = "Improve your memory matching cards"
+      genre = "Cards"
+      thumbnail = "/games/memomemo/thumbnail.png"
+      url = "https://juancolacelli.itch.io/memomemo"
+      platforms = ["Browser"]
+
 
   [languages.es]
     languageName = "Español"
