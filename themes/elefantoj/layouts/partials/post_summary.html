@@ -10,10 +10,8 @@
     <div class="summary-description">{{- emojify .Description -}}</div>
     <div class="summary-info">
       <time class="summary-date">{{- .Date.Format (.Site.Params.dateformat | default "January 02, 2006") -}}</time>
-      {{- if .Params.tags -}}
-        &mdash;
-        {{ partial "tags" . -}}
-      {{- end -}}
+      {{ partial "tags" . -}}
+      {{ partial "related_games" . -}}
     </div>
   </div>
 </div>

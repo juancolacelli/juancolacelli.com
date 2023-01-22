@@ -1,0 +1,9 @@
+{{ if isset .Params "games" }}
+  <span class="games">
+    {{ range sort .Params.games "value" "asc" }}
+      {{- with $.Site.GetPage (printf "/%s/%s" "games" .) -}}
+        <span class="game"><a href="{{- .Permalink -}}">{{- .Title -}}</a></span>
+      {{ end }}
+    {{ end }}
+  </span>
+{{ end }}

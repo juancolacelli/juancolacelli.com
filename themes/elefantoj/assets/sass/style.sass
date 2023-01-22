@@ -348,12 +348,11 @@ table
           &:after
             content: ','
 
-.tags
-  &:not(:last-of-type)
-    &:after
-      content: '—'
-
+.tags, .games
   .tag, .game
+    &:first-of-type
+      &:before
+        content: '— '
     &:not(:last-of-type)
       &:after
         content: ','
