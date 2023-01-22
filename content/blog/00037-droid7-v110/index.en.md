@@ -7,7 +7,7 @@ authors: [jc]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/droid7" >}}) v1.1.0 release has the following game changes:
+[DROID7]({{< ref "/list_games/droid7" >}}) v1.1.0 release has the following game changes:
 
 **In game changes:**
 

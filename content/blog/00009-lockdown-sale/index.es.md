@@ -7,6 +7,6 @@ authors: [jc]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/droid7" >}}) está en oferta en [itch.io]({{< param "itchio" >}}) hasta el 21 de Junio del 2020.
+[DROID7]({{< ref "/list_games/droid7" >}}) está en oferta en [itch.io]({{< param "itchio" >}}) hasta el 21 de Junio del 2020.
 
 Pídelo y consérvalo para siempre!

@@ -17,7 +17,7 @@
   {{- .Content -}}
 
   <div class="posts">
-	  {{- range where .Paginator.Pages.ByPublishDate.Reverse "Type" "!=" "page" -}}
+	  {{- range where .Paginator.Pages.ByPublishDate.Reverse "Type" "=" "blog" -}}
       {{- partial "post_summary.html" . -}}
 	  {{- end -}}
   </div>

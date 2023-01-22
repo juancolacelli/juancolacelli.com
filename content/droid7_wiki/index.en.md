@@ -5,9 +5,9 @@ description: DROID7 Wiki
 tags: []
 games: [droid7]
 type: page
-url: /droid7/wiki
-aliases: [/games/droid7/wiki]
-favicon: /droid7/droid7.gif
+url: /games/droid7/wiki
+aliases: [/droid7/wiki]
+favicon: /games/droid7/droid7.gif
 ---
 
 - [Blocks](#blocks)

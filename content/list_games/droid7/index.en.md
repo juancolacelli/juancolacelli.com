@@ -4,7 +4,8 @@ date: 2020-09-02T06:35:15-03:00
 type: game
 description: Escape or die, it's your choice
 tags: []
-aliases: [/games/droid7/]
+url: /games/droid7
+aliases: [/droid7/]
 games: [droid7]
 favicon: droid7.gif
 ---

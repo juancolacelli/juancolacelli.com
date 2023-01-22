@@ -5,7 +5,7 @@ description: "Mi laboras pri nova ludo :rocket:"
 tags: [ludevoluo]
 authors: [jc]
 slug: nova-kosmosxipa-ludo
-games: [escape-pod]
+games: [escapepod]
 ---
 
 Nu, nova jaro :calendar:, nova ludo :video_game:.

@@ -4,7 +4,7 @@ date: 2021-12-16T07:29:00-03:00
 description: "Yes, I'm still working on a space shooter :rocket:"
 tags: [gamedev]
 authors: [jc]
-games: [escape-pod]
+games: [escapepod]
 ---
 
 Introducing the following additions:

@@ -4,8 +4,8 @@ date: 2021-07-27T19:45:00-03:00
 description: "Jes, mi ankoraŭ laboras pri spaca pafisto :rocket:"
 tags: [ludevoluo]
 authors: [jc]
-games: [escape-pod]
-aliases: [/eo/videoludoj/escape_pod, /eo/videoludoj/escape-pod]
+games: [escapepod]
+aliases: [/eo/videoludoj/escape_pod, /eo/videoludoj/escapepod]
 ---
 
 Tiel aspektas mia nova ludo, kaj jes, mi estas kampadano...

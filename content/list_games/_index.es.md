@@ -8,14 +8,14 @@ url: /es/videojuegos
 
 ### DROID7
 
-[![DROID7](droid7.gif)]({{< ref "droid7" >}})
+[![DROID7](droid7.gif)]({{< ref "/list_games/droid7" >}})
 <small>_Release date: 12/03/2020_</small>
 
 # En progreso
 
 ### Escape pod
 
-[![Escape pod](escape_pod.png)]({{< ref "/games/escape-pod" >}})
+[![Escape pod](escape_pod.png)]({{< ref "/games/escapepod" >}})
 <small>_Fecha de lanzamiento: TBD_</small>
 
 ### Cat in the box

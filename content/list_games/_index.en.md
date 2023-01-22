@@ -6,23 +6,21 @@ type: page
 url: /games
 ---
 
-### DROID7
-
-[![DROID7](droid7.gif)]({{< ref "droid7" >}})
-<small>_Release date: 03-12-2020_</small>
-
-# Mini Games
-
 ### Memo Memo
 
-[![Memo Memo](memomemo.png)](https://juancolacelli.itch.io/memomemo)
+[![Memo Memo](memomemo.png)]({{< ref "memomemo" >}})
 <small>_Release date: 01-19-2023_</small>
+
+### DROID7
+
+[![DROID7](droid7.gif)]({{< ref "/list_games/droid7" >}})
+<small>_Release date: 03-12-2020_</small>
 
 # In progress
 
 ### Escape pod
 
-[![Escape pod](escape_pod.png)]({{< ref "/games/escape-pod" >}})
+[![Escape pod](escape_pod.png)]({{< ref "/games/escapepod" >}})
 <small>_Release date: TBD_</small>
 
 ### Cat in the box

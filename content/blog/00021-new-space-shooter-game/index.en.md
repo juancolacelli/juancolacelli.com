@@ -5,7 +5,7 @@ description: "I'm working on a new game :rocket:"
 tags: [gamedev]
 authors: [jc]
 slug: new-space-shooter-game
-games: [escape-pod]
+games: [escapepod]
 ---
 
 Well, new year :calendar:, new game :video_game:.

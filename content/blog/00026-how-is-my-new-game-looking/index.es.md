@@ -5,8 +5,8 @@ description: "Si, todavía estoy trabajando en un juego de naves :rocket:"
 tags:
     [desarrollo-videojuegos]
 authors: [jc]
-games: [escape-pod]
-aliases: [/es/videojuegos/escape_pod, /es/videojuegos/escape-pod]
+games: [escapepod]
+aliases: [/es/videojuegos/escape_pod, /es/videojuegos/escapepod]
 ---
 
 Así es como mi nuevo juego está luciendo, y si, soy un camper...

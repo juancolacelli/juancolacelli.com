@@ -4,7 +4,7 @@ date: 2021-12-16T07:29:00-03:00
 description: "Jes, mi ankoraŭ laboras pri spaca pafisto :rocket:"
 tags: [ludevoluo]
 authors: [jc]
-games: [escape-pod]
+games: [escapepod]
 ---
 
 Enkondukante la sekvajn aldonojn:

@@ -4,7 +4,7 @@ date: 2021-12-16T07:29:00-03:00
 description: "Si, todavía estoy trabajando en un juego de naves :rocket:"
 tags: [desarrollo-videojuegos]
 authors: [jc]
-games: [escape-pod]
+games: [escapepod]
 ---
 
 Presentando las siguientes adiciones:

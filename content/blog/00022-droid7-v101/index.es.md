@@ -7,7 +7,7 @@ authors: [jc]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/droid7" >}}) v1.0.1 cuenta con los siguientes cambios:
+[DROID7]({{< ref "/list_games/droid7" >}}) v1.0.1 cuenta con los siguientes cambios:
 
 -   Nueva pantalla de bienvenida
 -   La pantalla de bienvenida puede ser omitida con la tecla de pausa (por defecto Escape)

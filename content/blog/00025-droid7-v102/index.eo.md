@@ -7,7 +7,7 @@ authors: [jc]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/droid7" >}}) v1.0.2 versio havas la jenanjn ludon ŝanĝojn:
+[DROID7]({{< ref "/list_games/droid7" >}}) v1.0.2 versio havas la jenanjn ludon ŝanĝojn:
 
 -   Riparis iujn menuajn opciojn, kiujn oni povus elekti per la muso
 -   Ĝisdatigu ludmaŝinon al sia lasta versio (Godot Engine 3.3.2)

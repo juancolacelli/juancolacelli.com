@@ -1,4 +1,4 @@
 ---
 title: Escape pod
-url: /games/escape-pod
+url: /games/escapepod
 ---

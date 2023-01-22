@@ -4,7 +4,7 @@ date: 2021-01-10T10:43:57-03:00
 description: "Estoy trabajando en un nuevo juego :rocket:"
 tags: [desarrollo-videojuegos]
 authors: [jc]
-games: [escape-pod]
+games: [escapepod]
 ---
 
 Bueno, año nuevo :date:, juego nuevo :video_game:.

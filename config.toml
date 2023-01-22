@@ -74,16 +74,16 @@ disableKinds = ["taxonomyTerm"]
       name = "DROID7"
       description = "Escape or die, it's your choice"
       genre = "Platformer"
-      thumbnail = "/droid7/thumbnail.png"
-      url = "/droid7"
+      thumbnail = "/games/droid7/thumbnail.png"
+      url = "/games/droid7"
       platforms = ["Mac", "PC", "Linux"]
 
     [[languages.en.games]]
-      id = "escape-pod"
+      id = "escapepod"
       name = "Escape Pod"
       description = "Release date: TBD"
       genre = "Shooter"
-      thumbnail = "/games/escape-pod/thumbnail.png"
+      thumbnail = "/games/escapepod/thumbnail.png"
       url = ""
       platforms = ["Mac", "PC", "Linux"]
 
@@ -158,11 +158,11 @@ disableKinds = ["taxonomyTerm"]
       platforms = ["Mac", "PC", "Linux"]
 
     [[languages.es.games]]
-      id = "escape-pod"
+      id = "escapepod"
       name = "Escape Pod"
       description = "Fecha de lanzamiento: TBD"
       genre = "Disparos"
-      thumbnail = "/games/escape-pod/thumbnail.png"
+      thumbnail = "/games/escapepod/thumbnail.png"
       url = ""
       platforms = ["Mac", "PC", "Linux"]
 
@@ -228,11 +228,11 @@ disableKinds = ["taxonomyTerm"]
       platforms = ["Mac", "PC", "Linux"]
 
     [[languages.eo.games]]
-      id = "escape-pod"
+      id = "escapepod"
       name = "Escape Pod"
       description = "Eldondato: TBD"
       genre = "Pafisto"
-      thumbnail = "/games/escape-pod/thumbnail.png"
+      thumbnail = "/games/escapepod/thumbnail.png"
       url = ""
       platforms = ["Mac", "PC", "Linux"]
 

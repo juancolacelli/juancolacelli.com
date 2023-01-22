@@ -7,4 +7,4 @@ authors: [jc]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/droid7" >}}) (anteriormente llamado Jump Game) ha sido publicado en [itch.io]({{< param "itchio" >}}/droid7)
+[DROID7]({{< ref "/list_games/droid7" >}}) (anteriormente llamado Jump Game) ha sido publicado en [itch.io]({{< param "itchio" >}}/droid7)

@@ -8,4 +8,4 @@ aliases: [/gamedev/droid7-published/]
 games: [droid7]
 ---
 
-[DROID7]({{< ref "/droid7" >}}) (formerly called Jump Game) has been published on [itch.io]({{< param "itchio" >}}/droid7)
+[DROID7]({{< ref "/list_games/droid7" >}}) (formerly called Jump Game) has been published on [itch.io]({{< param "itchio" >}}/droid7)
