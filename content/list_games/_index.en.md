@@ -6,15 +6,17 @@ type: page
 url: /games
 ---
 
-### Memo Memo
-
-[![Memo Memo](memomemo.png)]({{< ref "memomemo" >}})
-<small>_Release date: 01-19-2023_</small>
-
 ### DROID7
 
 [![DROID7](droid7.gif)]({{< ref "/list_games/droid7" >}})
 <small>_Release date: 03-12-2020_</small>
+
+# Mini-Games
+
+### Memo Memo
+
+[![Memo Memo](memomemo.png)]({{< ref "memomemo" >}})
+<small>_Release date: 01-19-2023_</small>
 
 # In progress
 
