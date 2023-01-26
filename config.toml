@@ -96,6 +96,13 @@ disableKinds = ["taxonomyTerm"]
       url = "https://juancolacelli.itch.io/memomemo"
       platforms = ["Browser"]
 
+    [[languages.en.games]]
+      id = "floppydisk"
+      name = "Floppy Disk"
+      description = "Just a floppy disk flying..."
+      genre = "Platformer"
+      platforms = ["Browser"]
+
 
   [languages.es]
     languageName = "Español"
