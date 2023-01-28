@@ -15,7 +15,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:title" content="{{- if not .IsHome -}}{{- block "title" . -}}{{- end -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}"/>
     <meta property="og:description" content="{{- block "description" . -}}{{- end -}}"/>
-    <meta property="og:image" content="{{- block "thumbnail" . -}}{{ "/images/thumbnail.png" | absURL }}{{- end -}}"/>
+    <meta property="og:image" content="{{- block "thumbnail" . -}}{{ .Site.Params.defaultthumbnail | absURL }}{{- end -}}"/>
     <meta property="twitter:card" content="summary"/>
     <meta property="twitter:title" content="{{- if not .IsHome -}}{{- block "title" . -}}{{- end -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}"/>
     <meta property="twitter:description" content="{{- block "description" . -}}{{- end -}}"/>

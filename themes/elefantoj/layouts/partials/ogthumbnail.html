@@ -2,4 +2,6 @@
 {{- if $thumbnail -}}
   {{- $resized_thumbnail := $thumbnail.Resize (.Site.Params.thumbnailogsize | default "200x200") -}}
   {{- $resized_thumbnail.RelPermalink | absURL -}}
+{{- else -}}
+  {{- .Site.Params.defaultthumbnail | absURL -}}
 {{- end -}}

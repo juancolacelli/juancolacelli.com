@@ -251,6 +251,7 @@ disableKinds = ["taxonomyTerm"]
   patreon = "https://patreon.com/juancolacelli"
   gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.com"
   showAuthors = false
+  defaultThumbnail = "/images/thumbnail.png"
   thumbnailSize = "80x80"
   thumbnailOGSize = "200x200"
   googleAnalytics = "G-38S870CD65"
