@@ -1,14 +1,14 @@
 ---
 title: Memo Memo published!
 date: 2023-01-19T20:53:00-03:00
-description: I published a new game!
+description: I published a new mini-game!
 tags: [gamedev]
 authors: [jc]
 games: [memomemo]
 aliases: [/blog/memo-memo-published]
 ---
 
-I just released a new game!
+I just released a new mini-game!
 
 [Memo Memo]({{< ref "/list_games/memomemo" >}}) is about improving your memory by matching pairs of cards.
 

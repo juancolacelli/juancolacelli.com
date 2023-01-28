@@ -11,7 +11,7 @@
 
   <h2>{{ i18n "recentPosts" }}</h2>
 
-  {{- range first 5 (where .Site.RegularPages "Type" "!=" "page").ByPublishDate.Reverse -}}
+  {{- range first 5 (where .Site.RegularPages "Type" "==" "blog").ByPublishDate.Reverse -}}
     {{ partial "post_summary" . }}
   {{- end -}}
 {{- end -}}
