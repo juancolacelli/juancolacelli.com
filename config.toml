@@ -101,6 +101,7 @@ disableKinds = ["taxonomyTerm"]
       name = "Floppy Disk"
       description = "Just a floppy disk flying..."
       genre = "Platformer"
+      thumbnail = "/games/floppydisk/thumbnail.png"
       platforms = ["Browser"]
 
 

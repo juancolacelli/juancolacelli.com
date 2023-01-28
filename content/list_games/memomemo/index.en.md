@@ -1,6 +1,6 @@
 ---
 title: Memo Memo
-date: 2020-09-02T06:35:15-03:00
+date: 2023-01-19T20:53:00-03:00
 type: game
 description: Improve your memory matching cards
 tags: []

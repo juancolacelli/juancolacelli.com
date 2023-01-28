@@ -1,6 +1,6 @@
 <h3 class="title">{{ i18n "recentPosts" }}</h3>
 <ul class="secondary-section">
-  {{- range first 5 (where .Site.RegularPages "Type" "!=" "page").ByPublishDate.Reverse -}}
+  {{- range first 5 (where .Site.RegularPages "Type" "=" "blog").ByPublishDate.Reverse -}}
     <li>
       <a class="summary-title" href="{{- .RelPermalink -}}">{{- emojify .Title -}}</a>
     </li>
