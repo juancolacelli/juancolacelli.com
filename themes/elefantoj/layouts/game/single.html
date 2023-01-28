@@ -2,6 +2,10 @@
   {{- .Description -}}
 {{- end -}}
 
+{{- define "thumbnail" -}}
+  {{- partial "ogthumbnail" . -}}
+{{- end -}}
+
 {{- define "main"}}
   {{- .Content -}}
 
