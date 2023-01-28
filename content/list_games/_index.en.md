@@ -13,16 +13,21 @@ url: /games
 
 # Mini-Games
 
+### Floppy Disk
+
+[![Floppy Disk](floppydisk/banner.png)]({{< ref "floppydisk" >}})
+<small>_Release date: 01-28-2023_</small>
+
 ### Memo Memo
 
-[![Memo Memo](memomemo.png)]({{< ref "memomemo" >}})
+[![Memo Memo](memomemo/banner.png)]({{< ref "memomemo" >}})
 <small>_Release date: 01-19-2023_</small>
 
 # In progress
 
 ### Escape pod
 
-[![Escape pod](escape_pod.png)]({{< ref "/games/escapepod" >}})
+[![Escape pod](escapepod/banner.png)]({{< ref "/games/escapepod" >}})
 <small>_Release date: TBD_</small>
 
 ### Cat in the box
