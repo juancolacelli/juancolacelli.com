@@ -398,6 +398,13 @@ h1 + :not(.info)
 
 
 @media (max-width: $page-width)
+  a
+    img
+      &.thumbnail
+        width: calc(50% - .8rem)
+        margin:
+          bottom: .5rem
+          right: .5rem
   .header
     background: $navbar-background
     position: fixed
@@ -527,6 +534,13 @@ h1 + :not(.info)
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: $page-width)
+  a
+    img
+      &.thumbnail
+        width: calc(20% - .8rem)
+        margin:
+          bottom: .5rem
+          right: .5rem
   .header
     background: transparent
     margin: 1rem 0
