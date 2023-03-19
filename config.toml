@@ -1,4 +1,4 @@
-baseURL = "https://juancolacelli.com/"
+baseURL = "https://JuanMakesGames.com/"
 languageCode = "en-us"
 theme = "elefantoj"
 removePathAccents = true
@@ -14,15 +14,15 @@ disableKinds = ["taxonomyTerm"]
   [languages.en]
     languageName = "English"
     weight = 1
-    title = "Juan Colacelli"
+    title = "Juan Makes Games"
     socialNetworks = [
-      ["Twitter", "https://twitter.com/juancolacelli"],
-      ["Instagram", "https://instagram.com/juancolacelli"],
-      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
+      ["Twitter", "https://twitter.com/JuanMakesGames"],
+      ["Instagram", "https://instagram.com/JuanMakesGames"],
+      ["YouTube", "https://youtube.com/@JuanMakesGames"],
       ["RSS feed", "/feed.xml"],
     ]
     supportNetworks = [
-      ["Patreon", "https://patreon.com/juancolacelli"],
+      ["Patreon", "https://patreon.com/JuanMakesGames"],
     ]
 
     [languages.en.permalinks]
@@ -35,7 +35,7 @@ disableKinds = ["taxonomyTerm"]
     [languages.en.params]
       dateFormat = "01-02-2006"
       homePath = "/"
-      copyright = "Copyright &copy; 2012-2022 <a href='/about'>Juan Colacelli</a><br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
+      copyright = "Copyright &copy; 2012-2022 <a href='/about'>Juan Makes Games</a><br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
 
     [languages.en.menu]
       [[languages.en.menu.nav]]
@@ -247,9 +247,9 @@ disableKinds = ["taxonomyTerm"]
 
 
 [params]
-  itchio = "https://juancolacelli.itch.io"
-  patreon = "https://patreon.com/juancolacelli"
-  gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.com"
+  itchio = "https://JuanMakesGames.itch.io"
+  patreon = "https://patreon.com/JuanMakesGames"
+  gitRepository = "https://gitlab.com/JuanMakesGames/juanmakesgames.com"
   showAuthors = false
   defaultThumbnail = "/images/thumbnail.png"
   thumbnailSize = "80x80"
