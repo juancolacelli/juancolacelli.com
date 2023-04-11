@@ -1,4 +1,4 @@
-baseURL = "https://JuanMakesGames.com/"
+baseURL = "https://juancolacelli.com/"
 languageCode = "en-us"
 theme = "elefantoj"
 removePathAccents = true
@@ -14,15 +14,14 @@ disableKinds = ["taxonomyTerm"]
   [languages.en]
     languageName = "English"
     weight = 1
-    title = "Juan Makes Games"
+    title = "Juan Colacelli's Blog"
     socialNetworks = [
-      ["Twitter", "https://twitter.com/JuanMakesGames"],
-      ["Instagram", "https://instagram.com/JuanMakesGames"],
-      ["YouTube", "https://youtube.com/@JuanMakesGames"],
+      ["Twitter", "https://twitter.com/juancolacelli"],
+      ["Instagram", "https://instagram.com/juancolacelli"],
       ["RSS feed", "/feed.xml"],
     ]
     supportNetworks = [
-      ["Patreon", "https://patreon.com/JuanMakesGames"],
+      ["Patreon", "https://patreon.com/juancolacelli"],
     ]
 
     [languages.en.permalinks]
@@ -35,7 +34,7 @@ disableKinds = ["taxonomyTerm"]
     [languages.en.params]
       dateFormat = "01-02-2006"
       homePath = "/"
-      copyright = "Copyright &copy; 2012-2023 <a href='/about'>Juan Makes Games</a><br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
+      copyright = "Copyright &copy; 2012-2023 <a href='/about'>Juan Colacelli</a><br>Content on this site is licensed under a <a rel='license' href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>(cc) by-nc-nd 4.0 license</a>"
 
     [languages.en.menu]
       [[languages.en.menu.nav]]
@@ -109,13 +108,11 @@ disableKinds = ["taxonomyTerm"]
   [languages.es]
     languageName = "Español"
     weight = 2
-    title = "Juan Colacelli"
+    title = "Blog de Juan Colacelli"
     socialNetworks = [
       ["Discord", "/es/chat"],
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juancolacelli"],
-      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
-      ["itch.io", "https://juancolacelli.itch.io"],
       ["Patreon", "https://patreon.com/juancolacelli"],
       ["RSS feed", "/es/feed.xml"],
     ]
@@ -179,13 +176,11 @@ disableKinds = ["taxonomyTerm"]
   [languages.eo]
     languageName = "Esperanto"
     weight = 2
-    title = "Juan Colacelli"
+    title = "Juan Colacelli Blogo"
     socialNetworks = [
       ["Discord", "/eo/babilo"],
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juancolacelli"],
-      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
-      ["itch.io", "https://juancolacelli.itch.io"],
       ["Patreon", "https://patreon.com/juancolacelli"],
       ["RSS feed", "/eo/feed.xml"],
     ]
@@ -247,9 +242,9 @@ disableKinds = ["taxonomyTerm"]
 
 
 [params]
-  itchio = "https://JuanMakesGames.itch.io"
-  patreon = "https://patreon.com/JuanMakesGames"
-  gitRepository = "https://gitlab.com/JuanMakesGames/juanmakesgames.com"
+  itchio = "https://juancolacelli.itch.io"
+  patreon = "https://patreon.com/juancolacelli"
+  gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.com"
   showAuthors = false
   defaultThumbnail = "/images/thumbnail.png"
   thumbnailSize = "80x80"
