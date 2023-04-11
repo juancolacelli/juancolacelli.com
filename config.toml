@@ -18,6 +18,7 @@ disableKinds = ["taxonomyTerm"]
     socialNetworks = [
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juancolacelli"],
+      ["YouTube", "https://youtube.com/@juancolacelli"],
       ["RSS feed", "/feed.xml"],
     ]
     supportNetworks = [
@@ -110,10 +111,9 @@ disableKinds = ["taxonomyTerm"]
     weight = 2
     title = "Blog de Juan Colacelli"
     socialNetworks = [
-      ["Discord", "/es/chat"],
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juancolacelli"],
-      ["Patreon", "https://patreon.com/juancolacelli"],
+      ["YouTube", "https://youtube.com/@juancolacelli"],
       ["RSS feed", "/es/feed.xml"],
     ]
 
@@ -178,10 +178,9 @@ disableKinds = ["taxonomyTerm"]
     weight = 2
     title = "Juan Colacelli Blogo"
     socialNetworks = [
-      ["Discord", "/eo/babilo"],
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juancolacelli"],
-      ["Patreon", "https://patreon.com/juancolacelli"],
+      ["YouTube", "https://youtube.com/@juancolacelli"],
       ["RSS feed", "/eo/feed.xml"],
     ]
 
