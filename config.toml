@@ -18,6 +18,7 @@ disableKinds = ["taxonomyTerm"]
     socialNetworks = [
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juancolacelli"],
+      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
       ["YouTube", "https://youtube.com/@juancolacelli"],
       ["RSS feed", "/feed.xml"],
     ]
@@ -113,6 +114,7 @@ disableKinds = ["taxonomyTerm"]
     socialNetworks = [
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juancolacelli"],
+      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
       ["YouTube", "https://youtube.com/@juancolacelli"],
       ["RSS feed", "/es/feed.xml"],
     ]
@@ -180,6 +182,7 @@ disableKinds = ["taxonomyTerm"]
     socialNetworks = [
       ["Twitter", "https://twitter.com/juancolacelli"],
       ["Instagram", "https://instagram.com/juancolacelli"],
+      ["Mastodon", "https://mastodon.gamedev.place/@juancolacelli"],
       ["YouTube", "https://youtube.com/@juancolacelli"],
       ["RSS feed", "/eo/feed.xml"],
     ]

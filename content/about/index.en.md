@@ -32,6 +32,6 @@ If you like my work, please :pray: consider becoming a [Patreon member]({{< para
 ![Deal with it](deal_with_it.gif)
 
 You can follow me on
-- [Twitter](https://twitter.com/JuanMakesGames)
-- [Instagram](https://instagram.com/JuanMakesGames)
-- [YouTube](https://youtube.com/@JuanMakesGames)
+- [Twitter](https://twitter.com/juancolacelli)
+- [Instagram](https://instagram.com/juancolacelli)
+- [YouTube](https://youtube.com/@juancolacelli)
