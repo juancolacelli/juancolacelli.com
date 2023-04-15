@@ -40,35 +40,40 @@ disableKinds = ["taxonomyTerm"]
 
     [languages.en.menu]
       [[languages.en.menu.nav]]
-        name = "🎮 Games"
-        title = "My games"
-        url = "/games"
-        weight = 1
-
-
-      [[languages.en.menu.nav]]
-        name = "🧻 Blog"
+        name = "Blog"
         title = "Dear diary..."
         url = "/blog"
+        weight = 1
+
+      [[languages.en.menu.nav]]
+        name = "Games"
+        title = "My games"
+        url = "/games"
         weight = 2
 
       [[languages.en.menu.nav]]
-        name = "💬 Chat"
-        title = "Join us on Discord"
-        url = "/chat"
+        name = "Projects"
+        title = "Other projects"
+        url = "/projects"
         weight = 3
 
       [[languages.en.menu.nav]]
-        name = "✨ Patreons"
-        title = "People supporting me"
-        url = "/patreons"
+        name = "Chat"
+        title = "Join us on Discord"
+        url = "/chat"
         weight = 4
 
       [[languages.en.menu.nav]]
-        name = "😎 About"
+        name = "Patreons"
+        title = "People supporting me"
+        url = "/patreons"
+        weight = 5
+
+      [[languages.en.menu.nav]]
+        name = "About"
         title = "Who am I?"
         url = "/about"
-        weight = 5
+        weight = 6
 
     [[languages.en.games]]
       id = "droid7"

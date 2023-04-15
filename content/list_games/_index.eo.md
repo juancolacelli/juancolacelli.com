@@ -9,7 +9,7 @@ url: /eo/videoludoj
 ### DROID7
 
 [![DROID7](droid7.gif)]({{< ref "/list_games/droid7" >}})
-<small>_Release date: 12/03/2020_</small>
+<small>_Release date: 20/06/2020_</small>
 
 # En progreso
 

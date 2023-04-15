@@ -8,17 +8,23 @@ url: /games
 
 ### DROID7
 
+Platformer, jump your way up on a generated tower while a laser beam chases you from below
+
 [![DROID7](droid7.gif)]({{< ref "/list_games/droid7" >}})
-<small>_Release date: 03-12-2020_</small>
+<small>_Release date: 06-20-2020_</small>
 
 # Mini-Games
 
 ### Floppy Disk
 
+Just a Floppy disk flying...
+
 [![Floppy Disk](floppydisk/banner.png)]({{< ref "floppydisk" >}})
 <small>_Release date: 01-28-2023_</small>
 
 ### Memo Memo
+
+Improve your memory matching cards
 
 [![Memo Memo](memomemo/banner.png)]({{< ref "memomemo" >}})
 <small>_Release date: 01-19-2023_</small>
