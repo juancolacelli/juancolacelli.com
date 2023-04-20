@@ -1,13 +1,13 @@
 ---
-title: Join us on Discord
-description: Join us on Discord
+title: Chat
+description: Chat with Us on Discord
 type: page
 ---
 
-I'm using [Discord](https://discord.com) to host a public chat.
+**We love to hear from you**! Join our **Discord community** and connect with other fans, share your feedback, and get **sneak peeks of our latest projects**.
 
-You'll need to create a Discord account to continue.
+To join the chat, you'll need to create a **free Discord account**.
 
-Just **click Join Discord** on the right to join or try [this link](https://listcord.org/pixelcave).
+Click the button below or use this [link]({{< param "discord" >}}) to join.
 
-<iframe src="https://discordapp.com/widget?id=608242475043389480&theme=dark" width="100%" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<a class="call-to-action" href="{{< param "discord" >}}"><button>Join our Discord community</button></a>

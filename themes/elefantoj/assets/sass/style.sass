@@ -64,6 +64,11 @@ $info-size: 0.85rem
   100%
     text-shadow: 0 0 1px $accent-color, 0 0 2px $secondary-color, 0 0 3px $accent-color
 
+@keyframes button-blink
+  100%
+    text-shadow: 0 0 1px $primary-color, 0 0 2px $primary-color, 0 0 3px $accent-color
+    box-shadow: 0 0 2px $secondary-color, 0 0 3px $secondary-color, 0 0 4px $secondary-color, 0 0 5px $secondary-color
+
 html, body
   overflow-x: hidden
 
@@ -155,6 +160,30 @@ table
     padding: 0.5rem
     text-align: left
 
+.call-to-action
+  button
+    transition: border .25s ease-in-out
+
+    color: $primary-color
+    cursor: pointer
+    background: $accent-color
+    border: 0
+      radius: $border-radius
+    font:
+      size: 1.25rem
+      weight: bold
+    margin:
+      top: 1rem
+    padding: 1rem
+    width: 100%
+
+    &:hover
+      box-shadow: 0 0 5px $secondary-color
+      -webkit-animation: button-blink .25s infinite alternate
+      animation: button-blink .25s infinite alternate
+
+      color: $primary-color
+      background: $secondary-color
 
 .highlight
   pre

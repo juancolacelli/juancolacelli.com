@@ -251,6 +251,7 @@ disableKinds = ["taxonomyTerm"]
 [params]
   itchio = "https://juancolacelli.itch.io"
   patreon = "https://patreon.com/juancolacelli"
+  discord = "https://discord.gg/pixel-cave-608242475043389480"
   gitRepository = "https://gitlab.com/juancolacelli/juancolacelli.com"
   showAuthors = false
   defaultThumbnail = "/images/thumbnail.png"
