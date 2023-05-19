@@ -1,72 +1,64 @@
 <!DOCTYPE html>
 <html lang="{{- .Language -}}">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{- if not .IsHome -}}{{- block "title" . -}}{{- .Title -}}{{- end -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}</title>
 
     {{- if not (eq .Language.LanguageName "English") -}}
-      <meta name="robots" content="noindex">
+    <meta name="robots" content="noindex" />
     {{- end -}}
 
-    <meta name="google" content="notranslate">
+    <meta name="google" content="notranslate" />
     <meta name="description" content="{{- block "description" . -}}{{- end -}}"/>
 
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="{{- if not .IsHome -}}{{- block "title" . -}}{{- end -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}"/>
-    <meta property="og:description" content="{{- block "description" . -}}{{- end -}}"/>
-    <meta property="og:image" content="{{- block "thumbnail" . -}}{{ .Site.Params.defaultthumbnail | absURL }}{{- end -}}"/>
-    <meta property="twitter:card" content="summary"/>
-    <meta property="twitter:title" content="{{- if not .IsHome -}}{{- block "title" . -}}{{- end -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}"/>
-    <meta property="twitter:description" content="{{- block "description" . -}}{{- end -}}"/>
-    <meta property="twitter:image" content="{{- block "thumbnail" . -}}{{- end -}}"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{- if not .IsHome -}}{{- block "title" . -}}{{- end -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}"/> <meta property="og:description" content="{{- block "description" . -}}{{- end -}}"/> <meta property="og:image" content="{{- block "thumbnail" . -}}{{ .Site.Params.defaultthumbnail | absURL }}{{- end -}}"/>
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content="{{- if not .IsHome -}}{{- block "title" . -}}{{- end -}}&nbsp;&mdash;&nbsp;{{- end -}}{{- .Site.Title -}}"/> <meta property="twitter:description" content="{{- block "description" . -}}{{- end -}}"/> <meta property="twitter:image" content="{{- block "thumbnail" . -}}{{- end -}}"/> {{- range .AlternativeOutputFormats -}}
+    <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}" />
+    {{- end -}} {{ if .Site.Params.googleAnalytics }}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.Params.googleAnalytics -}}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
 
-    {{- range .AlternativeOutputFormats -}}
-      <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
-    {{- end -}}
-
-    {{ if .Site.Params.googleAnalytics }}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{- .Site.Params.googleAnalytics -}}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', '{{- .Site.Params.googleAnalytics -}}');
-      </script>
-    {{ end }}
-
-    {{ $sass := resources.Get "/sass/style.sass" | toCSS | minify | fingerprint }}
-    <link rel="stylesheet" type="text/css" href="{{- $sass.RelPermalink -}}"/>
+      gtag('config', '{{- .Site.Params.googleAnalytics -}}');
+    </script>
+    {{ end }} {{ $scss := resources.Get "/scss/style.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" type="text/css" href="{{- $scss.RelPermalink -}}" />
 
     {{- if .Params.favicon -}}
-      <link rel="shortcut icon" href="{{- .Params.favicon -}}"/>
-    {{- else -}}
-      {{- if .Site.Params.favicon -}}
-        <link rel="shortcut icon" href="{{- .Site.Params.favicon -}}"/>
-      {{- end -}}
-    {{- end -}}
+    <link rel="shortcut icon" href="{{- .Params.favicon -}}" />
+    {{- else -}} {{- if .Site.Params.favicon -}}
+    <link rel="shortcut icon" href="{{- .Site.Params.favicon -}}" />
+    {{- end -}} {{- end -}} {{- if .Site.Params.logo -}}
+    <style>
+      :root {
+        --logo: url({{- .Site.Params.logo -}});
+        --logoHover: url({{- .Site.Params.logoHover -}});
+        --logoWidth: {{- .Site.Params.logoWidth -}};
+        --logoHeight: {{- .Site.Params.logoHeight -}};
+      }
+      .navbar-logo {
+        background: var(--logo);
+        width: var(--logoWidth);
+        height: var(--logoHeight);
+      }
+    </style>
+    {{- end -}} {{- if .Site.Params.logoHover -}}
+    <style>
+      .navbar-logo-hover-preload {
+        display: none;
+      }
 
-    {{- if .Site.Params.logo -}}
-      <style>
-          .navbar-logo {
-            background: url({{- .Site.Params.logo -}});
-            width: {{- .Site.Params.logoWidth -}};
-            height: {{- .Site.Params.logoHeight -}};
-          }
-      </style>
-    {{- end -}}
-
-    {{- if .Site.Params.logoHover -}}
-      <style>
-        .navbar-logo-hover-preload {
-          display: none;
-        }
-
-        .navbar-logo:hover {
-          background: url({{- .Site.Params.logoHover -}});
-        }
-      </style>
+      .navbar-logo:hover {
+        background: var(--logoHover);
+      }
+    </style>
     {{- end -}}
   </head>
   <body>
@@ -77,39 +69,31 @@
       <nav class="navbar" id="main-menu">
         <div class="navbar-title">
           <a href="{{- .Site.Params.homePath -}}">
-            {{- if not .Site.Params.logo -}}
-              {{- .Site.Title -}}
-            {{- else -}}
-              <div class="navbar-logo"></div>
-              {{- if .Site.Params.logoHover -}}
-                <img class="navbar-logo-hover-preload" src="{{- .Site.Params.logoHover -}}">
-              {{- end -}}
-            {{- end -}}
+            {{- if not .Site.Params.logo -}} {{- .Site.Title -}} {{- else -}}
+            <div class="navbar-logo"></div>
+            {{- if .Site.Params.logoHover -}}
+            <img class="navbar-logo-hover-preload" src="{{- .Site.Params.logoHover -}}" />
+            {{- end -}} {{- end -}}
           </a>
         </div>
         <ul class="navbar-links" id="mobile-menu">
           <li>
             <a href="{{- .Site.Params.homePath -}}">
-              {{- if not .Site.Params.logo -}}
-                {{- .Site.Title -}}
-              {{- else -}}
-                <div class="navbar-logo"></div>
-                {{- if .Site.Params.logoHover -}}
-                  <img class="navbar-logo-hover-preload" src="{{- .Site.Params.logoHover -}}">
-                {{- end -}}
-              {{- end -}}
+              {{- if not .Site.Params.logo -}} {{- .Site.Title -}} {{- else -}}
+              <div class="navbar-logo"></div>
+              {{- if .Site.Params.logoHover -}}
+              <img class="navbar-logo-hover-preload" src="{{- .Site.Params.logoHover -}}" />
+              {{- end -}} {{- end -}}
             </a>
             <a id="close-mobile-menu" href="#close-mobile-menu">&times;</a>
           </li>
           {{- range .Site.Menus.nav -}}
-            <li>
-              <a href="{{- .URL -}}" title="{{- .Title -}}">
-                {{- if .Pre -}}
-                  <i class="{{- .Pre -}}"></i>&nbsp;
-                {{- end -}}
-                {{- .Name | safeHTML -}}
-              </a>
-            </li>
+          <li>
+            <a href="{{- .URL -}}" title="{{- .Title -}}">
+              {{- if .Pre -}}
+              <i class="{{- .Pre -}}"></i>&nbsp; {{- end -}} {{- .Name | safeHTML -}}
+            </a>
+          </li>
           {{- end -}}
         </ul>
         <a class="menu-backdrop" href="#close-mobile-menu">&nbsp;</a>
@@ -121,54 +105,34 @@
 
       <div class="grid-container">
         <div class="main">
-	        {{ range sort .Translations "Language.LanguageName" "asc"}}
-	          {{- if eq .Language.LanguageName "English" }}
-	            <div class="outdated-article">
-	              {{- i18n "translationsUnsupported" }} <b>{{- i18n "translationsUnsupportedOutdatedArticle" }} </b>{{- i18n "translationsUnsupportedGoTo" }} <a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">{{- i18n "translationsUnsupportedOriginalArticleLink" -}}</a>
-	            </div>
-	          {{ end }}
-	        {{ end }}
-
-          {{- if not .IsHome -}}
-            <h1 class="main-title">{{- block "title" . -}}{{- end -}}</h1>
-          {{- end -}}
-
-          {{- block "main" . -}}{{- end -}}
-        </div>
-          <div class="secondary">
-            {{- block "secondary" . -}}
-              <!-- {{- partial "translations" . -}} -->
-
-              {{- if not .IsHome -}}
-                {{- partial "recent_posts" . -}}
-              {{- end -}}
-
-              {{- if not ( or (eq .Type "page") (eq .Type "game")) -}}
-                {{- partial "popular_tags" . -}}
-              {{- end -}}
-
-              {{- if not ( or (eq .Type "page") (eq .Type "game")) -}}
-                {{- partial "game_tags" . -}}
-              {{- end -}}
-
-              {{- partial "support_networks" . -}}
-
-              {{- partial "social_networks" . -}}
-            {{- end -}}
+          {{- range sort .Translations "Language.LanguageName" "asc" -}} {{- if eq .Language.LanguageName "English" -}}
+          <div class="outdated-article">
+            {{- i18n "translationsUnsupported" }}
+            <b>{{- i18n "translationsUnsupportedOutdatedArticle" }} </b>{{- i18n "translationsUnsupportedGoTo" }}
+            <a href="{{ .Permalink }}" title="{{ .Language.LanguageName }}">{{- i18n "translationsUnsupportedOriginalArticleLink" -}}</a>
           </div>
-      </div>
-        <div class="footer">
-          {{- if isset .Site.Params "gitrepository" -}}
-            {{- $gitRepository := .Site.Params.gitRepository -}}
-            <div class="document-updated-at">
-              <q><a href="{{- .RelPermalink | urlize -}}">{{- .Title -}}</a></q> {{ i18n "lastUpdated"}} <time>{{- .Lastmod.Format (.Site.Params.dateFormat | default "01-02-2006") -}}</time>
-              {{- with .GitInfo -}}
-                &nbsp;(<a href="{{- $gitRepository -}}/commit/{{- .AbbreviatedHash -}}"><abbr title="{{- .Subject -}}">{{- .AbbreviatedHash -}}</abbr></a>)
-              {{- end -}}
-            </div>
-          {{- end -}}
-          <div class="copyright">{{- $.Site.Params.Copyright | safeHTML -}}</div>
+          {{ end }} {{ end }} {{- if not .IsHome -}}
+          <h1 class="main-title">{{- block "title" . -}}{{- end -}}</h1>
+          {{- end -}} {{- block "main" . -}}{{- end -}}
         </div>
+        <div class="secondary">
+          {{- block "secondary" . -}}
+          <!-- {{- partial "translations" . -}} -->
+
+          {{- if not .IsHome -}} {{- partial "recent_posts" . -}} {{- end -}} {{- if not ( or (eq .Type "page") (eq .Type "game")) -}} {{- partial "popular_tags" . -}} {{- end -}} {{- if not ( or (eq .Type "page") (eq .Type "game")) -}} {{- partial "game_tags" . -}} {{- end -}} {{- partial "support_networks" . -}} {{- partial "social_networks" . -}} {{- end -}}
+        </div>
+      </div>
+      <div class="footer">
+        {{- if isset .Site.Params "gitrepository" -}} {{- $gitRepository := .Site.Params.gitRepository -}}
+        <div class="document-updated-at">
+          <q><a href="{{- .RelPermalink | urlize -}}">{{- .Title -}}</a></q> {{ i18n "lastUpdated"}}
+          <time>{{- .Lastmod.Format (.Site.Params.dateFormat | default "01-02-2006") -}}</time>
+          {{- with .GitInfo -}} &nbsp;(<a href="{{- $gitRepository -}}/commit/{{- .AbbreviatedHash -}}"><abbr title="{{- .Subject -}}">{{- .AbbreviatedHash -}}</abbr></a
+          >) {{- end -}}
+        </div>
+        {{- end -}}
+        <div class="copyright">{{- $.Site.Params.Copyright | safeHTML -}}</div>
+      </div>
     </div>
   </body>
 </html>
