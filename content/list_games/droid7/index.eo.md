@@ -6,8 +6,8 @@ description: Escape or die, it's your choice
 tags: []
 url: /eo/videoludoj/droid7
 aliases: [/eo/droid7/]
-games: [droid7]
 ---
+
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/j_X7PdZHXOQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **DROID7** estas **platformo**, saltu sur generita turo dum lasera radio persekutas vin de sube.

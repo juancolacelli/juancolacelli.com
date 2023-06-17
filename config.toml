@@ -110,6 +110,15 @@ disableKinds = ["taxonomyTerm"]
       url = "/games/floppydisk"
       platforms = ["Browser"]
 
+    [[languages.en.games]]
+      id = "retrosnake"
+      name = "Retro Snake"
+      description = "Just a Snake eating apples..."
+      genre = "Platformer"
+      thumbnail = "/games/retrosnake/thumbnail.png"
+      url = ""
+      platforms = ["PC"]
+
 
   [languages.es]
     languageName = "Español"

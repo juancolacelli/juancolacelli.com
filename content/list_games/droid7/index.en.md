@@ -6,9 +6,9 @@ description: Escape or die, it's your choice
 tags: []
 url: /games/droid7
 aliases: [/droid7/]
-games: [droid7]
 favicon: droid7.gif
 ---
+
 <iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/UJT3lccVWHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe src="https://itch.io/embed/570980?linkback=true&amp;bg_color=16171a&amp;fg_color=fafdff&amp;link_color=ff2674&amp;border_color=222" width="100%" height="167" frameborder="0"><a href="https://juancolacelli.itch.io/droid7">DROID7 by Juan Colacelli</a></iframe>
