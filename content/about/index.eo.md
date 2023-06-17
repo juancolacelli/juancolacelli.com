@@ -14,7 +14,7 @@ slug: pri
 
 Mi estas sola **sendependa ludevoluo** enfokusigita al **retroaj pikselrtaj ludoj**.
 
-Post pli ol dudek jarojn ĉe kiel frofesia programisto, mi malkovris mian antaŭdikan pasion por pikselarto kaj [ludevoluo]({{< ref "/tags/ludevoluo" >}}).
+Post pli ol dudek jarojn ĉe kiel frofesia programisto, mi malkovris mian antaŭdikan pasion por pikselarto kaj ludevoluo.
 
 ## Iloj
 
