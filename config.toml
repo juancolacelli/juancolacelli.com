@@ -44,7 +44,7 @@ disableKinds = ["taxonomyTerm"]
       genre = "Platformer"
       thumbnail = "/games/droid7/thumbnail.png"
       url = "/games/droid7"
-      platforms = ["Mac", "PC", "Linux"]
+      platforms = ["Windows", "Mac", "Linux"]
 
     [[languages.en.params.games]]
       id = "escapepod"
@@ -53,7 +53,7 @@ disableKinds = ["taxonomyTerm"]
       genre = "Shooter"
       thumbnail = "/games/escapepod/thumbnail.png"
       url = ""
-      platforms = ["Mac", "PC", "Linux"]
+      platforms = ["Windows", "Mac", "Linux"]
 
     [[languages.en.params.games]]
       id = "memomemo"
@@ -80,7 +80,7 @@ disableKinds = ["taxonomyTerm"]
       genre = "Platformer"
       thumbnail = "/games/retrosnake/thumbnail.png"
       url = ""
-      platforms = ["PC"]
+      platforms = ["Windows", "Mac", "Linux"]
 
     [languages.en.menu]
       [[languages.en.menu.nav]]
@@ -149,7 +149,7 @@ disableKinds = ["taxonomyTerm"]
       description = "Escapa o muere, es tu decisión"
       thumbnail = "/droid7/thumbnail.png"
       url = "/es/videojuegos/droid7"
-      platforms = ["Mac", "PC", "Linux"]
+      platforms = ["Windows", "Mac", "Linux"]
 
     [[languages.es.params.games]]
       id = "escapepod"
@@ -158,7 +158,7 @@ disableKinds = ["taxonomyTerm"]
       genre = "Disparos"
       thumbnail = "/games/escapepod/thumbnail.png"
       url = ""
-      platforms = ["Mac", "PC", "Linux"]
+      platforms = ["Windows", "Mac", "Linux"]
 
     [languages.es.menu]
       [[languages.es.menu.nav]]
@@ -215,7 +215,7 @@ disableKinds = ["taxonomyTerm"]
       description = "Eskapi aŭ morti estas via elekto"
       thumbnail = "/droid7/thumbnail.png"
       url = "/eo/videoludoj/droid7"
-      platforms = ["Mac", "PC", "Linux"]
+      platforms = ["Windows", "Mac", "Linux"]
 
     [[languages.eo.params.games]]
       id = "escapepod"
@@ -224,7 +224,7 @@ disableKinds = ["taxonomyTerm"]
       genre = "Pafisto"
       thumbnail = "/games/escapepod/thumbnail.png"
       url = ""
-      platforms = ["Mac", "PC", "Linux"]
+      platforms = ["Windows", "Mac", "Linux"]
 
     [languages.eo.menu]
       [[languages.eo.menu.nav]]
